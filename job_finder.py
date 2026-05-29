@@ -22,29 +22,44 @@ from exa_py import Exa
 
 EXA_API_KEY = os.environ.get("EXA_API_KEY", "5d962423-d391-4609-9b39-ed8787503b5d")
 
-DAYS_BACK = 60
-RESULTS_PER_QUERY = 5
+DAYS_BACK = 30
+RESULTS_PER_QUERY = 6
 OUTPUT_FILE = "jobs_raw.json"
 APPLIED_FILE = "applied.json"
 APPLIED_EXPIRY_DAYS = 30
 
+# Low-quality scrapers and aggregators that pollute results
+EXCLUDE_DOMAINS = [
+    "hireza.wuaze.com",
+    "flexionis.wuaze.com",
+    "hirebase.infinityfree.me",
+    "hirro.kesug.com",
+    "careerium.unaux.com",
+    "remotica.totalh.net",
+    "jaabz.com",
+    "remoteyeah.com",
+    "berlinstartupjobs.com",
+]
+
 SEARCH_QUERIES = [
-    # Crypto / web3
-    "Senior Data Scientist remote crypto web3 blockchain job opening",
-    "Machine Learning Engineer remote DeFi blockchain protocol job",
-    "Senior Applied Scientist remote web3 crypto ML job opening",
-    "quantitative researcher data scientist remote crypto DeFi job",
-    # Risk & pricing
-    "Senior Data Scientist risk pricing quantitative fully remote",
-    "Machine Learning Engineer risk models pricing quant remote job",
+    # Crypto / web3 — preferred sector
+    "Senior Data Scientist remote crypto web3 DeFi blockchain",
+    "Machine Learning Engineer remote crypto DeFi risk quantitative",
+    "quantitative researcher data scientist remote DeFi protocol",
+    # Risk, pricing & quantitative ML — core expertise
+    "Senior Data Scientist risk pricing models quantitative fully remote",
+    "Senior Applied Scientist risk quantitative ML modeling fully remote",
+    "Machine Learning Engineer credit risk fraud detection fully remote",
+    "Data Scientist actuarial pricing insurance ML fully remote",
     # Prediction markets / fintech
-    "Senior Data Scientist prediction markets fintech remote job",
-    "Machine Learning Engineer fintech quantitative trading remote",
-    # General senior remote
-    "Senior Data Scientist fully remote global job opening 2025",
-    "Senior Machine Learning Engineer remote global hiring",
-    "Senior Applied Scientist ML fully remote global position",
-    "Applied Scientist ML research production remote global job",
+    "Senior Data Scientist prediction markets probabilistic forecasting remote",
+    "Machine Learning Engineer fintech quantitative trading risk remote",
+    # General senior remote global — broad net
+    "Senior Data Scientist fully remote global",
+    "Senior Machine Learning Engineer fully remote global",
+    "Senior Applied Scientist ML production systems fully remote",
+    "Senior Data Scientist causal inference experimentation fully remote",
+    "Machine Learning Engineer production ML systems fully remote global",
 ]
 
 
@@ -129,6 +144,7 @@ def search_jobs(exa: Exa) -> list[dict]:
                 type="neural",
                 num_results=RESULTS_PER_QUERY,
                 start_published_date=start_date,
+                exclude_domains=EXCLUDE_DOMAINS,
                 contents={"text": {"max_characters": 3500}},
             )
             for r in resp.results:
