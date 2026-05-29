@@ -1,0 +1,7 @@
+# generated on each run — no need to version
+jobs_raw.json
+
+# python
+__pycache__/
+*.pyc
+.env

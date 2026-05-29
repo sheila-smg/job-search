@@ -1,0 +1,214 @@
+#!/usr/bin/env python3
+"""
+Job finder — Exa search only.
+Saves raw results to jobs_raw.json for analysis by Claude Code.
+
+Usage:
+    python job_finder.py                                    # run search
+    python job_finder.py --apply URL "Company" "Role"      # log a full application
+    python job_finder.py --skip "Company A" "Company B"    # skip companies by name only
+
+Setup:
+    pip install exa-py
+"""
+
+import argparse
+import json
+import os
+import time
+from datetime import datetime, timedelta
+
+from exa_py import Exa
+
+EXA_API_KEY = os.environ.get("EXA_API_KEY", "5d962423-d391-4609-9b39-ed8787503b5d")
+
+DAYS_BACK = 60
+RESULTS_PER_QUERY = 5
+OUTPUT_FILE = "jobs_raw.json"
+APPLIED_FILE = "applied.json"
+APPLIED_EXPIRY_DAYS = 30
+
+SEARCH_QUERIES = [
+    # Crypto / web3
+    "Senior Data Scientist remote crypto web3 blockchain job opening",
+    "Machine Learning Engineer remote DeFi blockchain protocol job",
+    "Senior Applied Scientist remote web3 crypto ML job opening",
+    "quantitative researcher data scientist remote crypto DeFi job",
+    # Risk & pricing
+    "Senior Data Scientist risk pricing quantitative fully remote",
+    "Machine Learning Engineer risk models pricing quant remote job",
+    # Prediction markets / fintech
+    "Senior Data Scientist prediction markets fintech remote job",
+    "Machine Learning Engineer fintech quantitative trading remote",
+    # General senior remote
+    "Senior Data Scientist fully remote global job opening 2025",
+    "Senior Machine Learning Engineer remote global hiring",
+    "Senior Applied Scientist ML fully remote global position",
+    "Applied Scientist ML research production remote global job",
+]
+
+
+# ── Applied list helpers ──────────────────────────────────────────────────────
+
+def _norm(s: str) -> str:
+    return s.lower().strip()
+
+
+def load_applied() -> list[dict]:
+    if not os.path.exists(APPLIED_FILE):
+        return []
+    with open(APPLIED_FILE, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def save_applied(entries: list[dict]) -> None:
+    with open(APPLIED_FILE, "w", encoding="utf-8") as f:
+        json.dump(entries, f, indent=2, ensure_ascii=False)
+
+
+def active_applied(entries: list[dict]) -> list[dict]:
+    cutoff = datetime.now() - timedelta(days=APPLIED_EXPIRY_DAYS)
+    return [e for e in entries if datetime.fromisoformat(e["date"]) >= cutoff]
+
+
+def is_already_applied(job: dict, active: list[dict]) -> tuple[bool, str]:
+    """Returns (should_skip, reason)."""
+    url_norm = _norm(job["url"])
+    title_norm = _norm(job["title"])
+
+    for e in active:
+        # Exact URL match
+        if e.get("url") and _norm(e["url"]) == url_norm:
+            return True, f"URL match — {e['company']}"
+        # Company name anywhere in the job title (catches reposts on other platforms)
+        company = _norm(e.get("company", ""))
+        if company and company in title_norm:
+            return True, f"Company match — {e['company']}"
+
+    return False, ""
+
+
+def add_entries(new_entries: list[dict]) -> None:
+    entries = load_applied()
+    today = datetime.now().date().isoformat()
+    added = []
+    for new in new_entries:
+        # Avoid duplicates: same company + role (or company-only)
+        exists = any(
+            _norm(e.get("company", "")) == _norm(new["company"])
+            and _norm(e.get("role", "")) == _norm(new.get("role", ""))
+            for e in entries
+        )
+        if not exists:
+            new["date"] = today
+            entries.append(new)
+            added.append(new)
+
+    save_applied(entries)
+    for e in added:
+        role_str = f" — {e['role']}" if e.get("role") else ""
+        url_str = f" ({e['url']})" if e.get("url") else ""
+        print(f"  Added: {e['company']}{role_str}{url_str}")
+    if not added:
+        print("  Nothing new to add (all entries already exist).")
+
+
+# ── Exa search ────────────────────────────────────────────────────────────────
+
+def search_jobs(exa: Exa) -> list[dict]:
+    seen_urls: set[str] = set()
+    results: list[dict] = []
+    start_date = (datetime.now() - timedelta(days=DAYS_BACK)).strftime(
+        "%Y-%m-%dT00:00:00.000Z"
+    )
+    for query in SEARCH_QUERIES:
+        print(f"  Searching: {query[:68]}...")
+        try:
+            resp = exa.search(
+                query,
+                type="neural",
+                num_results=RESULTS_PER_QUERY,
+                start_published_date=start_date,
+                contents={"text": {"max_characters": 3500}},
+            )
+            for r in resp.results:
+                if r.url not in seen_urls:
+                    seen_urls.add(r.url)
+                    results.append({
+                        "title": r.title or "",
+                        "url": r.url,
+                        "published": getattr(r, "published_date", "") or "",
+                        "content": r.text or "",
+                        "matched_query": query,
+                    })
+            time.sleep(0.4)
+        except Exception as exc:
+            print(f"    Warning: query failed — {exc}")
+    return results
+
+
+# ── Main ──────────────────────────────────────────────────────────────────────
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Job finder — Exa search")
+    parser.add_argument(
+        "--apply", nargs=3, metavar=("URL", "COMPANY", "ROLE"),
+        help="Log a full application: --apply URL 'Company' 'Role'",
+    )
+    parser.add_argument(
+        "--skip", nargs="+", metavar="COMPANY",
+        help="Skip companies by name (no URL needed): --skip 'Company A' 'Company B'",
+    )
+    args = parser.parse_args()
+
+    if args.apply:
+        url, company, role = args.apply
+        add_entries([{"url": url, "company": company, "role": role}])
+        return
+
+    if args.skip:
+        add_entries([{"company": c, "role": "", "url": ""} for c in args.skip])
+        return
+
+    # ── Search ──
+    all_applied = load_applied()
+    active = active_applied(all_applied)
+    expired = len(all_applied) - len(active)
+    if active:
+        print(f"\nLoaded {len(active)} active entries ({expired} expired/ignored)")
+
+    print(f"\nSearching Exa ({len(SEARCH_QUERIES)} queries, last {DAYS_BACK} days)...")
+    jobs = search_jobs(Exa(EXA_API_KEY))
+
+    skipped, kept = [], []
+    for j in jobs:
+        skip, reason = is_already_applied(j, active)
+        if skip:
+            skipped.append((j["title"], reason))
+        else:
+            kept.append(j)
+
+    if skipped:
+        print(f"\nSkipped {len(skipped)} already-applied posting(s):")
+        for title, reason in skipped:
+            print(f"    {title[:55]}  [{reason}]")
+
+    print(f"{len(kept)} new postings found")
+
+    output = {
+        "fetched_at": datetime.now().isoformat(),
+        "days_back": DAYS_BACK,
+        "total": len(kept),
+        "results": kept,
+    }
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(output, f, indent=2, ensure_ascii=False)
+
+    print(f"Saved to {OUTPUT_FILE}")
+    print("\nNext step: ask Claude Code to analyze jobs_raw.json")
+    print("To log an application: python job_finder.py --apply URL 'Company' 'Role'")
+    print("To skip companies:     python job_finder.py --skip 'Company A' 'Company B'\n")
+
+
+if __name__ == "__main__":
+    main()
