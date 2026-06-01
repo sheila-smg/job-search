@@ -60,6 +60,33 @@ SEARCH_QUERIES = [
     "Senior Applied Scientist ML production systems fully remote",
     "Senior Data Scientist causal inference experimentation fully remote",
     "Machine Learning Engineer production ML systems fully remote global",
+    # Marketplace / startup / product — catches non-crypto roles that fit
+    "senior data scientist marketplace startup remote",
+    "senior data scientist pricing A/B testing remote",
+    "senior ML engineer product analytics remote",
+    "applied scientist experimentation causal inference remote",
+    "senior data scientist fintech startup remote europe",
+]
+
+# Targeted searches restricted to Greenhouse and Lever — startups publish here
+# and Exa's general index misses them. Each entry: (query, domains)
+DOMAIN_QUERIES: list[tuple[str, list[str]]] = [
+    (
+        "senior data scientist machine learning remote",
+        ["boards.greenhouse.io", "jobs.lever.co"],
+    ),
+    (
+        "senior machine learning engineer remote",
+        ["boards.greenhouse.io", "jobs.lever.co"],
+    ),
+    (
+        "senior data scientist pricing risk experimentation remote",
+        ["boards.greenhouse.io", "jobs.lever.co"],
+    ),
+    (
+        "applied scientist data scientist crypto DeFi remote",
+        ["boards.greenhouse.io", "jobs.lever.co"],
+    ),
 ]
 
 
@@ -136,7 +163,8 @@ def search_jobs(exa: Exa) -> list[dict]:
     start_date = (datetime.now() - timedelta(days=DAYS_BACK)).strftime(
         "%Y-%m-%dT00:00:00.000Z"
     )
-    for query in SEARCH_QUERIES:
+
+    def _fetch(query: str, extra_kwargs: dict) -> None:
         print(f"  Searching: {query[:68]}...")
         try:
             resp = exa.search(
@@ -146,6 +174,7 @@ def search_jobs(exa: Exa) -> list[dict]:
                 start_published_date=start_date,
                 exclude_domains=EXCLUDE_DOMAINS,
                 contents={"text": {"max_characters": 3500}},
+                **extra_kwargs,
             )
             for r in resp.results:
                 if r.url not in seen_urls:
@@ -160,6 +189,14 @@ def search_jobs(exa: Exa) -> list[dict]:
             time.sleep(0.4)
         except Exception as exc:
             print(f"    Warning: query failed — {exc}")
+
+    for query in SEARCH_QUERIES:
+        _fetch(query, {})
+
+    print(f"\n  Searching Greenhouse & Lever ({len(DOMAIN_QUERIES)} queries)...")
+    for query, domains in DOMAIN_QUERIES:
+        _fetch(query, {"include_domains": domains})
+
     return results
 
 
