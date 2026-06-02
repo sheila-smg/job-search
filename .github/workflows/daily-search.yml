@@ -24,8 +24,8 @@ jobs:
       - name: Generate compact jobs for analysis agent
         run: |
           python3 - <<'EOF'
-          import json, os
-          from datetime import datetime, timedelta
+          import json, os, re
+          from datetime import datetime
 
           with open("jobs_raw.json", encoding="utf-8") as f:
               data = json.load(f)
@@ -36,27 +36,68 @@ jobs:
                   seen = json.load(f)
           seen_urls = {e["url"] for e in seen}
 
-          new_jobs = [r for r in data["results"] if r["url"] not in seen_urls]
+          # Hard filters applied before the agent sees anything
+          US_REMOTE = re.compile(
+              r"remote,?\s*usa|us\s*remote|united states.{0,20}remote|"
+              r"\bremote,?\s*(AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|"
+              r"LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|"
+              r"RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY)\b",
+              re.IGNORECASE,
+          )
+          HYBRID = re.compile(
+              r"\bhybrid\b|on.?site|in.office|\d\s*days?.{0,10}office|"
+              r"office.{0,10}\d\s*days?",
+              re.IGNORECASE,
+          )
+          NOT_JOB = re.compile(
+              r"github\.com/[^/]+/[^/]+$|linkedin\.com/in/|"
+              r"freecodecamp\.org|gritdaily\.com|cointrenches\.io|"
+              r"theamericanreporter\.com|theexecutiveoutlook\.com|"
+              r"analyticsindiamag\.com",
+              re.IGNORECASE,
+          )
+
+          filtered, pre_filtered = [], []
+          for r in data["results"]:
+              if r["url"] in seen_urls:
+                  continue
+              text = (r["title"] + " " + r["content"]).lower()
+              url = r["url"]
+              if NOT_JOB.search(url):
+                  pre_filtered.append((r["title"], "not a job posting"))
+                  continue
+              if US_REMOTE.search(text):
+                  pre_filtered.append((r["title"], "US remote"))
+                  continue
+              if HYBRID.search(text):
+                  pre_filtered.append((r["title"], "hybrid/onsite"))
+                  continue
+              filtered.append(r)
+
+          print(f"New: {len(filtered)} kept, {len(pre_filtered)} pre-filtered")
+          for title, reason in pre_filtered:
+              print(f"  PRE-FILTERED [{reason}]: {title[:70]}")
 
           compact = {
               "fetched_at": data["fetched_at"],
               "date": datetime.now().strftime("%Y-%m-%d"),
-              "total_new": len(new_jobs),
+              "total_new": len(filtered),
+              "pre_filtered": len(pre_filtered),
               "results": [
                   {
                       "title": r["title"],
                       "url": r["url"],
                       "published": r.get("published", ""),
-                      "snippet": r["content"][:400].replace("\n", " "),
+                      "snippet": r["content"][:600].replace("\n", " "),
                   }
-                  for r in new_jobs
+                  for r in filtered
               ],
           }
 
           with open("compact_jobs.json", "w", encoding="utf-8") as f:
               json.dump(compact, f, indent=2, ensure_ascii=False)
 
-          print(f"compact_jobs.json: {len(new_jobs)} new jobs")
+          print(f"compact_jobs.json written: {len(filtered)} jobs for agent")
           EOF
 
       - name: Commit results
