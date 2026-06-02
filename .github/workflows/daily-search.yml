@@ -1,0 +1,30 @@
+name: Daily Job Search
+
+on:
+  schedule:
+    - cron: '55 5 * * *'  # 5:55am UTC = 7:55am Spain (CEST)
+  workflow_dispatch:       # allow manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run job search
+        run: python job_finder.py
+
+      - name: Commit results
+        run: |
+          git config user.email "bot@job-finder"
+          git config user.name "Job Finder Bot"
+          git add jobs_raw.json
+          git diff --staged --quiet || git commit -m "Search results $(date +%Y-%m-%d)"
+          git push
