@@ -8,17 +8,16 @@ Usage:
     python job_finder.py --apply URL "Company" "Role"      # log a full application
     python job_finder.py --skip "Company A" "Company B"    # skip companies by name only
 
-Setup:
-    pip install exa-py
+No external dependencies — uses stdlib only.
 """
 
 import argparse
 import json
 import os
 import time
+import urllib.request
+import urllib.error
 from datetime import datetime, timedelta
-
-from exa_py import Exa
 
 EXA_API_KEY = os.environ.get("EXA_API_KEY", "5d962423-d391-4609-9b39-ed8787503b5d")
 
@@ -157,33 +156,45 @@ def add_entries(new_entries: list[dict]) -> None:
 
 # ── Exa search ────────────────────────────────────────────────────────────────
 
-def search_jobs(exa: Exa) -> list[dict]:
+def _exa_search(query: str, start_date: str, extra: dict) -> list[dict]:
+    payload = {
+        "query": query,
+        "type": "neural",
+        "numResults": RESULTS_PER_QUERY,
+        "startPublishedDate": start_date,
+        "excludeDomains": EXCLUDE_DOMAINS,
+        "contents": {"text": {"maxCharacters": 3500}},
+        **extra,
+    }
+    data = json.dumps(payload).encode()
+    req = urllib.request.Request(
+        "https://api.exa.ai/search",
+        data=data,
+        headers={"x-api-key": EXA_API_KEY, "Content-Type": "application/json"},
+    )
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        return json.loads(resp.read())["results"]
+
+
+def search_jobs() -> list[dict]:
     seen_urls: set[str] = set()
     results: list[dict] = []
     start_date = (datetime.now() - timedelta(days=DAYS_BACK)).strftime(
         "%Y-%m-%dT00:00:00.000Z"
     )
 
-    def _fetch(query: str, extra_kwargs: dict) -> None:
+    def _fetch(query: str, extra: dict) -> None:
         print(f"  Searching: {query[:68]}...")
         try:
-            resp = exa.search(
-                query,
-                type="neural",
-                num_results=RESULTS_PER_QUERY,
-                start_published_date=start_date,
-                exclude_domains=EXCLUDE_DOMAINS,
-                contents={"text": {"max_characters": 3500}},
-                **extra_kwargs,
-            )
-            for r in resp.results:
-                if r.url not in seen_urls:
-                    seen_urls.add(r.url)
+            for r in _exa_search(query, start_date, extra):
+                url = r.get("url", "")
+                if url and url not in seen_urls:
+                    seen_urls.add(url)
                     results.append({
-                        "title": r.title or "",
-                        "url": r.url,
-                        "published": getattr(r, "published_date", "") or "",
-                        "content": r.text or "",
+                        "title": r.get("title") or "",
+                        "url": url,
+                        "published": r.get("publishedDate") or "",
+                        "content": (r.get("text") or "")[:3500],
                         "matched_query": query,
                     })
             time.sleep(0.4)
@@ -195,7 +206,7 @@ def search_jobs(exa: Exa) -> list[dict]:
 
     print(f"\n  Searching Greenhouse & Lever ({len(DOMAIN_QUERIES)} queries)...")
     for query, domains in DOMAIN_QUERIES:
-        _fetch(query, {"include_domains": domains})
+        _fetch(query, {"includeDomains": domains})
 
     return results
 
@@ -231,7 +242,7 @@ def main() -> None:
         print(f"\nLoaded {len(active)} active entries ({expired} expired/ignored)")
 
     print(f"\nSearching Exa ({len(SEARCH_QUERIES)} queries, last {DAYS_BACK} days)...")
-    jobs = search_jobs(Exa(EXA_API_KEY))
+    jobs = search_jobs()
 
     skipped, kept = [], []
     for j in jobs:
