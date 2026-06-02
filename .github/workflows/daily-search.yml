@@ -21,10 +21,48 @@ jobs:
       - name: Run job search
         run: python job_finder.py
 
+      - name: Generate compact jobs for analysis agent
+        run: |
+          python3 - <<'EOF'
+          import json, os
+          from datetime import datetime, timedelta
+
+          with open("jobs_raw.json", encoding="utf-8") as f:
+              data = json.load(f)
+
+          seen = []
+          if os.path.exists("seen.json"):
+              with open("seen.json", encoding="utf-8") as f:
+                  seen = json.load(f)
+          seen_urls = {e["url"] for e in seen}
+
+          new_jobs = [r for r in data["results"] if r["url"] not in seen_urls]
+
+          compact = {
+              "fetched_at": data["fetched_at"],
+              "date": datetime.now().strftime("%Y-%m-%d"),
+              "total_new": len(new_jobs),
+              "results": [
+                  {
+                      "title": r["title"],
+                      "url": r["url"],
+                      "published": r.get("published", ""),
+                      "snippet": r["content"][:400].replace("\n", " "),
+                  }
+                  for r in new_jobs
+              ],
+          }
+
+          with open("compact_jobs.json", "w", encoding="utf-8") as f:
+              json.dump(compact, f, indent=2, ensure_ascii=False)
+
+          print(f"compact_jobs.json: {len(new_jobs)} new jobs")
+          EOF
+
       - name: Commit results
         run: |
           git config user.email "bot@job-finder"
           git config user.name "Job Finder Bot"
-          git add jobs_raw.json
+          git add jobs_raw.json compact_jobs.json
           git diff --staged --quiet || git commit -m "Search results $(date +%Y-%m-%d)"
           git push
