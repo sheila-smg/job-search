@@ -22,7 +22,7 @@ from datetime import datetime, timedelta
 EXA_API_KEY = os.environ.get("EXA_API_KEY", "5d962423-d391-4609-9b39-ed8787503b5d")
 
 DAYS_BACK = 30
-RESULTS_PER_QUERY = 6
+RESULTS_PER_QUERY = 15
 OUTPUT_FILE = "jobs_raw.json"
 APPLIED_FILE = "applied.json"
 APPLIED_EXPIRY_DAYS = 30
