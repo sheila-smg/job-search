@@ -29,6 +29,7 @@ APPLIED_EXPIRY_DAYS = 30
 
 # Low-quality scrapers and aggregators that pollute results
 EXCLUDE_DOMAINS = [
+    # Known spam/fake aggregators
     "hireza.wuaze.com",
     "flexionis.wuaze.com",
     "hirebase.infinityfree.me",
@@ -38,6 +39,20 @@ EXCLUDE_DOMAINS = [
     "jaabz.com",
     "remoteyeah.com",
     "berlinstartupjobs.com",
+    # liveblog365 aggregators — unverified postings, frequent mismatches
+    "hirevector.liveblog365.com",
+    "jobflarely.liveblog365.com",
+    "wfhverse.liveblog365.com",
+    "jobicyremote.liveblog365.com",
+    # Other low-signal aggregators
+    "wfh.hstn.me",
+    "wfhforgeon.byethost7.com",
+    "no-commute-jobs.com",
+    "inclusivelyremote.com",
+    "corptocorp.org",
+    "upstaff.com",
+    "tryjeremy.com",
+    "aworker.io",
 ]
 
 SEARCH_QUERIES = [

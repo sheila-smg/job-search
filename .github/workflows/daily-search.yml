@@ -51,9 +51,17 @@ jobs:
           )
           NOT_JOB = re.compile(
               r"github\.com/[^/]+/[^/]+$|linkedin\.com/in/|"
-              r"freecodecamp\.org|gritdaily\.com|cointrenches\.io|"
-              r"theamericanreporter\.com|theexecutiveoutlook\.com|"
-              r"analyticsindiamag\.com",
+              # Articles and news sites
+              r"medium\.com|substack\.com|freecodecamp\.org|"
+              r"gritdaily\.com|cointrenches\.io|theamericanreporter\.com|"
+              r"theexecutiveoutlook\.com|analyticsindiamag\.com|"
+              r"reinsurancene\.ws|crypto-economy\.com|cryptobriefing\.com|"
+              r"crypto\.news/[^/]+-[^/]+-[^/]+|techtimes\.com|ibtimes\.|"
+              r"jimmyalfonsolicon\.substack|"
+              # Personal profiles and CVs
+              r"finextra\.com/bloggers|leaddev\.com/community|"
+              r"infoworld\.com/profile|prepfully\.com/coaches|"
+              r"jobicy\.com/cv/|mhausenblas\.info|",
               re.IGNORECASE,
           )
 
