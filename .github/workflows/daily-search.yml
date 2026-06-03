@@ -2,7 +2,7 @@ name: Daily Job Search
 
 on:
   schedule:
-    - cron: '55 5 * * *'  # 5:55am UTC = 7:55am Spain (CEST)
+    - cron: '45 4 * * *'  # 4:45am UTC = 6:45am Spain (CEST)
   workflow_dispatch:       # allow manual trigger from GitHub UI
 
 permissions:
