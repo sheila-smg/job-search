@@ -74,6 +74,10 @@ SEARCH_QUERIES = [
     "Senior Applied Scientist ML production systems fully remote",
     "Senior Data Scientist causal inference experimentation fully remote",
     "Machine Learning Engineer production ML systems fully remote global",
+    # Europe-specific — catches postings that use EU/Europe instead of global
+    "Senior Machine Learning Engineer remote Europe EU",
+    "Senior ML Engineer production ML systems remote Europe",
+    "Senior Data Scientist remote Europe startup",
     # Marketplace / startup / product — catches non-crypto roles that fit
     "senior data scientist marketplace startup remote",
     "senior data scientist pricing A/B testing remote",
@@ -82,9 +86,10 @@ SEARCH_QUERIES = [
     "senior data scientist fintech startup remote europe",
 ]
 
-# Targeted searches restricted to Greenhouse and Lever — startups publish here
-# and Exa's general index misses them. Each entry: (query, domains)
+# Targeted searches restricted to specific job boards.
+# Each entry: (query, domains)
 DOMAIN_QUERIES: list[tuple[str, list[str]]] = [
+    # Greenhouse & Lever — startups publish here, Exa's general index misses them
     (
         "senior data scientist machine learning remote",
         ["boards.greenhouse.io", "jobs.lever.co"],
@@ -100,6 +105,30 @@ DOMAIN_QUERIES: list[tuple[str, list[str]]] = [
     (
         "applied scientist data scientist crypto DeFi remote",
         ["boards.greenhouse.io", "jobs.lever.co"],
+    ),
+    # LinkedIn — large reach, EU roles often posted here only
+    (
+        "senior machine learning engineer remote Europe",
+        ["linkedin.com"],
+    ),
+    (
+        "senior data scientist remote Europe fully remote",
+        ["linkedin.com"],
+    ),
+    # Wellfound (AngelList) — startup roles, often globally remote
+    (
+        "senior data scientist machine learning engineer remote",
+        ["wellfound.com"],
+    ),
+    # Remote Rocketship — curated remote roles
+    (
+        "senior data scientist machine learning engineer remote",
+        ["remoterocketship.com"],
+    ),
+    # Welcome to the Jungle — strong EU coverage
+    (
+        "senior data scientist machine learning engineer remote",
+        ["welcometothejungle.com"],
     ),
 ]
 
