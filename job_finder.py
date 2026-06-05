@@ -106,15 +106,6 @@ DOMAIN_QUERIES: list[tuple[str, list[str]]] = [
         "applied scientist data scientist crypto DeFi remote",
         ["boards.greenhouse.io", "jobs.lever.co"],
     ),
-    # LinkedIn — large reach, EU roles often posted here only
-    (
-        "senior machine learning engineer remote Europe",
-        ["linkedin.com"],
-    ),
-    (
-        "senior data scientist remote Europe fully remote",
-        ["linkedin.com"],
-    ),
     # Wellfound (AngelList) — startup roles, often globally remote
     (
         "senior data scientist machine learning engineer remote",
