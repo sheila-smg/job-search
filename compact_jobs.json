@@ -1,86 +1,14 @@
 {
-  "fetched_at": "2026-06-05T05:48:30.807914",
+  "fetched_at": "2026-06-05T07:17:32.754964",
   "date": "2026-06-05",
-  "total_new": 27,
-  "pre_filtered": 64,
+  "total_new": 20,
+  "pre_filtered": 80,
   "results": [
-    {
-      "title": "Bluprynt is hiring Data Systems Engineer. Remote",
-      "url": "https://cryptojobslist.com/jobs/data-systems-engineer-at-bluprynt",
-      "published": "2026-05-08T00:00:00.000Z",
-      "snippet": "Bluprynt is hiring Data Systems Engineer. Remote  ⭐ Featured Opportunity  # Data Systems Engineer  ## atBluprynt  May 06  Posted by Chris May 06, 2026  Bluprynt is the compliance infrastructure layer for tokenized assets—linking off-chain regulatory requirements with on-chain identity, policy enforcement, and supervisory visibility. Backed by premier firms like Coinbase and Robinhood, we've completed the EU's first MiCA pilot, launched Know Your Issuer (KYI) with global stablecoin issuers, partnered with Chainlink on automated on-chain compliance, and closed an oversubscribed $4.25M Seed round"
-    },
-    {
-      "title": "Senior Analytics Engineer - Databricks, Semantic Layer & AI Readiness - Gravity Team",
-      "url": "https://careers.gravityteam.co/jobs/7732718-senior-analytics-engineer-databricks-semantic-layer-ai-readiness",
-      "published": "2026-05-13T00:00:00.000Z",
-      "snippet": "Senior Analytics Engineer - Databricks, Semantic Layer & AI Readiness - Gravity Team  ## This website uses cookies to ensure you get the best experience.  Gravity Team and our selected partners use cookies and similar technologies (together “cookies”) that are necessary to present this website, and to ensure you get the best experience of it. If you consent to it, we will also use cookies for analytics purposes.  See our Cookie Policy to read more about the cookies we set.  You can withdraw and manage your consent at any time, by clicking “Manage cookies” at the bottom of each website page.  A"
-    },
     {
       "title": "Applied Cryptographer, AvaCloud | Hirequill",
       "url": "https://hirequill.liveblog365.com/job/applied-cryptographer-avacloud",
       "published": "2026-06-02T00:00:00.000Z",
       "snippet": "Applied Cryptographer, AvaCloud | Hirequill  Hirequill.← All Jobs  # Applied Cryptographer, AvaCloud  Posted Jun 1, 2026  Looking to join a world-class blockchain development team? Ava Labs makes it simple to deploy high-performance solutions for Web3, led by innovations on Avalanche. The company was founded by Cornell computer scientists, who partnered with Wall Street veterans and early Web3 leaders to execute a promising vision for redefining the way people build permissionless networks. Ava Labs is redefining the way people create value with Web3. Join us as we empower people to easily and"
-    },
-    {
-      "title": "Quantitative Researcher",
-      "url": "https://euremotejobs.com/job/quantitative-researcher/",
-      "published": "2026-05-27T00:00:00.000Z",
-      "snippet": "Quantitative Researcher  ## Overview  You will own the architecture of market infrastructure at its most fundamental level: designing the methodologies and data products that power institutional-grade pricing and indexing. This is not purely a backend role. You are equally a subject matter expert who will stand in front of sophisticated institutional clients and defend complex financial engineering in both technical and business terms.  You will solve real problems: How do we construct a defensible world price for an asset? What data sources matter? How do we synthesize them into a methodology"
-    },
-    {
-      "title": "Paradex is hiring Quantitative Developer. Singapore",
-      "url": "https://cryptojobslist.com/jobs/quantitative-developer-singapore-at-paradex",
-      "published": "2026-05-10T00:00:00.000Z",
-      "snippet": "Paradex is hiring Quantitative Developer. Singapore  ⭐ Featured Opportunity  # Quantitative Developer  ## atParadex  Apr 28  Posted by Jake Apr 28, 2026  About Paradex  Paradex isn’t just another decentralized exchange; it’s the Everything Store for Finance. We’ve combined three powerful financial primitives—Exchange, Asset Management, and Borrow/Lend—all seamlessly composable and accessible through one unified account that uses your entire portfolio as collateral, including spot and derivative assets. Trade 250+ markets on a super exchange with zero fees, better-than-CEX liquidity, and instit"
-    },
-    {
-      "title": "Sr Data Scientist – Career Development | American University, Kogod School of Business",
-      "url": "https://careers.kogod.american.edu/jobs/paypal-sr-data-scientist/",
-      "published": "2026-05-26T00:00:00.000Z",
-      "snippet": "Sr Data Scientist – Career Development | American University, Kogod School of Business  PayPal  # Sr Data Scientist  - Share This: - Copy Link  Full job description  The Company  PayPal has been revolutionizing commerce globally for more than 25 years. Creating innovative experiences that make moving money, selling, and shopping simple, personalized, and secure, PayPal empowers consumers and businesses in approximately 200 markets to join and thrive in the global economy.  We operate a global, two-sided network at scale that connects hundreds of millions of merchants and consumers. We help mer"
-    },
-    {
-      "title": "Senior Risk Analyst at Tabby | Remote Job | Kickstart Remote",
-      "url": "https://kickstartremote.com/remote-jobs/senior-risk-analyst-serbia-remote-4987",
-      "published": "2026-05-11T00:00:00.000Z",
-      "snippet": "Senior Risk Analyst at Tabby | Remote Job | Kickstart Remote  # Senior Risk Analyst  Posted 16ds ago  ## Employment Information  EducationBachelor's Degree  SalaryNot specified  Experience  Senior  Job TypeFull-time  ## Report this job  Job expired or something wrong with this job?  Report job  ### Job Description  Senior Risk Analyst at Tabby, a fintech reshaping shopping finance. Managing risk analytics and contributing to fraud prevention strategies.  #### Responsibilities:  - Preparation of datasets to support advanced risk analysis - Own and continuously enhance risk assessment frameworks"
-    },
-    {
-      "title": "DraftKings Predictions review 2026: the DFS giant’s prediction-market app – Bellwether",
-      "url": "https://bellwether.market/platforms/draftkings-predictions/",
-      "published": "2026-05-30T00:00:00.000Z",
-      "snippet": "DraftKings Predictions review 2026: the DFS giant’s prediction-market app – Bellwether  Kalshi  $10 Trading Bonus  CFTC-regulated · 50 states  Polymarket  $50 Deposit Match  Largest political markets · USDC  Robinhood  Event Contracts Live  Best mobile UX · No deposit needed  Affiliate disclosure: Bellwether earns a commission if you sign up via these links. Always verify state eligibility.  Affiliate disclosure. Bellwether earns a referral fee when readers open a DraftKings Predictions account through our links. Compensation does not influence editorial ratings. Every claim in this review is "
-    },
-    {
-      "title": "Quantitative Developer | G-Research",
-      "url": "https://www.gresearch.com/vacancies/quantitative-developer/",
-      "published": "2026-05-12T00:00:00.000Z",
-      "snippet": "Quantitative Developer | G-Research  # Quantitative Developer  View Benefits  - Contact - Role overview - Who are we looking for - Our benefits - The process - Why apply - Meet our people - Interview process  - Software Engineering - London  We tackle the most complex problems in quantitative finance, by bringing scientific clarity to financial complexity.  From our London HQ, we unite world-class researchers and engineers in an environment that values deep exploration and methodical execution - because the best ideas take time to evolve. Together we’re building a world-class platform to ampli"
-    },
-    {
-      "title": "Senior Data Scientist (f/m/x) - remote | JobCloudio",
-      "url": "https://jobcloudio.my-style.in/job/senior-data-scientist-f-m-x-remote",
-      "published": "2026-05-31T00:00:00.000Z",
-      "snippet": "Senior Data Scientist (f/m/x) - remote | JobCloudio  JobCloudio.← All Jobs  # Senior Data Scientist (f/m/x) - remote  Posted May 31, 2026  This a Full Remote job, the offer is available from: Europe  Founded in 2017, refurbed is Europe’s fastest-growing marketplace for refurbished products, active in 12 European countries and having surpassed €2Bn in GMV — all while being profitable. With beautiful headquarters in Vienna, we operate as a remote-first company, and our 250+ employees enjoy up to two months of workation per year. We’ve also been recognised as a Top DACH Employer by Kununu for thr"
-    },
-    {
-      "title": "Senior Product Data Scientist at Tripadvisor - United Kingdom Remote",
-      "url": "https://www.remoterocketship.com/gb/company/tripadvisor/jobs/senior-product-data-scientist-united-kingdom-remote/",
-      "published": "2026-05-08T00:00:00.000Z",
-      "snippet": "Senior Product Data Scientist at Tripadvisor - United Kingdom Remote  ## Tripadvisor  1001 - 5000 employees  Founded 2000  🛍️ eCommerce  💰 $300M Post-IPO Equity on 2021-03  eCommerce • Travel  Tripadvisor is a popular online travel platform that offers a wealth of resources for planning trips, booking hotels, finding restaurants, and exploring activities worldwide. Known for its extensive traveler reviews and Travelers’ Choice Awards, Tripadvisor helps users discover top destinations and experiences, find award-winning dining options, and engage with travel content from various creators. The p"
-    },
-    {
-      "title": "Redcare Pharmacy",
-      "url": "https://www.redcare-pharmacy.com/careers/open-jobs/details/744000107760386",
-      "published": "2026-05-11T00:00:00.000Z",
-      "snippet": "Redcare Pharmacy  Redcare Pharmacy [ Back ](https://www.redcare-pharmacy.com/careers) # Senior Data Scientist (m/f/d) [ ![user-icon](https://www.redcare-pharmacy.com/images/icons/user.svg)Refer a friend ](https://jobs.smartrecruiters.com/external-referrals/company/Redcare-Pharmacy/publication/9394e161-7a38-4ad1-8254-d9f297c22ba9?dcr_ci=Redcare-Pharmacy)[ Apply now ](https://jobs.smartrecruiters.com/Redcare-Pharmacy/744000107760386-senior-data-scientist-m-f-d-?oga=true) Posted 30+ Days Ago ![clipfile](https://a.storyblok.com/f/201714/24x24/7cedbaeb27/file.svg) Data & AI ![map pin](https://a.sto"
-    },
-    {
-      "title": "Athena AutoML Platform with LLM Agents for Tabular ML | Ercan Holasoğlu posted on the topic | LinkedIn",
-      "url": "https://www.linkedin.com/posts/ercan-holasoglu1_built-an-end-to-end-automl-platform-powered-activity-7460017724728131584-sLjv",
-      "published": "2026-05-12T00:00:00.000Z",
-      "snippet": "Athena AutoML Platform with LLM Agents for Tabular ML | Ercan Holasoğlu posted on the topic | LinkedIn  Agree & Join LinkedIn  By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy.  3w  Built an end-to-end AutoML platform powered by LLM agents. Meet Athena — a reasoning-native AutoML system where AI agents manage the full tabular ML lifecycle: from raw data to explainable deployment. Not a sklearn wrapper. Not a black-box AutoML tool. Every major decision is proposed, justified, validated, and logged by LLM agents. 𝗣𝗶𝗽𝗲𝗹𝗶𝗻𝗲 • Smart "
     },
     {
       "title": "Kubernetes AIOps Platform with MLflow Predictive Self-Healing | VENKATA KRISHNAN T R posted on the topic | LinkedIn",
@@ -89,22 +17,52 @@
       "snippet": "Kubernetes AIOps Platform with MLflow Predictive Self-Healing | VENKATA KRISHNAN T R posted on the topic | LinkedIn  Agree & Join LinkedIn  By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy.  # Kubernetes AIOps Platform with MLflow Predictive Self-Healing  VENKATA KRISHNAN T R  AI/ML Engineer || Building Intelligent Systems || MLOps || Python  3w Edited  Built a Kubernetes-Native Predictive Self-Healing AIOps Platform with MLflow Over the past few days, I worked on building an intelligent AIOps system capable of: Predictive infra"
     },
     {
-      "title": "Darya Krauchenia - Lead AI/ML Engineer at Vention",
-      "url": "https://ventionteams.com/experts/darya-krauchenia",
-      "published": "2026-05-08T00:00:00.000Z",
-      "snippet": "Darya Krauchenia - Lead AI/ML Engineer at Vention  Find other experts  # Darya Krauchenia  Lead AI/ML Engineer  ## About:  Darya is an AI/ML engineer with deep specialization in computer vision, natural language processing, large language models (LLMs), and generative AI. With end-to-end experience across the machine learning lifecycle, she brings a rare combination of mathematical rigor, advanced engineering skill, and real-world problem-solving ability to every project she leads.  Darya has successfully built and deployed production-grade AI systems for retail, trading, and enterprise automa"
-    },
-    {
-      "title": "Remote Senior Product Scientist (Marketing Intelligence) at Headspace - Jobicy",
-      "url": "https://jobicy.com/jobs/145143-senior-product-scientist-marketing-intelligence",
-      "published": "2026-05-30T00:00:00.000Z",
-      "snippet": "Remote Senior Product Scientist (Marketing Intelligence) at Headspace - Jobicy  Making it our mission to improve the health & happiness of the world.  - Health, Wellness & Fitness - 2010  Actively Hiring  Verified job posting  This job post has been manually reviewed for authenticity and compliance.  Tailor Resume Check Job Fit Cover Letter  ### Tailor my resume to this job  Discover how to best rewrite and optimize your resume for this specific job. You'll receive personalized suggestions and detailed guidance to highlight your key strengths, effectively address the job requirements, and make"
-    },
-    {
-      "title": "Senior Data Scientist - GTM Data - PandaDoc",
-      "url": "https://www.pandadoc.com/careers/senior-data-scientist-gtm-data-us/",
+      "title": "Redcare Pharmacy",
+      "url": "https://www.redcare-pharmacy.com/careers/open-jobs/details/744000128479040",
       "published": "2026-05-11T00:00:00.000Z",
-      "snippet": "Senior Data Scientist - GTM Data - PandaDoc  Autodesk now tracks sales metrics across its entire org  Nomad cut customer acquisition costs by 20%  TheKey saves 3,000 hours per year using PandaDoc  # Senior Data Scientist – GTM Data  Data Remote (USA)  ## The Opportunity  As a Senior GTM Data Scientist at PandaDoc, you will be a critical analytical partner to our Go-To-Market (GTM) teams. You will embed yourself in our GTM data to uncover insights and drive actionable recommendations across Sales, Marketing, and Customer Success.  The core of this role is to design, build, and maintain predicti"
+      "snippet": "Redcare Pharmacy  Redcare Pharmacy [ Back ](https://www.redcare-pharmacy.com/careers) # Senior ML Engineer (m/f/d) [ ![user-icon](https://www.redcare-pharmacy.com/images/icons/user.svg)Refer a friend ](https://jobs.smartrecruiters.com/external-referrals/company/Redcare-Pharmacy/publication/e3facd40-cfcc-4318-ab10-3bf19ba2b5e1?dcr_ci=Redcare-Pharmacy)[ Apply now ](https://jobs.smartrecruiters.com/Redcare-Pharmacy/744000128479040-senior-ml-engineer-m-f-d-?oga=true) Posted 3 Days Ago ![clipfile](https://a.storyblok.com/f/201714/24x24/7cedbaeb27/file.svg) Data & AI ![map pin](https://a.storyblok.c"
+    },
+    {
+      "title": "Senior AI / ML Engineer - Jobvows",
+      "url": "https://www.jobvows.com/job/senior-ai-ml-engineer/",
+      "published": "2026-05-23T00:00:00.000Z",
+      "snippet": "Senior AI / ML Engineer - Jobvows  North Scout  ## About the job  Senior AI / ML Engineer  LLMs · RAG · Agentic AI  Remote (Europe time zones preferred)  Full-time | Equity Opportunity  We’re partnering with an early-stage AI-native technology business building a next-generation automation platform within the property and operations space. They’re assembling a small number of high-calibre engineering squads to tackle complex real-world workflows using LLMs, retrieval systems and autonomous AI agents. This is an opportunity to join early, shape the platform architecture, and build production-gr"
+    },
+    {
+      "title": "Senior GenAI Engineer - Emerging - ML6",
+      "url": "https://jobs.ml6.eu/jobs/7823140-senior-genai-engineer-emerging",
+      "published": "2026-05-29T00:00:00.000Z",
+      "snippet": "Senior GenAI Engineer - Emerging - ML6  ## This website uses cookies to ensure you get the best experience.  ML6 and our selected partners use cookies and similar technologies (together “cookies”) that are necessary to present this website, and to ensure you get the best experience of it. If you consent to it, we will also use cookies for analytics and marketing purposes.  See our Cookie Policy to read more about the cookies we set.  You can withdraw and manage your consent at any time, by clicking “Manage cookies” at the bottom of each website page.  Accept all cookies Decline all non-necessa"
+    },
+    {
+      "title": "Machine Learning Engineer – Vattenfall",
+      "url": "https://jobbsafari.se/jobb/machine-learning-engineer-sksee-19753031",
+      "published": "2026-05-26T00:00:00.000Z",
+      "snippet": "Machine Learning Engineer – Vattenfall  JobbSafari/ Lediga jobb/Machine Learning Engineer  Till sökresultaten  # Machine Learning Engineer  Vattenfall  Publicerad: 2026-03-25  Ansök senast: Öppet tillsvidare  Ansökningsperioden har avslutats  ## Beskrivning  WithinBusiness Area Markets, business decisions are made around the clock and at high frequency, creating strong opportunities for intelligent automation and applied machine learning.As anML Engineerin our Data Science team, you will design, build, and evolve machine-learning systems that run in production and directly support real-time el"
+    },
+    {
+      "title": "Milen Pavlov - AI Platform Engineer | Harper James",
+      "url": "https://harperjames.co.uk/our-people/milen-pavlov/",
+      "published": "2026-05-06T00:00:00.000Z",
+      "snippet": "Milen Pavlov - AI Platform Engineer | Harper James  # Milen Pavlov  AI Platform Engineer  Milen is an AI Platform Engineer at Harper James, bringing over 15 years’ experience across software engineering, DevOps and AI.  He focuses on using AI and modern infrastructure to improve how engineering teams work — making systems more efficient, scalable and easier to build on.  Milen’s experience includes:  - Building full-stack web applications and APIs across multiple sectors - Designing and running cloud infrastructure, CI/CD pipelines and Kubernetes platforms for production .NET environments - Pr"
+    },
+    {
+      "title": "Nikolay Donets of Revolut at RAAIS 2026",
+      "url": "https://press.airstreet.com/p/nikolay-donets-revolut-raais-2026",
+      "published": "2026-05-17T00:00:00.000Z",
+      "snippet": "Nikolay Donets of Revolut at RAAIS 2026  SubscribeSign in  # Nikolay Donets of Revolut at RAAIS 2026  ### What it takes to ship AI under regulation.  Air Street Press and Nathan Benaich  May 17, 2026  9  Share  Article voiceover  0:00  -4:51  Audio playback is not supported on your browser. Please upgrade.  The Research and Applied AI Summit(RAAIS) is a community for entrepreneurs and researchers who accelerate the science and applications of AI technology. The 10th annual summit takes place on June 12th, 2026 in London. We are delighted to announce Nikolay Donets, Head of Machine Learning Eng"
+    },
+    {
+      "title": "Data Scientist - Kuva Space",
+      "url": "https://careers.kuvaspace.com/jobs/7813263-data-scientist",
+      "published": "2026-05-28T00:00:00.000Z",
+      "snippet": "Data Scientist - Kuva Space  ## This website uses cookies to ensure you get the best experience.  Kuva Space and our selected partners use cookies and similar technologies (together “cookies”) that are necessary to present this website, and to ensure you get the best experience of it. If you consent to it, we will also use cookies for analytics purposes.  See our Cookie Policy to read more about the cookies we set.  You can withdraw and manage your consent at any time, by clicking “Manage cookies” at the bottom of each website page.  Accept all cookies Decline all non-necessary cookies Cookie "
+    },
+    {
+      "title": "Senior Data Engineer - 1 year FTC (all genders) | Remotetide",
+      "url": "https://remotetide.nichesite.org/job/senior-data-engineer-1-year-ftc-all-genders",
+      "published": "2026-05-20T00:00:00.000Z",
+      "snippet": "Senior Data Engineer - 1 year FTC (all genders) | Remotetide  Remotetide.← All Jobs  # Senior Data Engineer - 1 year FTC (all genders)  Posted May 23, 2026  About The Company GROPYUS is a technology-based construction company focused on building multi-story residential buildings. Thanks to its prefabricated building system with various design options, industrial offsite construction, and fully digitalized processes, the company manufactures aspirational, sustainable, and affordable homes using timber construction methods. GROPYUS is using scalable construction and manufacturing solutions to ta"
     },
     {
       "title": "Fractional Data Scientist, Marketing Mix Modeling - Remote Job Leads",
@@ -113,40 +71,28 @@
       "snippet": "Fractional Data Scientist, Marketing Mix Modeling - Remote Job Leads  ## Job Overview  The Fractional Data Scientist, Marketing Mix Modeling, will architect and implement a Bayesian media mix modeling engine for a privacy-first healthcare attribution platform. This part-time, short-term contract role involves working approximately 20 hours per week on a remote basis. It suits experienced data scientists who enjoy building statistical models and translating complex data into clear marketing insights while collaborating in a distributed team.  ## About the Company  Apex Vault Inc. develops compl"
     },
     {
-      "title": "sandan AI (Remote): Senior Full-Stack Developer / AI Engineer / Data Scientist (m/w/d)",
-      "url": "https://join.com/companies/sandanai/16163668-senior-full-stack-developer-ai-engineer-data-scientist-m-w-d",
-      "published": "2026-05-15T00:00:00.000Z",
-      "snippet": "sandan AI (Remote): Senior Full-Stack Developer / AI Engineer / Data Scientist (m/w/d)  # Senior Full-Stack Developer / AI Engineer / Data Scientist (m/w/d)  Remote  Employee  Data Scientist  Location: Berlin / Remote (DACH time zone)Employment Type: Full-time, permanentStart Date: ImmediateLanguage: Native-level English proficiency (C1-C2 level, German a bonus)  _____________________  ABOUT US  sandan AI is a Berlin-based AI-native startup serving enterprise customers across the DACH region. We are shaping what marketing looks like in an agentic economy — and building the platform on which th"
-    },
-    {
-      "title": "On Lead - Treasury & Corporate Finance Analytics & Reporting job with On | 312114",
-      "url": "https://www.businessoffashion.com/careers/job/312114/on-lead-treasury-and-corporate-finance-analytics-and-reporting/",
-      "published": "2026-05-25T00:00:00.000Z",
-      "snippet": "On Lead - Treasury & Corporate Finance Analytics & Reporting job with On | 312114  # On Lead - Treasury & Corporate Finance Analytics & Reporting  Employer On Location Berlin; Zurich Closing date 26 Jun 2026  View more categoriesView less categories  Function Finance Level Manager  Save jobClick to add the job to your shortlist  You need to sign in or create an account to save a job.  - Job Details - Company  ## Job Details  The world’s fastest-growing sports brand is seeking a passionate, hands-on Treasury expert to drive our global finance team forward. Working closely with colleagues across"
-    },
-    {
       "title": "Head of Data Science - Generative AI - Barcelona - N26",
       "url": "https://bulldogjob.pl/companies/jobs/241160-head-of-data-science-generative-ai-barcelona-n26",
       "published": "2026-05-24T00:00:00.000Z",
       "snippet": "Head of Data Science - Generative AI - Barcelona - N26  ## N26  # Head of Data Science - Generative AI  ### What you will do  #### About the opportunity  We are seeking an inspirational and strategic Head of Data Science to lead our Generative AI team. This is a critical leadership role where you will define and drive the strategy for developing production-ready generative AI applications, transforming how N26 operates and serves its millions of customers across Europe.  Your team develops cutting-edge generative AI workflows, agents, and agentic systems for internal automation and to enable i"
     },
     {
-      "title": "CI&T - [Job-29646] Senior Data Scientist, Brazil",
-      "url": "https://jobs.lever.co/ciandt/c3b59ede-80a8-4a06-91bf-41dd866775eb",
-      "published": "2026-06-03T05:48:26.558Z",
-      "snippet": "CI&T - [Job-29646] Senior Data Scientist, Brazil  ## [Job-29646] Senior Data Scientist, Brazil  Brazil  Lumiere – Prod_Lumiere /  Remote  apply for this job  We are tech transformation specialists, uniting human expertise with AI to create scalable tech solutions.  With over 8,000 CI&Ters around the world, we’ve built partnerships with more than 1,000 clients during our 30 years of history. Artificial Intelligence is our reality.  ### What we're looking for  We're looking for a Senior Data Scientist who combines strong analytical and technical expertise with experience in geospatial data. The "
+      "title": "Jobgether - Data Scientist Senior",
+      "url": "https://jobs.lever.co/jobgether/e1564f55-3a98-49ff-9d36-44c0a25280b0",
+      "published": "2026-06-04T08:17:25.298Z",
+      "snippet": "Jobgether - Data Scientist Senior  ## Data Scientist Senior  US  Security & IT – IT /  Full-time /  Remote  apply for this job  This position is posted by Jobgether on behalf of a partner company. We are currently looking for a Data Scientist Senior in the United States.  This role sits at the intersection of advanced analytics, artificial intelligence, and large-scale enterprise modernization, supporting mission-critical government programs through data-driven innovation. You will design, build, and deploy AI/ML solutions that transform how organizations leverage data for decision-making, aut"
     },
     {
-      "title": "Jobgether - Senior Machine Learning Scientist",
-      "url": "https://jobs.lever.co/jobgether/08797044-9712-4838-bccc-4c10b703c9aa",
-      "published": "2026-06-02T05:48:26.558Z",
-      "snippet": "Jobgether - Senior Machine Learning Scientist  ## Senior Machine Learning Scientist  Germany  Security & IT – IT /  Full-time /  Remote  apply for this job  This position is posted by Jobgether on behalf of a partner company. We are currently looking for a Senior Machine Learning Scientist in Germany.  This is an exciting opportunity to take ownership of high-impact machine learning initiatives within a rapidly growing, AI-driven technology environment. Working at the intersection of machine learning, product development, and marketplace optimization, you will design, build, and deploy intelli"
+      "title": "Coderio - SR Data Scientist AWS (Arg, Col, Perú)",
+      "url": "https://jobs.lever.co/coderio/8f861fce-79e7-4846-be84-bb7e60e6da3e",
+      "published": "2026-06-04T10:17:25.298Z",
+      "snippet": "Coderio - SR Data Scientist AWS (Arg, Col, Perú)  ## SR Data Scientist AWS (Arg, Col, Perú)  Buenos Aires / Argentina / Colombia / Peru / Bogotá / Lima / Medellín  Technology – Engineering /  Contract | Remote /  Remote  apply for this job  Sobre Coderio  Coderio diseña y entrega soluciones digitales escalables para empresas globales. Con una base técnica sólida y una mentalidad orientada al producto, nuestros equipos lideran proyectos de software complejos desde la arquitectura hasta la ejecución. Valoramos la autonomía, la comunicación clara y la excelencia técnica. Colaboramos estrechamente"
     },
     {
-      "title": "Fullscript - Senior Machine Learning Engineer",
-      "url": "https://jobs.lever.co/fullscript/0bc489f5-de05-4797-b1f8-8cb05c082670/apply",
-      "published": "2026-05-06T00:00:00.000Z",
-      "snippet": "Fullscript - Senior Machine Learning Engineer  ## Senior Machine Learning Engineer  Ottawa, ON / Calgary, AB / Toronto, ON  Data – Machine Learning /  Full Time /  Remote  #### Submit your application  Which location are you applying for?  Select...Ottawa, ONCalgary, ABToronto, ON  Resume/CV ✱  ATTACH RESUME/CV  Couldn't auto-read resume.  Analyzing resume...  Success!  File exceeds the maximum upload size of 100MB. Please try a smaller size.  Full name✱  Pronouns  ---  ---  Let the employer know what pronouns you use so that they can address you correctly.  - He/him - She/her - They/them - Xe"
+      "title": "Jane Technologies - Senior Software Engineer,  Ads (Remote)",
+      "url": "https://jobs.lever.co/iheartjane/caa2d9b0-ba18-412c-9fd6-f6cd7774ede4",
+      "published": "2026-05-30T07:17:26.437Z",
+      "snippet": "Jane Technologies - Senior Software Engineer, Ads (Remote)  ## Senior Software Engineer, Ads (Remote)  Santa Cruz, California  Engineering /  Full-time /  Remote  apply for this job  Company Overview:  Jane Technologies is an MIT-founded eCommerce company in the cannabis industry experiencing rapid growth. We believe in cannabis's ability to bring well-being, health, and love to the world, and our mission is to bring confidence to the online cannabis shopping experience. Our platform connects consumers with local dispensaries and brands, creating a seamless shopping experience and delivering i"
     },
     {
       "title": "Fliff - Senior Data Scientist",
@@ -155,16 +101,28 @@
       "snippet": "Fliff - Senior Data Scientist  ## Senior Data Scientist  Austin, TX  Marketing – Marketing /  Full time /  Remote  apply for this job  Fliff unpacks sports gaming into social, free-to-play games for all types of sports fans. We've built a social sports gaming experience that allows users to compete for leaderboard positioning, to achieve badges and build their status within the game.  We are pioneering play-for-fun sports gaming, with our flagship social sportsbook experience that includes sweepstakes promotions and loyalty rewards. We provide sports fans with fun, engaging, and free-to-play a"
     },
     {
-      "title": "Plume - Senior Data Engineer (Data + Applied AI)",
-      "url": "https://jobs.lever.co/plume/2975acf4-0d01-45eb-8e67-b5f3445488a6",
-      "published": "2026-05-31T05:48:29.216Z",
-      "snippet": "Plume - Senior Data Engineer (Data + Applied AI)  ## Senior Data Engineer (Data + Applied AI)  Remote  Product & Technology /  In Person / Full Time Employee /  Remote  apply for this job  About Plume:  Plume is a passion-fueled, mission-driven company that is trans-founded with a vision to transform healthcare for every trans life. We hope to make gender-affirming hormone therapy easily accessible at the touch of a button in every state of the US.  This work is deeply personal and heart-driven, and we want teammates who care about the mission and the people we serve. For the right candidates,"
+      "title": "Jobgether - Staff Data Scientist - Quora",
+      "url": "https://jobs.lever.co/jobgether/7139fa7d-5463-4a33-8a10-9d0ffe9d15fb",
+      "published": "2026-06-04T21:17:27.863Z",
+      "snippet": "Jobgether - Staff Data Scientist - Quora  ## Staff Data Scientist - Quora  US  Security & IT – IT /  Full-time /  Remote  apply for this job  This position is posted by Jobgether on behalf of a partner company. We are currently looking for a Staff Data Scientist - Quora in the United States.  This role sits at the core of a highly data-driven product organization focused on large-scale knowledge sharing and AI-powered experiences. You will own high-impact, ambiguous problem spaces that shape product direction, user growth, and long-term strategy across a global platform. Working in a remote-fi"
     },
     {
       "title": "AHEAD - AI Principal Technical Consultant, AI Services",
       "url": "https://jobs.lever.co/thinkahead/e9349a95-65b6-43e8-9c45-12bb8dd6483b",
       "published": "2026-05-22T00:00:00.000Z",
       "snippet": "AHEAD - AI Principal Technical Consultant, AI Services  ## AI Principal Technical Consultant, AI Services  United States  ( Solutions Development ) – Artificial Intelligence /  Full Time /  Remote  apply for this job  AHEAD builds platforms for digital business. By weaving together advances in cloud infrastructure, automation and analytics, and software delivery, we help enterprises deliver on the promise of digital transformation.  At AHEAD, we prioritize creating a culture of belonging, where all perspectives and voices are represented, valued, respected, and heard. We create spaces to empow"
+    },
+    {
+      "title": "Senior Machine Learning Engineer – Invoca – Permanent contract – Fully-remote",
+      "url": "https://www.welcometothejungle.com/en/companies/invoca/jobs/senior-machine-learning-engineer_us_uait7254",
+      "published": "2026-05-27T00:00:00.000Z",
+      "snippet": "Senior Machine Learning Engineer – Invoca – Permanent contract – Fully-remote  ## Senior Machine Learning Engineer  Permanent contract  United States of America  Fully-remote  Salary: $152K to 228K  Experience: > 5 years  Save  2 days ago  Share  Interested in this job?  Save  Questions and answers about the job  Does this position allow remote work?  What type of contract is offered for this position?  ### The position  #### Job description  - The Data Platform team owns the full ML lifecycle at Invoca, from model training and fine-tuning through inference optimization and production APIs. We"
+    },
+    {
+      "title": "Senior Machine Learning Engineer (Fraud Detection) – Crunchyroll – Permanent contract",
+      "url": "https://www.welcometothejungle.com/en/companies/crunchyroll/jobs/senior-machine-learning-engineer_los-angeles_um4icaxj",
+      "published": "2026-05-12T00:00:00.000Z",
+      "snippet": "Senior Machine Learning Engineer (Fraud Detection) – Crunchyroll – Permanent contract  ## Senior Machine Learning Engineer (Fraud Detection)  Permanent contract  United States of America…+1  Salary: $185K to 240K  Experience: > 5 years  Save  8 days ago  Share  Interested in this job?  Save  Questions and answers about the job  Does this position allow remote work?  What type of contract is offered for this position?  ### The position  #### Job description  - In the role of senior machine learning engineer, you will report to the director of data science and machine learning in the Center for "
     }
   ]
 }
