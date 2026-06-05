@@ -28,6 +28,11 @@ Examples of what to KEEP in crypto:
 - Data Scientist at a crypto exchange doing pricing/experimentation
 - ML Engineer at a blockchain company doing fraud/anomaly detection
 
+### UK Remote rule
+Treat "United Kingdom Remote" / "UK Remote" exactly like "US Remote": **DISCARD by default**. Exception: **KEEP** if the posting explicitly mentions visa sponsorship (e.g. "UK Skilled Worker Visa Sponsor"), contractor/freelance open to international, or remote-from-EU acceptable.
+
+Always read the full content from `jobs_raw.json` for UK-listed roles before discarding — sponsorship info is often only in the full text, not the snippet.
+
 ### Interest score drivers (reminder)
 High interest: technically excellent team, IC depth, novel ML methods, production impact at scale, small fast team.
 Low interest: consulting/outsourcing firms, pure analytics without modeling, management-heavy roles.
