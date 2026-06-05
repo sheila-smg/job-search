@@ -95,6 +95,7 @@ SEARCH_QUERIES = [
     "applied scientist ML production startup remote global",
     "senior data scientist consumer app ML remote",
     "senior data scientist experimentation personalization remote europe",
+    "founding data scientist ML remote",
 ]
 
 # Targeted searches restricted to specific job boards.
