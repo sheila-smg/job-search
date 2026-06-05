@@ -6,6 +6,39 @@ Every morning an automated pipeline searches the internet for relevant job posti
 
 ---
 
+## Pipeline diagram
+
+```mermaid
+flowchart TD
+    subgraph GHA["⏰ 05:55 UTC — GitHub Actions"]
+        direction TB
+        Q["44 search queries\n(Exa.ai neural search)"]
+        BOARDS["remoterocketship · welcometothejungle · wellfound\nhimalayas · sailonchain · euremotejobs\ngreenhouse · lever · cryptocareers.cv"]
+        Q & BOARDS --> EXA["🔍 Exa.ai"]
+        EXA --> DEDUP{{"seen.json\n90-day dedup window"}}
+        DEDUP -->|new URLs only| FILES["compact_jobs.json\njobs_raw.json"]
+    end
+
+    subgraph CCR["🤖 06:30 UTC — CCR Agent  (Claude)"]
+        direction TB
+        FRESH["check_freshness.py\n↳ re-triggers GH Actions if data is stale"]
+        FRESH --> READ["read compact_jobs.json"]
+        READ --> SCORE["score every posting\ncombined = 0.55 × match + 0.45 × interest"]
+        SCORE -->|"combined = 0"| DISC["🗑️ DISCARD\nwrong role · US/UK remote\nnot a job · salary below $90K"]
+        SCORE -->|"combined ≥ 6.0"| TOP["✅ Top Jobs table"]
+        SCORE -->|"LLM required or\nambiguous remote"| FLAG["⚠️ Flagged"]
+        TOP -->|"combined ≥ 7.0\nor UK/US borderline"| FULL["read full content\nfrom jobs_raw.json"]
+        FULL --> NOTES["📝 Detailed notes + verdict"]
+    end
+
+    GHA -->|git push| REPO[("📦 GitHub repo\nsheila-smg/job-search")]
+    REPO -->|clone| CCR
+    CCR -->|git push| OUT["📄 analysis/analysis_YYYY-MM-DD.md"]
+    CCR -->|git push| SEENUP["seen.json updated\n↳ deduplicates tomorrow's search"]
+```
+
+---
+
 ## Architecture
 
 ```
