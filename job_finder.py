@@ -53,6 +53,9 @@ EXCLUDE_DOMAINS = [
     "upstaff.com",
     "tryjeremy.com",
     "aworker.io",
+    "wfhverse.talk4fun.net",
+    "zenvok.web1337.net",
+    "remotehey.com",
 ]
 
 SEARCH_QUERIES = [
@@ -84,6 +87,14 @@ SEARCH_QUERIES = [
     "senior ML engineer product analytics remote",
     "applied scientist experimentation causal inference remote",
     "senior data scientist fintech startup remote europe",
+    # Broader product/growth domains — reduce crypto/fintech bias
+    "senior data scientist product growth experimentation remote",
+    "senior data scientist recommendation systems personalization remote",
+    "senior data scientist marketplace ecommerce remote",
+    "senior data scientist SaaS product analytics ML remote",
+    "applied scientist ML production startup remote global",
+    "senior data scientist consumer app ML remote",
+    "senior data scientist experimentation personalization remote europe",
 ]
 
 # Targeted searches restricted to specific job boards.
@@ -120,6 +131,21 @@ DOMAIN_QUERIES: list[tuple[str, list[str]]] = [
     (
         "senior data scientist machine learning engineer remote",
         ["welcometothejungle.com"],
+    ),
+    # Crypto/web3 job boards — good DeFi/blockchain coverage
+    (
+        "senior data scientist machine learning engineer remote",
+        ["sailonchain.com", "cryptocareers.cv"],
+    ),
+    # Himalayas — curated fully-remote global roles
+    (
+        "senior data scientist machine learning engineer remote",
+        ["himalayas.app"],
+    ),
+    # EuRemoteJobs — EU-focused remote roles
+    (
+        "senior data scientist machine learning engineer remote",
+        ["euremotejobs.com"],
     ),
 ]
 
