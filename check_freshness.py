@@ -9,9 +9,9 @@ import json
 import subprocess
 import time
 import urllib.request
-from datetime import datetime
+from datetime import datetime, timezone
 
-TODAY = datetime.utcnow().strftime("%Y-%m-%d")
+TODAY = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 REPO = "sheila-smg/job-search"
 
 
@@ -41,8 +41,12 @@ def gh(path, method="GET", body=None, token=""):
         method=method,
         data=json.dumps(body).encode() if body else None,
     )
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.loads(r.read())
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            body = r.read()
+            return json.loads(body) if body else None
+    except Exception as e:
+        raise RuntimeError(f"GitHub API call failed ({method} {path}): {e}")
 
 
 def is_fresh():
@@ -56,8 +60,11 @@ def is_fresh():
 def trigger_and_wait(token):
     workflows = gh(f"/repos/{REPO}/actions/workflows", token=token)
     wf_id = next(
-        w["id"] for w in workflows["workflows"] if "daily-search" in w["path"]
+        (w["id"] for w in workflows["workflows"] if "daily-search" in w["path"]), None
     )
+    if wf_id is None:
+        print("WARNING: daily-search workflow not found. Continuing with existing data.")
+        return
 
     before = gh(f"/repos/{REPO}/actions/workflows/{wf_id}/runs?per_page=1", token=token)
     before_id = before["workflow_runs"][0]["id"] if before["total_count"] > 0 else None
@@ -93,8 +100,13 @@ def trigger_and_wait(token):
     print(result.stdout.strip() or result.stderr.strip())
 
 
-if is_fresh():
-    print(f"compact_jobs.json is already fresh ({TODAY}). No action needed.")
-else:
-    print(f"compact_jobs.json is missing or stale. Triggering GH Actions search...")
-    trigger_and_wait(get_token())
+try:
+    if is_fresh():
+        print(f"compact_jobs.json is already fresh ({TODAY}). No action needed.")
+    else:
+        print("compact_jobs.json is missing or stale. Triggering GH Actions search...")
+        trigger_and_wait(get_token())
+except Exception as e:
+    print(f"WARNING: freshness check failed ({e}). Continuing with existing data.")
+
+print("check_freshness.py done — continuing regardless of outcome above.")
