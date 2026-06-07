@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-06-07T08:16:21.326406",
+  "fetched_at": "2026-06-07T11:52:33.146381",
   "date": "2026-06-07",
-  "total_new": 30,
-  "pre_filtered": 90,
+  "total_new": 37,
+  "pre_filtered": 89,
   "results": [
     {
       "title": "Sr. Data Analyst, Product at Kraken — Remote | SailOnchain",
@@ -15,6 +15,12 @@
       "url": "https://remotejobs.iceiy.com/job/senior-data-scientist-risk-analytics-mercury",
       "published": "2026-06-04T00:00:00.000Z",
       "snippet": "Senior Data Scientist – Risk Analytics | Mercury | Remotejobs  Remotejobs.← All Jobs  # Senior Data Scientist – Risk Analytics | Mercury  Posted Jun 2, 2026  Mercury was founded to make banking* better for all businesses. We started by imagining what the best banking platform for startups would look like and in a few years we have thousands of customers using Mercury’s products, supporting their businesses as they grow. As Mercury continues its rapid growth trajectory, navigating the complex and ever-evolving partnerships and regulatory landscape is not just a necessity but a competitive advan"
+    },
+    {
+      "title": "Fraud/ML Engineer at Kled AI | Gravity Engineering",
+      "url": "https://www.gravityer.com/jobs/fraudml-engineer-kled-ai",
+      "published": "2026-05-30T00:00:00.000Z",
+      "snippet": "Fraud/ML Engineer at Kled AI | Gravity Engineering  ## About the Role  As an ML Engineer specializing in Fraud Detection & Data Quality, you will be responsible for ensuring that only authentic, high-signal, human data enters Kled's system. You will build and implement advanced adversarial ML systems at scale to process millions of daily uploads.  ## Responsibilities  - Develop AI-generated image & video detection systems. - Implement reverse image search & internet plagiarism rejection mechanisms. - Create duplicate fingerprinting solutions using vector and perceptual hashing. - Build copyrig"
     },
     {
       "title": "Sr. Specialist, Fraud Investigations | Hirequorum",
@@ -59,6 +65,12 @@
       "snippet": "Senior Data Scientist (f/m/x) - remote | Hirequorum  Hirequorum.← All Jobs  # Senior Data Scientist (f/m/x) - remote  Posted Jun 3, 2026  This a Full Remote job, the offer is available from: Europe  Founded in 2017, refurbed is Europe’s fastest-growing marketplace for refurbished products, active in 12 European countries and having surpassed €2Bn in GMV — all while being profitable. With beautiful headquarters in Vienna, we operate as a remote-first company, and our 250+ employees enjoy up to two months of workation per year. We’ve also been recognised as a Top DACH Employer by Kununu for thre"
     },
     {
+      "title": "Senior Machine Learning Engineer - Curamando",
+      "url": "https://career.curamando.com/jobs/7750888-senior-machine-learning-engineer",
+      "published": "2026-05-18T00:00:00.000Z",
+      "snippet": "Senior Machine Learning Engineer - Curamando  ## This website uses cookies to ensure you get the best experience.  Curamando and our selected partners use cookies and similar technologies (together “cookies”) that are necessary to present this website, and to ensure you get the best experience of it. If you consent to it, we will also use cookies for analytics purposes.  See our Cookie Policy to read more about the cookies we set.  You can withdraw and manage your consent at any time, by clicking “Manage cookies” at the bottom of each website page.  Accept all cookies Decline all non-necessary"
+    },
+    {
       "title": "Amazon SageMaker AI launches multi-turn reinforcement learning for AI agent model customization - AWS | Sarath Kunda",
       "url": "https://www.linkedin.com/posts/sarathkunda_amazon-sagemaker-ai-launches-multi-turn-reinforcement-activity-7468109887882031104-XyOy",
       "published": "2026-06-04T00:00:00.000Z",
@@ -69,6 +81,12 @@
       "url": "https://www.linkedin.com/posts/hari31416_for-the-past-year-i-have-been-building-software-activity-7464346360679469056-55W-",
       "published": "2026-05-24T00:00:00.000Z",
       "snippet": "For the past year, I have been building software solutions for different government clients. Because of strict data privacy and regulatory compliance, these applications are deployed entirely… | Harikesh Kushwaha  Agree & Join LinkedIn  By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy.  # Harikesh Kushwaha’s Post  AI Engineer | IITD | Generative AI | Agentic AI | Large Language Models | Computer Vision  1w  For the past year, I have been building software solutions for different government clients. Because of strict data privacy"
+    },
+    {
+      "title": "Zakhar Pashkin | Computer Vision and AI Product Engineer",
+      "url": "https://zack-dev-cm.github.io/",
+      "published": "2026-05-22T00:00:00.000Z",
+      "snippet": "# Agent Context - Zakhar Pashkin Portfolio  Summary: Computer vision and AI product engineer shipping OCR, segmentation, detection, multimodal search, model-serving APIs, VLM/LLM agents, AI visibility/AEO context, and full-stack products across web, mobile, and cloud. Primary URL: https://zack-dev-cm.github.io/ Contact: mailto:kaisenaiko@gmail.com  ## Identity  Name: Zakhar Pashkin Role: Computer Vision and AI Product Engineer Entity keywords: Machine Learning, ML Engineering, Computer Vision, OCR, Segmentation, Object Detection, Deep Learning, Multimodal Search, Model Serving, Custom AI Model"
     },
     {
       "title": "Sr AI Engineer | Remote - Europe | TS/Vue/NodeJS",
@@ -101,10 +119,28 @@
       "snippet": "Senior Data Scientist (remote) | JobConnect  JobConnect.← All Jobs  # Senior Data Scientist (remote)  Posted May 31, 2026  - Job Title: Senior Data Scientist  Location: WorldWide / RemotPreferred Location: Eastern Europe (Bulgaria, Romania, Moldova, Greece, Turkey, Poland, Armenia, Slovakia, Ukraine, Russia, Belarus, Albania, Kosova, Latvia)  Working Hours: Availability to overlap with U.S. working hours is preferred.  Company: WorkGarden  ### About Us:  WorkGarden is an innovative, forward-thinking company committed to harnessing the power of data to drive strategic decisions and business tra"
     },
     {
+      "title": "Senior/Lead Data Scientist- Pricing Optimization | Hirequorum",
+      "url": "https://hirequorum.liveblog365.com/job/senior-lead-data-scientist-pricing-optimization",
+      "published": "2026-06-06T00:00:00.000Z",
+      "snippet": "Senior/Lead Data Scientist- Pricing Optimization | Hirequorum  Hirequorum.← All Jobs  # Senior/Lead Data Scientist- Pricing Optimization  Posted Jun 3, 2026  Tiger Analytics is pioneering what AI and analytics can do to solve some of the toughest problems faced by organizations globally. We develop bespoke solutions powered by data and technology for several Fortune 100 companies. We have offices in multiple cities across the US, UK, India, and Singapore, and a substantial remote global workforce.  We are also market leaders in AI and analytics consulting in the CPG & retail industry with over"
+    },
+    {
       "title": "CausaLab: A Scalable Environment for Interactive Causal Discovery Toward AI Scientists - arXiv.gg",
       "url": "https://arxiv.gg/abs/2605.26029",
       "published": "2026-05-28T00:00:00.000Z",
       "snippet": "CausaLab: A Scalable Environment for Interactive Causal Discovery Toward AI Scientists - arXiv.gg  # CausaLab: A Scalable Environment for Interactive Causal Discovery Toward AI Scientists  We introduce CausaLab, a scalable environment for evaluating interactive causal discovery by LLM agents. Unlike prior evaluations, CausaLab evaluates both whether an agent can solve a problem using causal evidence and whether its answer is grounded in a faithful recovered causal mechanism. Each episode places an agent in a synthetic laboratory: it receives prior measurement records, intervenes on a manipulat"
+    },
+    {
+      "title": "Senior Data Scientist, Fraud Prevention at GoCardless - London | Gravity Engineering",
+      "url": "https://www.gravityer.com/jobs/senior-data-scientist-fraud-prevention-gocardless",
+      "published": "2026-06-02T00:00:00.000Z",
+      "snippet": "Senior Data Scientist, Fraud Prevention at GoCardless - London | Gravity Engineering  ## About the Role  Fraud prevention is an ever-evolving puzzle, making it one of the most rewarding and impactful areas in fintech. At GoCardless, our Fraud Prevention team develops the intelligent systems that protect our platform, our merchants, and their customers.  As a Senior Data Scientist, you will guide the design and delivery of models that operate in real time across our global payment network. You’ll work at the intersection of machine learning, graph-based detection, and behavioural modelling to s"
+    },
+    {
+      "title": "Senior Data Scientist, Product | Hirequorum",
+      "url": "https://hirequorum.liveblog365.com/job/senior-data-scientist-product",
+      "published": "2026-06-07T00:00:00.000Z",
+      "snippet": "Senior Data Scientist, Product | Hirequorum  Hirequorum.← All Jobs  # Senior Data Scientist, Product  Posted Jun 2, 2026  ### Why Mozilla?  Mozilla Corporation is the non-profit-backed technology company that has shaped the internet for the better over the last 25 years. We make groundbreaking brands like Firefox, the privacy-minded web browser. Now, with more than 200 million people around the world using our products each month, we’re shaping the next 25 years of technology and helping to reclaim an internet built for people, not companies. Our work focuses on diverse areas including AI, pri"
     },
     {
       "title": "**Senior Manager, Customer Analytics – Driving Business Growth through Data-Driven Insights at arenaflex** | Hirequorum",
@@ -139,13 +175,13 @@
     {
       "title": "Senior Data Scientist – Pager – Permanent contract – Fully-remote",
       "url": "https://www.welcometothejungle.com/en/companies/pager/jobs/senior-data-scientist_us_5u6lqcyz",
-      "published": "2026-06-04T08:16:18.231Z",
+      "published": "2026-06-04T11:52:29.855Z",
       "snippet": "Senior Data Scientist – Pager – Permanent contract – Fully-remote  ## Senior Data Scientist  Permanent contract  United States of America  Fully-remote  Salary: $140K to 150K  Experience: > 5 years  Save  2 days ago  Share  Interested in this job?  Save  Questions and answers about the job  Does this position allow remote work?  What type of contract is offered for this position?  ### The position  #### Job description  - We’re looking for a Senior Data Scientist to lead high-priority, cross-functional data science and AI initiatives that drive measurable business impact across our products an"
     },
     {
       "title": "Senior Data Scientist – SmarterDx – Permanent contract – Fully-remote",
       "url": "https://www.welcometothejungle.com/en/companies/smarterdx/jobs/senior-data-scientist_fr_wpehrm7l",
-      "published": "2026-06-04T08:16:18.231Z",
+      "published": "2026-06-03T11:52:29.855Z",
       "snippet": "Senior Data Scientist – SmarterDx – Permanent contract – Fully-remote  ## Senior Data Scientist  Permanent contract  Madrid  Fully-remote  Salary: $170K to 200K  Experience: > 3 years  Save  2 days ago  Share  Interested in this job?  Save  Questions and answers about the job  Does this position allow remote work?  What type of contract is offered for this position?  ### The position  #### Job description  - As a Senior Data Scientist at SmarterDx, you will play a pivotal role in training cutting-edge machine learning models and ensuring their strategic integration into our Smarter Revenue Pla"
     },
     {
@@ -155,10 +191,16 @@
       "snippet": "Senior Machine Learning Operations Engineer – The Athletic – Permanent contract – Fully-remote  ## Senior Machine Learning Operations Engineer  Permanent contract  United States of America  Fully-remote  Salary: $140K to 150K  Experience: > 3 years  Save  23 days ago  Share  Interested in this job?  Save  Questions and answers about the job  Does this position allow remote work?  What type of contract is offered for this position?  ### The position  #### Job description  - We are looking for a senior machine learning operations engineer who understands data pipelines, infrastructure, and model"
     },
     {
-      "title": "Senior Data Scientist (Digital Intelligence, Device Signals) – Socure – Permanent contract in",
-      "url": "https://www.welcometothejungle.com/en/companies/socure/jobs/senior-data-scientist_fr_oo4h4tjc",
+      "title": "Data Scientist (Computer Vision) – Socure – Permanent contract – Fully-remote",
+      "url": "https://www.welcometothejungle.com/en/companies/socure/jobs/data-scientist_fr_knkywev6",
       "published": "2026-05-13T00:00:00.000Z",
-      "snippet": "Senior Data Scientist (Digital Intelligence, Device Signals) – Socure – Permanent contract in  ## Senior Data Scientist (Digital Intelligence, Device Signals)  Permanent contract  United States of America  Salary: $150K to 185K  Experience: > 5 years  Save  23 days ago  Share  Interested in this job?  Save  Questions and answers about the job  Does this position allow remote work?  What type of contract is offered for this position?  ### The position  #### Job description  - We are seeking a Senior Data Scientist to join our Digital Intelligence team - In this role, you will drive the developm"
+      "snippet": "Data Scientist (Computer Vision) – Socure – Permanent contract – Fully-remote  ## Data Scientist (Computer Vision)  Permanent contract  United States of America  Fully-remote  Salary: $140K to 170K  Experience: > 5 years  Save  14 days ago  Share  Interested in this job?  Save  Questions and answers about the job  Does this position allow remote work?  What type of contract is offered for this position?  ### The position  #### Job description  - This role is intended for an experienced individual contributor who can work independently on production ML models, own well-scoped modeling initiativ"
+    },
+    {
+      "title": "Error",
+      "url": "https://www.welcometothejungle.com/en/companies/roku/jobs/senior-machine-learning-engineer_san-jose_5ggujowv",
+      "published": "2026-06-05T11:52:29.855Z",
+      "snippet": "Error  ## Error  Page not found"
     },
     {
       "title": "Senior Data Analyst, Lending at Figure — Remote (US) | SailOnchain",
