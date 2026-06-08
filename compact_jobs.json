@@ -1,14 +1,26 @@
 {
-  "fetched_at": "2026-06-08T08:15:41.426334",
+  "fetched_at": "2026-06-08T09:14:28.162155",
   "date": "2026-06-08",
-  "total_new": 7,
-  "pre_filtered": 101,
+  "total_new": 12,
+  "pre_filtered": 98,
   "results": [
+    {
+      "title": "Fraud Detection Analysis with SMOTE and XGBoost | Brahma Borude posted on the topic | LinkedIn",
+      "url": "https://www.linkedin.com/posts/brahma-borude_dataanalysis-fintech-frauddetection-activity-7462523111939428352-OzGo",
+      "published": "2026-05-19T00:00:00.000Z",
+      "snippet": "Fraud Detection Analysis with SMOTE and XGBoost | Brahma Borude posted on the topic | LinkedIn  Agree & Join LinkedIn  By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy.  Aspiring Machine Learning Engineer | Data Analysis • Python • SQL • Pandas • Scikit-learn  2w  🔍 Just completed my Fraud Detection Analysis project — here's what I learned: Analysed 284,807 credit card transactions with a 0.17% fraud rate. The challenge: standard ML models achieve 96.9% accuracy by predicting \"no fraud\" for everything — and catch zero fraudsters"
+    },
     {
       "title": "Karl Hill — Staff Software Engineer",
       "url": "https://karlhill.com/",
       "published": "2026-05-15T00:00:00.000Z",
       "snippet": "Karl Hill — Staff Software Engineer  Staff Software Engineer · 25+ Years  # Karl Hill  Cloud · Platforms · Engineering Leadership  I architect systems, lead teams, and ship software that matters — from disaster-response platforms at NASA to mission-critical aerospace systems at Jacobs/BlackLynx.  Available for select consulting  Latest writing  ## What 20 Years Taught Me About Release Governance  Release governance is not bureaucracy. Done well, it is how engineering protects trust — how teams make sure what they build can actually be deployed, supported, reproduced, explained, secured, and op"
+    },
+    {
+      "title": "Senior Machine Learning Engineer - Curamando",
+      "url": "https://jobbland.se/jobb/senior-machine-learning-engineer-scsom-20282744",
+      "published": "2026-05-17T00:00:00.000Z",
+      "snippet": "Senior Machine Learning Engineer - Curamando  Till sökresultaten  # Senior Machine Learning Engineer  Publicerad 2026-05-17 ( Slutdatum okänt )  Se medellön  Bevaka liknande jobb  ## Om jobbet  Build the practice, not just the model.Imagine not just building advanced ML solutions, but seeing them drive real business impact across global brands like Polestar and Samsung. At Curamando, you won't be coding in a silo. You'll connect the dots between deep technical work and strategic business goals, ensuring what you build truly makes a difference. This is your chance to step into a role where you'"
     },
     {
       "title": "Senior/Lead Data Scientist- Pricing Optimization | Hirequorum",
@@ -41,10 +53,28 @@
       "snippet": "Senior Data Scientist, Product, App Ecosystem and Trust - Google | Cake  Senior Data Scientist, Product, App Ecosystem and Trust  # Senior Data Scientist, Product, App Ecosystem and Trust  ## Google  Apply Now  Job updated about 2 hours ago  The employer was active 3 months ago  ### Job Description  Google will be prioritizing applicants who have a current right to work in Singapore, and do not require Google's sponsorship of a visa.  ### Minimum qualifications:  - Bachelor's degree in Statistics, Mathematics, Data Science, Engineering, Physics, Economics, or a related quantitative field. - 8 "
     },
     {
+      "title": "Jobgether - Sr. Staff Machine Learning Engineer",
+      "url": "https://jobs.lever.co/jobgether/a006e917-752e-41e2-9e0c-2b648e9dc9fd",
+      "published": "2026-06-05T09:14:19.677Z",
+      "snippet": "Jobgether - Sr. Staff Machine Learning Engineer  ## Sr. Staff Machine Learning Engineer  US  Security & IT – IT /  Full-time /  Remote  apply for this job  This position is posted by Jobgether on behalf of a partner company. We are currently looking for a Sr. Staff Machine Learning Engineer in United States.  This senior-level role sits at the core of a fast-scaling fintech environment, where machine learning directly shapes product performance, risk intelligence, and customer experience. You will lead the end-to-end design and deployment of production-grade ML systems that operate at scale an"
+    },
+    {
+      "title": "Jane Technologies - Senior Software Engineer,  Ads (Remote)",
+      "url": "https://jobs.lever.co/iheartjane/caa2d9b0-ba18-412c-9fd6-f6cd7774ede4",
+      "published": "2026-05-30T00:00:00.000Z",
+      "snippet": "Jane Technologies - Senior Software Engineer, Ads (Remote)  ## Senior Software Engineer, Ads (Remote)  Santa Cruz, California  Engineering /  Full-time /  Remote  apply for this job  Company Overview:  Jane Technologies is an MIT-founded eCommerce company in the cannabis industry experiencing rapid growth. We believe in cannabis's ability to bring well-being, health, and love to the world, and our mission is to bring confidence to the online cannabis shopping experience. Our platform connects consumers with local dispensaries and brands, creating a seamless shopping experience and delivering i"
+    },
+    {
       "title": "Jobgether - Staff Data Scientist - Quora",
       "url": "https://jobs.lever.co/jobgether/e6d1152a-b062-413c-a193-489a8aec350b",
-      "published": "2026-06-05T08:15:33.591Z",
+      "published": "2026-06-05T09:14:20.786Z",
       "snippet": "Jobgether - Staff Data Scientist - Quora  ## Staff Data Scientist - Quora  Canada  Security & IT – IT /  Full-time /  Remote  apply for this job  This position is posted by Jobgether on behalf of a partner company. We are currently looking for a Staff Data Scientist - Quora in Canada.  This role sits at the core of a highly data-driven product organization focused on large-scale knowledge sharing and AI-powered experiences. You will own high-impact, ambiguous problem spaces that shape product direction, user growth, and long-term strategy across a global platform. Working in a remote-first and"
+    },
+    {
+      "title": "How to Tailor Your Resume to a Job Description | Himalayas",
+      "url": "https://himalayas.app/advice/tailor-resume-to-job-description",
+      "published": "2026-06-01T00:00:00.000Z",
+      "snippet": "Resumes & Cover Letters  # How to Tailor Your Resume to a Job Description  Tailor your resume to a job description without keyword stuffing. Use this step-by-step workflow, examples, checklist, and AI prompt to make your experience match the role.  Tailoring your resume to a job description means matching your real experience to the role's most important requirements. You are not rewriting your entire career history, copying the job post, or adding skills you do not have. You are making the relevant parts of your background easier for a recruiter, hiring manager, and applicant tracking system "
     }
   ]
 }
