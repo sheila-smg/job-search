@@ -6,6 +6,7 @@ workflow and waits for it to complete, then pulls the fresh data.
 Exits 0 in all cases so the agent always continues.
 """
 import json
+import os
 import subprocess
 import time
 import urllib.request
@@ -94,10 +95,18 @@ def trigger_and_wait(token):
             print(f"Workflow finished: {run['conclusion']}")
             break
 
-    result = subprocess.run(
-        ["git", "pull", "origin", "main"], capture_output=True, text=True
-    )
-    print(result.stdout.strip() or result.stderr.strip())
+    try:
+        result = subprocess.run(
+            ["git", "pull", "origin", "main"],
+            capture_output=True,
+            text=True,
+            timeout=60,
+            env={**os.environ, "GIT_TERMINAL_PROMPT": "0"},
+        )
+        print(result.stdout.strip() or result.stderr.strip())
+    except subprocess.TimeoutExpired:
+        print("WARNING: git pull timed out after 60s (likely waiting on a credential "
+              "prompt). Continuing with existing data.")
 
 
 try:
