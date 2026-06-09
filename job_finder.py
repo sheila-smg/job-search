@@ -148,6 +148,15 @@ DOMAIN_QUERIES: list[tuple[str, list[str]]] = [
         "senior data scientist machine learning engineer remote",
         ["euremotejobs.com"],
     ),
+    # Built In — tech job board with a dedicated remote section
+    (
+        "senior data scientist machine learning engineer remote",
+        ["builtin.com"],
+    ),
+    (
+        "senior data scientist pricing risk experimentation remote",
+        ["builtin.com"],
+    ),
 ]
 
 
