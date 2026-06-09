@@ -1,80 +1,200 @@
 {
-  "fetched_at": "2026-06-08T09:14:28.162155",
-  "date": "2026-06-08",
-  "total_new": 12,
-  "pre_filtered": 98,
+  "fetched_at": "2026-06-09T07:13:01.503877",
+  "date": "2026-06-09",
+  "total_new": 32,
+  "pre_filtered": 92,
   "results": [
     {
-      "title": "Fraud Detection Analysis with SMOTE and XGBoost | Brahma Borude posted on the topic | LinkedIn",
-      "url": "https://www.linkedin.com/posts/brahma-borude_dataanalysis-fintech-frauddetection-activity-7462523111939428352-OzGo",
-      "published": "2026-05-19T00:00:00.000Z",
-      "snippet": "Fraud Detection Analysis with SMOTE and XGBoost | Brahma Borude posted on the topic | LinkedIn  Agree & Join LinkedIn  By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy.  Aspiring Machine Learning Engineer | Data Analysis • Python • SQL • Pandas • Scikit-learn  2w  🔍 Just completed my Fraud Detection Analysis project — here's what I learned: Analysed 284,807 credit card transactions with a 0.17% fraud rate. The challenge: standard ML models achieve 96.9% accuracy by predicting \"no fraud\" for everything — and catch zero fraudsters"
-    },
-    {
-      "title": "Karl Hill — Staff Software Engineer",
-      "url": "https://karlhill.com/",
-      "published": "2026-05-15T00:00:00.000Z",
-      "snippet": "Karl Hill — Staff Software Engineer  Staff Software Engineer · 25+ Years  # Karl Hill  Cloud · Platforms · Engineering Leadership  I architect systems, lead teams, and ship software that matters — from disaster-response platforms at NASA to mission-critical aerospace systems at Jacobs/BlackLynx.  Available for select consulting  Latest writing  ## What 20 Years Taught Me About Release Governance  Release governance is not bureaucracy. Done well, it is how engineering protects trust — how teams make sure what they build can actually be deployed, supported, reproduced, explained, secured, and op"
-    },
-    {
-      "title": "Senior Machine Learning Engineer - Curamando",
-      "url": "https://jobbland.se/jobb/senior-machine-learning-engineer-scsom-20282744",
-      "published": "2026-05-17T00:00:00.000Z",
-      "snippet": "Senior Machine Learning Engineer - Curamando  Till sökresultaten  # Senior Machine Learning Engineer  Publicerad 2026-05-17 ( Slutdatum okänt )  Se medellön  Bevaka liknande jobb  ## Om jobbet  Build the practice, not just the model.Imagine not just building advanced ML solutions, but seeing them drive real business impact across global brands like Polestar and Samsung. At Curamando, you won't be coding in a silo. You'll connect the dots between deep technical work and strategic business goals, ensuring what you build truly makes a difference. This is your chance to step into a role where you'"
-    },
-    {
-      "title": "Senior/Lead Data Scientist- Pricing Optimization | Hirequorum",
-      "url": "https://hirequorum.liveblog365.com/job/senior-lead-data-scientist-pricing-optimization-2",
-      "published": "2026-06-07T00:00:00.000Z",
-      "snippet": "Senior/Lead Data Scientist- Pricing Optimization | Hirequorum  Hirequorum.← All Jobs  # Senior/Lead Data Scientist- Pricing Optimization  Posted Jun 3, 2026  Tiger Analytics is pioneering what AI and analytics can do to solve some of the toughest problems faced by organizations globally. We develop bespoke solutions powered by data and technology for several Fortune 100 companies. We have offices in multiple cities across the US, UK, India, and Singapore, and a substantial remote global workforce.  We are also market leaders in AI and analytics consulting in the CPG & retail industry with over"
-    },
-    {
-      "title": "Senior Product Engineer, Growth & Lifecycle Infrastructure at Stability AI | Underprompt",
-      "url": "https://underprompt.com/jobs/senior-product-engineer-growth-lifecycle-infrastructure-stability-ai",
+      "title": "@xiuqitan – Senior Full Stack Developer | Web3 & AI Engineer in Singapore | Remote, Part-time, Full-time | CryptoJobsList",
+      "url": "https://cryptojobslist.com/@xiuqitan",
       "published": "2026-06-06T00:00:00.000Z",
-      "snippet": "Senior Product Engineer, Growth & Lifecycle Infrastructure at Stability AI | Underprompt  ## Stability AI  - AI by the people, for the people  Visit job opening page  Visit company website →  Need help in applying or have a question? Please don't hesitate to get in touch.  ← Back to all jobs  Share job  # Senior Product Engineer, Growth & Lifecycle Infrastructure - Stability AI  Fully remote  Added  1 day ago  Locations  Type  Full-time  Visit job opening page  Tagged as  Stability AI is a community and mission-driven, open artificial intelligence company that cares deeply about real-world imp"
+      "snippet": "@xiuqitan – Senior Full Stack Developer | Web3 & AI Engineer in Singapore | Remote, Part-time, Full-time | CryptoJobsList  ## Web3 Talent  @xiuqitan  Contact me  # Senior Full Stack Developer | Web3 & AI Engineer  Web3 Talent  @xiuqitan  I'm Xiu Qi Tan, a Senior Full Stack Developer and Web3 engineer based in Singapore (GMT+8).  6+ years shipping software — from enterprise FinTech at Cognizant (React & Java for a tier-1 Swiss bank) to full-time Web3 freelance since 2024. In crypto professionally since 2021, building wallet-connected dApps, DeFi interfaces, and Solidity smart contracts on Ether"
     },
     {
-      "title": "Statistical Data Scientist | Remoteflow",
-      "url": "https://remoteflow.synergize.co/job/statistical-data-scientist",
+      "title": "Meet Koyuki: From Applied Math to Two Bittensor Subnets - The TAO Daily",
+      "url": "https://taodaily.io/meet-koyuki-from-applied-math-to-two-bittensor-subnets/",
+      "published": "2026-06-06T00:00:00.000Z",
+      "snippet": "Meet Koyuki: From Applied Math to Two Bittensor Subnets - The TAO Daily  Breaking News  - Contact - [ June 6, 2026 ] Meet Koyuki: From Applied Math to Two Bittensor Subnets Interviews - [ June 6, 2026 ] The qBitTensor Labs Discussion That Put Q-Day on a Public Timeline SUBNETS - [ June 5, 2026 ] Bittensor Alpha Trading: Strategies (Short-Term vs Long-Term) Education - [ June 5, 2026 ] Enigma (SN63) Relaunches With a $400K Hunt for RSA’s Breaking Point AI News - [ June 5, 2026 ] Trishool (SN23) Lands Google Backing Through Web3 Startup Program SUBNETS  Read Time:5 Minute, 45 Second  If you’ve b"
+    },
+    {
+      "title": "Staff Data Scientist | Hirequorum",
+      "url": "https://hirequorum.liveblog365.com/job/staff-data-scientist",
       "published": "2026-06-07T00:00:00.000Z",
-      "snippet": "Statistical Data Scientist | Remoteflow  Remoteflow.← All Jobs  # Statistical Data Scientist  Posted Jun 6, 2026  Location: This position may be performed remotely, but requires the flexibility and willingness to travel as needed. The Opportunity Praxis is seeking an Associate Director, Statistical Data Scientist to lead and execute the development, validation and automation of analytical pipelines and statistical models that support metadata-driven clinical data processing, reporting, and regulatory submissions. This is a hands-on technical leadership role, ideal for a senior data scientist o"
+      "snippet": "Staff Data Scientist | Hirequorum  Hirequorum.← All Jobs  # Staff Data Scientist  Posted Jun 4, 2026  Phantom is the modern money app used by tens of millions around the world. Our product combines everything people need to manage, spend, and grow their money in one simple, intuitive experience. Phantom brings all the control and flexibility of crypto-powered finance, without unnecessary complexity, into mainstream consumer finance.  By combining industry-leading security with thoughtfully designed tools, Phantom makes powerful financial tools feel approachable and easy to use. This focus on s"
     },
     {
-      "title": "Senior Data Scientist – Credit Risk job in Amsterdam, Netherlands - BridgeFund jobs | Fintech Careers",
-      "url": "https://www.fintechcareers.com/job/33193/senior-data-scientist-credit-risk-amsterdam-3/",
-      "published": "2026-05-15T00:00:00.000Z",
-      "snippet": "Senior Data Scientist – Credit Risk job in Amsterdam, Netherlands - BridgeFund jobs | Fintech Careers  Categories  Login / Register  ### Login  Email  Password  Keep me signed in  Forgot password?  or  Don't have an account? Register  ### Reset Password  Please Enter Username or Email  Back To Login  ### Create a free account  - Candidate - Employer  Email *  Password *  Confirm Password *  Full Name *  I agree to the Terms and Conditions and Privacy Policy  Email *  Password *  Confirm Password *  Company Name *  I agree to the Terms and Conditions and Privacy Policy  Already have an account?"
-    },
-    {
-      "title": "Senior Data Scientist, Product, App Ecosystem and Trust - Google | Cake",
-      "url": "https://www.cake.me/companies/Google/jobs/118434006709478086-senior-data-scientist-product-app-ecosystem-and-70937533f8c8c17c5e56789d7cb9ce",
+      "title": "Quant Researcher, OEX at Crypto.com — Remote (US) | SailOnchain",
+      "url": "https://sailonchain.com/jobs/quant-researcher-oex-cryptocom",
       "published": "2026-06-05T00:00:00.000Z",
-      "snippet": "Senior Data Scientist, Product, App Ecosystem and Trust - Google | Cake  Senior Data Scientist, Product, App Ecosystem and Trust  # Senior Data Scientist, Product, App Ecosystem and Trust  ## Google  Apply Now  Job updated about 2 hours ago  The employer was active 3 months ago  ### Job Description  Google will be prioritizing applicants who have a current right to work in Singapore, and do not require Google's sponsorship of a visa.  ### Minimum qualifications:  - Bachelor's degree in Statistics, Mathematics, Data Science, Engineering, Physics, Economics, or a related quantitative field. - 8 "
+      "snippet": "Quant Researcher, OEX at Crypto.com — Remote (US) | SailOnchain  ## Crypto.com  - The best place to buy, sell, and pay with crypto  Apply through Sailonchain  Visit job opening page  Visit company website →  Need help in applying or have a question? Please don't hesitate to get in touch.  ← Back to all jobs  Share job  # Quant Researcher, OEX - Crypto.com  Fully remote  Added  2 days ago  Locations  Type  Full-time  Salary  $100k - $230k  Apply through Sailonchain  Visit job opening page  Tagged as  The exchange team develops and maintain a cutting-edge trading platform. With a global presence"
     },
     {
-      "title": "Jobgether - Sr. Staff Machine Learning Engineer",
-      "url": "https://jobs.lever.co/jobgether/a006e917-752e-41e2-9e0c-2b648e9dc9fd",
-      "published": "2026-06-05T09:14:19.677Z",
-      "snippet": "Jobgether - Sr. Staff Machine Learning Engineer  ## Sr. Staff Machine Learning Engineer  US  Security & IT – IT /  Full-time /  Remote  apply for this job  This position is posted by Jobgether on behalf of a partner company. We are currently looking for a Sr. Staff Machine Learning Engineer in United States.  This senior-level role sits at the core of a fast-scaling fintech environment, where machine learning directly shapes product performance, risk intelligence, and customer experience. You will lead the end-to-end design and deployment of production-grade ML systems that operate at scale an"
+      "title": "Member of Global Risk Management, Quantitative Financial Risk | Hirequorum",
+      "url": "https://hirequorum.liveblog365.com/job/member-of-global-risk-management-quantitative-financial-risk",
+      "published": "2026-06-07T00:00:00.000Z",
+      "snippet": "Member of Global Risk Management, Quantitative Financial Risk | Hirequorum  Hirequorum.← All Jobs  # Member of Global Risk Management, Quantitative Financial Risk  Posted Jun 2, 2026  At Anchorage Digital, we are building the world’s most advanced digital asset platform for institutions to participate in crypto.  Anchorage Digital is a crypto platform that enables institutions to participate in digital assets through custody, staking, trading, governance, settlement, and the industry's leading security infrastructure. Home to Anchorage Digital Bank N.A., the first federally chartered crypto ba"
     },
     {
-      "title": "Jane Technologies - Senior Software Engineer,  Ads (Remote)",
-      "url": "https://jobs.lever.co/iheartjane/caa2d9b0-ba18-412c-9fd6-f6cd7774ede4",
+      "title": "Quantitative Researcher | Hirequorum",
+      "url": "https://hirequorum.liveblog365.com/job/quantitative-researcher",
+      "published": "2026-06-07T00:00:00.000Z",
+      "snippet": "Quantitative Researcher | Hirequorum  Hirequorum.← All Jobs  # Quantitative Researcher  Posted Jun 7, 2026  At Kuru Labs, we are building the foundation for global markets with a focus on speed, composability, and security. Our product, Kuru Exchange, is a CLOB DEX built natively on Monad, bringing the speed and capital efficiency of centralized exchanges fully on-chain. The key differentiation: we’re pioneering an EVM-native, fully on-chain order book—unlocking a new standard for trading infrastructure in crypto. Having raised $11.8M in a Series A round led by Paradigm in July 2025, we’re now"
+    },
+    {
+      "title": "Job: Pricing Data Science Developer – Jobs – Careers in Poland",
+      "url": "https://www.careersinpoland.com/job/539029,pricing-data-science-developer-wroclaw",
+      "published": "2026-05-28T00:00:00.000Z",
+      "snippet": "Job: Pricing Data Science Developer – Jobs – Careers in Poland  Legal issues  - Arrival and stay - Labour law - Finance and housing  Life & work  - News - Education - Work - Customs - People & relations - Travel & leisure - Prices  Guidebooks  sign up log in  Considering moving to Poland?Check our free Guidebook!  Mariafrom Ukraine  See my story  Gonçalofrom Portugal  See my story  Alejandrafrom Colombia  See my story  Pierfrom Italy  See my story  Sandrafrom Mexico  See my story  Frederikfrom Denmark  See my story  See company profile  Find offer for you  Pricing Data Science Developer  AXA X"
+    },
+    {
+      "title": "Data Science Advisor - Renewal Risk - Remote | Hirequorum",
+      "url": "https://hirequorum.liveblog365.com/job/data-science-advisor-renewal-risk-remote",
+      "published": "2026-06-07T00:00:00.000Z",
+      "snippet": "Data Science Advisor - Renewal Risk - Remote | Hirequorum  Hirequorum.← All Jobs  # Data Science Advisor - Renewal Risk - Remote  Posted Jun 1, 2026  We’re looking for a Data Science Advisor to help shape how data science drives profitable growth across The Cigna Group. As part of the Data Science Center of Expertise (DSCOE), this role partners closely with Actuarial, Underwriting, and Data & Analytics leaders to turn advanced analytics into smarter underwriting and pricing decisions. If you enjoy solving complex problems, influencing strategy, and working collaboratively across disciplines, t"
+    },
+    {
+      "title": "Senior Risk Analyst at Tabby | Remote Job | Kickstart Remote",
+      "url": "https://kickstartremote.com/remote-jobs/senior-risk-analyst-portugal-remote-1077",
+      "published": "2026-05-11T00:00:00.000Z",
+      "snippet": "Senior Risk Analyst at Tabby | Remote Job | Kickstart Remote  # Senior Risk Analyst  Posted 16ds ago  ## Employment Information  EducationBachelor's Degree  SalaryNot specified  Experience  Senior  Job TypeFull-time  ## Report this job  Job expired or something wrong with this job?  Report job  ### Job Description  Senior Risk Analyst at Tabby responsible for risk analysis and fraud prevention strategies. Collaborating on LLM models, guiding teams, and ensuring proactive risk management solutions.  #### Responsibilities:  - Preparation of datasets to support advanced risk analysis - Own and co"
+    },
+    {
+      "title": "Machine Learning Engineer II (Fraud) | Hirequorum",
+      "url": "https://hirequorum.liveblog365.com/job/machine-learning-engineer-ii-fraud",
+      "published": "2026-06-07T00:00:00.000Z",
+      "snippet": "Machine Learning Engineer II (Fraud) | Hirequorum  Hirequorum.← All Jobs  # Machine Learning Engineer II (Fraud)  Posted Jun 4, 2026  Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest.  On the ML Fraud team, you’ll build and improve machine learning systems that make real-time transaction decisions, protecting consumers and merchants while balancing fraud loss, customer experience, and conversion. You’ll work closely with experienced ML engineers, platform partners, and cro"
+    },
+    {
+      "title": "Fraud Detection System with XGBoost and Kafka | AUGUSTINE AJALI posted on the topic | LinkedIn",
+      "url": "https://www.linkedin.com/posts/augustine-ajali_github-esostarfrauddetectionsystem-activity-7462155984233349121-Afcd",
+      "published": "2026-05-18T00:00:00.000Z",
+      "snippet": "Fraud Detection System with XGBoost and Kafka | AUGUSTINE AJALI posted on the topic | LinkedIn  Agree & Join LinkedIn  By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy.  # Fraud Detection System with XGBoost and Kafka  Advance Data Analytics | Machine Learning Engineer | AI Engineer | Generative AI Engineer | Engineer | STEM Professional  2w  Recently completed the development of an end-to-end Fraud Detection System designed around production-oriented machine learning workflows and real-time processing concepts. The project was "
+    },
+    {
+      "title": "Data Analyst (Remote) | Hirequorum",
+      "url": "https://hirequorum.liveblog365.com/job/data-analyst-remote",
+      "published": "2026-06-07T00:00:00.000Z",
+      "snippet": "Data Analyst (Remote) | Hirequorum  Hirequorum.← All Jobs  # Data Analyst (Remote)  Posted Jun 6, 2026  ### Description  Milliman’s Mountain Gulf Health Practice is seeking a Data Analyst with AI focus to join our team in a temporary role, with an opportunity to become a permanent employee depending on performance and practice need. This role offers the opportunity to work at the intersection of AI, data analytics, and healthcare consulting, supporting innovative solutions and advancing how we leverage data across our practice. The ideal candidate is technically curious, self-motivated, and ea"
+    },
+    {
+      "title": "Will Elon Musk tweet \"Hyperliquid\" by June 30, 2026? — 1.5% YES",
+      "url": "https://awebanalysis.com/en/prediction-markets/will-elon-musk-tweet-about-hyperliquid-by-june-30-2026will-elon-musk-tweet-about-hyperliquid-by-june-30-2026/",
+      "published": "2026-05-26T00:00:00.000Z",
+      "snippet": "Will Elon Musk tweet \"Hyperliquid\" by June 30, 2026? — 1.5% YES  Discover Backpack: open a free account and trade crypto with low fees using this link!  Other Will Elon Musk tweet \"Hyperliquid\" by ___?  # Will Elon Musk tweet \"Hyperliquid\" by June 30, 2026?  Closes in 22 days  1 Jul 2026  1.5% YES ↑ 0% 24h change ↓ 3.3% 7d change Live ↻ 4 minutes ago  YES NO 98.5%  Share:{this.querySelector('i').className='far fa-check text-xs';setTimeout(()=>{this.querySelector('i').className='far fa-copy text-xs'},1500)})\" title=\"Share\">  24h Volume  —  Liquidity  $3K  Score  81/100  Historical probability  "
+    },
+    {
+      "title": "BETBY's Kirill Nekrasov for 5 Star: Why Prediction Markets haven’t scaled in sportsbooks and how that’s changing?",
+      "url": "https://betby.ghost.io/betbys-kirill-nekrasov-for-5-star-why-prediction-markets-havent-scaled-in-sportsbooks-and-how-thats-changing/",
+      "published": "2026-05-13T00:00:00.000Z",
+      "snippet": "BETBY's Kirill Nekrasov for 5 Star: Why Prediction Markets haven’t scaled in sportsbooks and how that’s changing?  After months as one of the industry’s most talked-about trends, prediction markets have now entered a new phase with the launch of the first fixed-odds solution designed specifically for sportsbooks: BETBY Predictions. Developed under the leadership of Kirill Nekrasov, Head of Innovation and R&D at BETBY, the product aims to bring prediction markets into a format that aligns with how users place bets, making them more accessible and scalable for operators. In this article, Nekraso"
+    },
+    {
+      "title": "Remote Senior Data Scientist at Apogee Global RMS | RemoteFront",
+      "url": "https://www.remotefront.com/remote-jobs/apogee-global-rms-senior-data-scientist-3ddal",
+      "published": "2026-06-08T00:00:00.000Z",
+      "snippet": "Remote Senior Data Scientist at Apogee Global RMS | RemoteFront  Senior Data Scientist  Apply  # Senior Data Scientist  Remote  San Jose, CARemote· 2 months ago  Straight from Apogee Global RMS’s careers page. Apply on the company site — no recruiter, no middleman.  Applycreate free resume!  SaveCopy link  Apply  ## Similar remote jobs  More like this →  Huron Consulting Group  ### Azure Engineer  Remote  Chicago, IL$100k–$135k  ✓ From careers page· about 2 hours ago  Huron Consulting Group  ### Data Platform Integration Engineer  Remote  Chicago, IL$120k–$195k  ✓ From careers page· about 2 ho"
+    },
+    {
+      "title": "Senior Machine Learning Engineer at CI&T - Brazil Remote",
+      "url": "https://www.remoterocketship.com/company/ciandt/jobs/senior-machine-learning-engineer-worldwide-remote/",
+      "published": "2026-05-22T00:00:00.000Z",
+      "snippet": "Senior Machine Learning Engineer at CI&T - Brazil Remote  ## CI&T  5001 - 10000 employees  Founded 1995  🤖 Artificial Intelligence  ☁️ SaaS  💰 $5.5M Venture Round on 2014-04  Artificial Intelligence • Cloud Services • SaaS  CI&T is a global tech transformation specialist focusing on helping organizations navigate their technology journey. With services spanning from application modernization and cloud solutions to AI-driven data analytics and customer experience, CI&T empowers businesses to accelerate their growth and maximize operational efficiency. The company emphasizes digital product desi"
+    },
+    {
+      "title": "AI Applied Scientist | CareerSync",
+      "url": "https://careersync.liveblog365.com/remote-jobs/ai-applied-scientist",
+      "published": "2026-06-07T00:00:00.000Z",
+      "snippet": "AI Applied Scientist | CareerSync  CareerSync.← All Jobs  # AI Applied Scientist  Posted Jun 6, 2026  ### About Wizard  Wizard is the top-performing AI Shopping Agent, delivering the best products from across the web with unmatched accuracy, quality, and trust.  ### The Role  We’re looking for an Applied Scientist to own how we measure, understand, and improve the accuracy of our AI agent. This role sits at the intersection of applied ML, evaluation science, and product. You’ll define what “good” looks like for our agent, build the systems to measure it, and lead the science work to improve it"
+    },
+    {
+      "title": "Senior Data Scientist - Experimentation Platform - Amsterdam, Nederland - Adyen",
+      "url": "https://nl.engineering.jobs/nl/vacature/senior-data-scientist-experimentation-platform-7939111",
+      "published": "2026-06-03T00:00:00.000Z",
+      "snippet": "Senior Data Scientist - Experimentation Platform - Amsterdam, Nederland - Adyen Skip to main content  ## Senior Data Scientist - Experimentation Platform  **This is Adyen**  Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H\\&M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition.  For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motiv"
+    },
+    {
+      "title": "Senior Data Scientist | Hirequorum",
+      "url": "https://hirequorum.liveblog365.com/job/senior-data-scientist-5",
+      "published": "2026-06-07T00:00:00.000Z",
+      "snippet": "Senior Data Scientist | Hirequorum  Hirequorum.← All Jobs  # Senior Data Scientist  Posted Jun 3, 2026  ### The opportunity  Unity’s Ads Experimentation Platform team is looking for a Staff Data Scientist to lead the evolution of how we validate and optimize our global advertising ecosystem. At Unity, our ads reach billions of devices, and the ability to rapidly iterate on machine learning models or ads delivery pipelines is critical to our growth.  In this role, you will be the technical authority for our experimentation and evaluation roadmap. You will bridge the gap between advanced statist"
+    },
+    {
+      "title": "Staff Data Scientist- Search Optimization | Airbnb | Remote (United States) | Hirequorum",
+      "url": "https://hirequorum.liveblog365.com/job/staff-data-scientist-search-optimization-airbnb-remote-united-states",
+      "published": "2026-06-07T00:00:00.000Z",
+      "snippet": "Staff Data Scientist- Search Optimization | Airbnb | Remote (United States) | Hirequorum  Hirequorum.← All Jobs  # Staff Data Scientist- Search Optimization | Airbnb | Remote (United States)  Posted Jun 7, 2026  Airbnb was born in 2007 when two Hosts welcomed three guests to their San Francisco home, and has since grown to over 4 million Hosts who have welcomed more than 1 billion guest arrivals in almost every country across the globe. Every day, Hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.  The Community You Wi"
+    },
+    {
+      "title": "Resume · Yacine Alami",
+      "url": "https://www.yacinealami.eu/resume/",
       "published": "2026-05-30T00:00:00.000Z",
-      "snippet": "Jane Technologies - Senior Software Engineer, Ads (Remote)  ## Senior Software Engineer, Ads (Remote)  Santa Cruz, California  Engineering /  Full-time /  Remote  apply for this job  Company Overview:  Jane Technologies is an MIT-founded eCommerce company in the cannabis industry experiencing rapid growth. We believe in cannabis's ability to bring well-being, health, and love to the world, and our mission is to bring confidence to the online cannabis shopping experience. Our platform connects consumers with local dispensaries and brands, creating a seamless shopping experience and delivering i"
+      "snippet": "Resume · Yacine Alami  ## Work Experience  ### Staff Software Engineer  Sundogs, Remote | Feb 2026 – Present  - Architected a distributed video-processing and ML inference platform on Ray/KubeRay and GKE, designing for production fault tolerance: idempotent task retries and head-node isolation over blunt autoscaler pinning. - Drove the migration from a Flask monolith to a FastAPI service architecture using domain-driven design, vertical feature slices, and hexagonal ports (Python Protocol, composition-root DI). - Owned the infrastructure and observability foundation: OpenTofu/Terraform IaC on "
     },
     {
-      "title": "Jobgether - Staff Data Scientist - Quora",
-      "url": "https://jobs.lever.co/jobgether/e6d1152a-b062-413c-a193-489a8aec350b",
-      "published": "2026-06-05T09:14:20.786Z",
-      "snippet": "Jobgether - Staff Data Scientist - Quora  ## Staff Data Scientist - Quora  Canada  Security & IT – IT /  Full-time /  Remote  apply for this job  This position is posted by Jobgether on behalf of a partner company. We are currently looking for a Staff Data Scientist - Quora in Canada.  This role sits at the core of a highly data-driven product organization focused on large-scale knowledge sharing and AI-powered experiences. You will own high-impact, ambiguous problem spaces that shape product direction, user growth, and long-term strategy across a global platform. Working in a remote-first and"
+      "title": "Senior Data Scientist - Marketplace - Amsterdam, Nederland - Booking.com",
+      "url": "https://nl.engineering.jobs/nl/vacature/senior-data-scientist-marketplace-7939110",
+      "published": "2026-06-04T00:00:00.000Z",
+      "snippet": "Senior Data Scientist - Marketplace - Amsterdam, Nederland - Booking.com Skip to main content  ## Senior Data Scientist - Marketplace  **About Us:** At Booking.com, data drives our decisions. Technology is at our core. And innovation is everywhere. But our company is more than datasets, lines of code or A/B tests. We're the thrill of the first night in a new place. The excitement of the next morning. The friends you encounter. The journeys you take. The sights you see. And the memories you make. Through our products, partners and people, we make it easier for everyone to experience the world. "
     },
     {
-      "title": "How to Tailor Your Resume to a Job Description | Himalayas",
-      "url": "https://himalayas.app/advice/tailor-resume-to-job-description",
+      "title": "Senior Data Scientist - Shopping Experience (Search) | Hirequorum",
+      "url": "https://hirequorum.liveblog365.com/job/senior-data-scientist-shopping-experience-search-2",
+      "published": "2026-06-07T00:00:00.000Z",
+      "snippet": "Senior Data Scientist - Shopping Experience (Search) | Hirequorum  Hirequorum.← All Jobs  # Senior Data Scientist - Shopping Experience (Search)  Posted Jun 3, 2026  ### We're transforming the grocery industry  At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their"
+    },
+    {
+      "title": "Senior Applied Scientist | Microsoft AI",
+      "url": "https://microsoft.ai/job/senior-applied-scientist-76/",
+      "published": "2026-05-14T00:00:00.000Z",
+      "snippet": "Senior Applied Scientist | Microsoft AI  ### Explore  Off  ### Latest  ### MAI-Image-2-Efficient: Flagship Quality, 41% Lower Cost  Sunnyvale, United States  # Senior Applied Scientist  Location Sunnyvale, United States  Job Number 200025597-en-2  City Sunnyvale  Team Monetization  Country United States  Discipline Applied Sciences  Overview  Our team (Signals Modeling) builds the core intelligence that understands and predicts how users interact with ads – from the first impression through clicks, post-click engagement, and downstream business outcomes.  We design and train transformer-based "
+    },
+    {
+      "title": "Applied Research Scientist | Hirequorum",
+      "url": "https://hirequorum.liveblog365.com/job/applied-research-scientist",
+      "published": "2026-06-07T00:00:00.000Z",
+      "snippet": "Applied Research Scientist | Hirequorum  Hirequorum.← All Jobs  # Applied Research Scientist  Posted Jun 7, 2026  - Overview: - LSAC’s mission is to advance law and justice by promoting access, equity, and fairness in law school admission and supporting the learning journey from prelaw through practice.  ### Pay rate: $95,000 - $103,000, depending on experience  This position is fully remote.  As an LSAC Applied Research Scientist, you will be a key contributor to advancing LSAC’s mission by maintaining our commitment to rigorous, collaborative, practitioner-informed, and equity-minded researc"
+    },
+    {
+      "title": "Head of Data - Mintos",
+      "url": "https://mintos.teamtailor.com/jobs/7768393-head-of-data",
+      "published": "2026-05-20T00:00:00.000Z",
+      "snippet": "Head of Data - Mintos  ## This website uses cookies to ensure you get the best experience.  Mintos and our selected partners use cookies and similar technologies (together “cookies”) that are necessary to present this website, and to ensure you get the best experience of it. If you consent to it, we will also use cookies for analytics purposes.  See our Cookie Policy to read more about the cookies we set.  You can withdraw and manage your consent at any time, by clicking “Manage cookies” at the bottom of each website page.  Accept all cookies Decline all non-necessary cookies Cookie preference"
+    },
+    {
+      "title": "Thrilled to join Airwallex as Head of Strategic Data Science and AI.\n\nAirwallex has spent a decade building infrastructure that moves money internationally faster than Swift, at better rates than… | Firdevs Abacioglu",
+      "url": "https://www.linkedin.com/posts/firdevsabacioglu_thrilled-to-join-airwallex-as-head-of-strategic-activity-7461174569480056832-Dvyk",
+      "published": "2026-05-15T00:00:00.000Z",
+      "snippet": "Thrilled to join Airwallex as Head of Strategic Data Science and AI. Airwallex has spent a decade building infrastructure that moves money internationally faster than Swift, at better rates than… | Firdevs Abacioglu  Agree & Join LinkedIn  By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement, Privacy Policy, and Cookie Policy.  # Firdevs Abacioglu’s Post  Head of Data Science & AI @ Airwallex | ex-Meta  1w Edited  Thrilled to join Airwallex as Head of Strategic Data Science and AI. Airwallex has spent a decade building infrastructure that moves money internationally "
+    },
+    {
+      "title": "Conversion Rate Optimization Specialist, A/B Tester at KU Europe GmbH - Germany Remote",
+      "url": "https://www.remoterocketship.com/company/ku-europe-gmbh-de/jobs/conversion-rate-optimization-specialist-a-b-tester-germany-remote/",
+      "published": "2026-05-23T00:00:00.000Z",
+      "snippet": "Conversion Rate Optimization Specialist, A/B Tester at KU Europe GmbH - Germany Remote  ## KU Europe GmbH  11 - 50 employees  Founded 2016  💄 Beauty  🛍️ eCommerce  🛒 Retail  Beauty • eCommerce • Retail  KU Europe GmbH is a German cosmetics company operating the KU2 Cosmetics brand and an online shop (ku-europe. de) that sells a wide range of skincare, makeup and beauty devices. Its product lineup includes serums (hyaluronic acid, retinol, niacinamide, vitamin C), creams, sunscreens, makeup, LED masks, hair-removal devices and styling tools. The company emphasizes “made in Germany” manufacturin"
+    },
+    {
+      "title": "How Dr. Carla Gentry's Data Wisdom Transforms Factories, From Silicon Valley to the Fincas of Guatemala | DataGlobal Hub",
+      "url": "https://news.dataglobalhub.org/article/how-dr-carla-gentrys-data-wisdom-transforms-factories-from-silicon-valley-to-the-fincas-of-guatemala-mpv2bt2f",
       "published": "2026-06-01T00:00:00.000Z",
-      "snippet": "Resumes & Cover Letters  # How to Tailor Your Resume to a Job Description  Tailor your resume to a job description without keyword stuffing. Use this step-by-step workflow, examples, checklist, and AI prompt to make your experience match the role.  Tailoring your resume to a job description means matching your real experience to the role's most important requirements. You are not rewriting your entire career history, copying the job post, or adding skills you do not have. You are making the relevant parts of your background easier for a recruiter, hiring manager, and applicant tracking system "
+      "snippet": "How Dr. Carla Gentry's Data Wisdom Transforms Factories, From Silicon Valley to the Fincas of Guatemala | DataGlobal Hub  English  Politics Intel North America · Guatemala6 min read49.7k views  # How Dr. Carla Gentry's Data Wisdom Transforms Factories, From Silicon Valley to the Fincas of Guatemala  Meet Dr. Carla Gentry, the data scientist whose journey from a small-town upbringing to leading Analytical Solutionz is redefining manufacturing with AI. Her story is a testament to resilience, showing how deep human insight combined with machine learning can solve complex industrial challenges glo"
+    },
+    {
+      "title": "Senior Data Scientist – 6sense – Permanent contract in San Francisco",
+      "url": "https://www.welcometothejungle.com/en/companies/6sense/jobs/senior-data-scientist_san-francisco_j3e34eal",
+      "published": "2026-06-07T07:12:57.994Z",
+      "snippet": "Senior Data Scientist – 6sense – Permanent contract in San Francisco  ## Senior Data Scientist  Permanent contract  San Francisco  Salary: $162.9K to 239K  Experience: > 5 years  Save  yesterday  Share  Interested in this job?  Save  Questions and answers about the job  Does this position allow remote work?  What type of contract is offered for this position?  ### The position  #### Job description  - We’re looking for a Senior Data Scientist (IC4) to join our growing AI and Data Science team. This is an exciting opportunity for an experienced ML practitioner who enjoys building production-gra"
+    },
+    {
+      "title": "Staff Data Scientist - Quora (Remote)",
+      "url": "https://euremotejobs.com/job/staff-data-scientist-quora-remote/",
+      "published": "2026-06-04T00:00:00.000Z",
+      "snippet": "Staff Data Scientist - Quora (Remote)  ## Overview  [Quora is a privately held, “remote-first” company. This position can be performed remotely from multiple countries around the world. Please visit careers.quora.com/eligible-countries for details regarding employment eligibility by country.]  ## About Quora:  Quora’s mission is to grow the world’s collective intelligence. To do so, we have two platforms:  Quora: a global knowledge sharing platform with over 300M monthly unique visitors, bringing people together to share insights on various topics and providing a unique platform to learn and c"
+    },
+    {
+      "title": "Senior Data Analyst, Specialty Care",
+      "url": "https://euremotejobs.com/job/senior-data-analyst-specialty-care/",
+      "published": "2026-05-29T00:00:00.000Z",
+      "snippet": "Senior Data Analyst, Specialty Care  ## Overview  ## Our mission: to eliminate every barrier to mental health.  At Spring Health, we’re on a mission to revolutionize mental healthcare by removing every barrier that prevents people from getting the help they need, when they need it. Our clinically validated technology, Precision Mental Healthcare, empowers us to deliver the right care at the right time—whether it’s therapy, coaching, medication, or beyond—tailored to each individual’s needs.  We proudly partner with over 450 companies, from startups to multinational Fortune 500 corporations, as"
     }
   ]
 }
