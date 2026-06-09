@@ -1,8 +1,8 @@
 {
-  "fetched_at": "2026-06-09T07:13:01.503877",
+  "fetched_at": "2026-06-09T07:45:42.702580",
   "date": "2026-06-09",
-  "total_new": 32,
-  "pre_filtered": 92,
+  "total_new": 48,
+  "pre_filtered": 101,
   "results": [
     {
       "title": "@xiuqitan – Senior Full Stack Developer | Web3 & AI Engineer in Singapore | Remote, Part-time, Full-time | CryptoJobsList",
@@ -125,6 +125,12 @@
       "snippet": "Staff Data Scientist- Search Optimization | Airbnb | Remote (United States) | Hirequorum  Hirequorum.← All Jobs  # Staff Data Scientist- Search Optimization | Airbnb | Remote (United States)  Posted Jun 7, 2026  Airbnb was born in 2007 when two Hosts welcomed three guests to their San Francisco home, and has since grown to over 4 million Hosts who have welcomed more than 1 billion guest arrivals in almost every country across the globe. Every day, Hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.  The Community You Wi"
     },
     {
+      "title": "Senior Machine Learning Engineer / Data Scientist",
+      "url": "https://euremotejobs.com/job/senior-machine-learning-engineer-data-scientist-2/",
+      "published": "2026-06-08T00:00:00.000Z",
+      "snippet": "Senior Machine Learning Engineer / Data Scientist  ## Overview  Bloomreach is building the world’s premier agentic platform for personalization.We’re revolutionizing how businesses connect with their customers, building and deploying AI agents to personalize the entire customer journey.  - We’re taking autonomous search mainstream, making product discovery more intuitive and conversational for customers, and more profitable for businesses. - We’re making conversational shopping a reality, connecting every shopper with tailored guidance and product expertise — available on demand, at every touc"
+    },
+    {
       "title": "Resume · Yacine Alami",
       "url": "https://www.yacinealami.eu/resume/",
       "published": "2026-05-30T00:00:00.000Z",
@@ -179,10 +185,10 @@
       "snippet": "How Dr. Carla Gentry's Data Wisdom Transforms Factories, From Silicon Valley to the Fincas of Guatemala | DataGlobal Hub  English  Politics Intel North America · Guatemala6 min read49.7k views  # How Dr. Carla Gentry's Data Wisdom Transforms Factories, From Silicon Valley to the Fincas of Guatemala  Meet Dr. Carla Gentry, the data scientist whose journey from a small-town upbringing to leading Analytical Solutionz is redefining manufacturing with AI. Her story is a testament to resilience, showing how deep human insight combined with machine learning can solve complex industrial challenges glo"
     },
     {
-      "title": "Senior Data Scientist – 6sense – Permanent contract in San Francisco",
-      "url": "https://www.welcometothejungle.com/en/companies/6sense/jobs/senior-data-scientist_san-francisco_j3e34eal",
-      "published": "2026-06-07T07:12:57.994Z",
-      "snippet": "Senior Data Scientist – 6sense – Permanent contract in San Francisco  ## Senior Data Scientist  Permanent contract  San Francisco  Salary: $162.9K to 239K  Experience: > 5 years  Save  yesterday  Share  Interested in this job?  Save  Questions and answers about the job  Does this position allow remote work?  What type of contract is offered for this position?  ### The position  #### Job description  - We’re looking for a Senior Data Scientist (IC4) to join our growing AI and Data Science team. This is an exciting opportunity for an experienced ML practitioner who enjoys building production-gra"
+      "title": "Senior Data Scientist (Fraud) – Robinhood – Permanent contract in Menlo Park, CA",
+      "url": "https://www.welcometothejungle.com/en/companies/robinhood/jobs/senior-data-scientist-fraud_menlo-park-ca_ecztmr27",
+      "published": "2026-05-13T00:00:00.000Z",
+      "snippet": "Senior Data Scientist (Fraud) – Robinhood – Permanent contract in Menlo Park, CA  ## Senior Data Scientist (Fraud)  Permanent contract  Menlo Park, CA  Occasional remote  Salary: $187K to 220K  Experience: > 5 years  Save  25 days ago  Share  Interested in this job?  Save  Questions and answers about the job  Does this position allow remote work?  What type of contract is offered for this position?  ### The position  #### Job description  - The Fraud Data Science team safeguards Robinhood and its customers by detecting and preventing fraud and abuse across our platform - We leverage machine le"
     },
     {
       "title": "Staff Data Scientist - Quora (Remote)",
@@ -195,6 +201,96 @@
       "url": "https://euremotejobs.com/job/senior-data-analyst-specialty-care/",
       "published": "2026-05-29T00:00:00.000Z",
       "snippet": "Senior Data Analyst, Specialty Care  ## Overview  ## Our mission: to eliminate every barrier to mental health.  At Spring Health, we’re on a mission to revolutionize mental healthcare by removing every barrier that prevents people from getting the help they need, when they need it. Our clinically validated technology, Precision Mental Healthcare, empowers us to deliver the right care at the right time—whether it’s therapy, coaching, medication, or beyond—tailored to each individual’s needs.  We proudly partner with over 450 companies, from startups to multinational Fortune 500 corporations, as"
+    },
+    {
+      "title": "Fullstack Engineer SR | Product & AI-Driven (NW - FS - 20260520) - Celara | Built In",
+      "url": "https://builtin.com/job/fullstack-engineer-sr-product-ai-driven-nw-fs-20260520/9436502",
+      "published": "2026-05-20T00:00:00.000Z",
+      "snippet": "Fullstack Engineer SR | Product & AI-Driven (NW - FS - 20260520) - Celara | Built In  ## Celara  # Fullstack Engineer SR | Product & AI-Driven (NW - FS - 20260520)  Posted 9 Days Ago  Hiring Remotely in USA  Remote  Senior level  Information Technology • Software  The Role  The position involves designing and maintaining web applications with a focus on UI and UX, collaborating with teams, and utilizing AI tools for efficiency.  Summary Generated by Built In  We are looking for a strong Frontend Engineer (with solid Backend capabilities as a huge plus) who is passionate about building great pr"
+    },
+    {
+      "title": "CarGurus' Engineering Team Culture: Building AI Products and Growing Careers | Built In",
+      "url": "https://builtin.com/articles/what-its-work-cargurus-engineering-team-and-build-ai-powered-products",
+      "published": "2026-05-12T00:00:00.000Z",
+      "snippet": "CarGurus' Engineering Team Culture: Building AI Products and Growing Careers | Built In  Photo: Krista Photography  REVIEWED BY  Summary: CarGurus’ engineering team is using AI to build products that improve the car-buying experience for both shoppers and dealers, while giving engineers room to experiment, learn and influence how AI is adopted. The company’s engineering culture emphasizes collaboration, ownership, a low-ego mindset and dedicated time for skill-building, helping engineers grow... more CarGurus’ engineering team is using AI to build products that improve the car-buying experienc"
+    },
+    {
+      "title": "AI-Generated Code Is Creating a New Kind of Safety Risk | Built In",
+      "url": "https://builtin.com/articles/ai-chernobyl-moment",
+      "published": "2026-06-02T00:00:00.000Z",
+      "snippet": "AI-Generated Code Is Creating a New Kind of Safety Risk | Built In  Image: Shutterstock / Built In  REVIEWED BY  Summary: Vibe coding practices create a dangerous perception gap. A METR study found developers using AI tools felt 24 percent faster but were actually 19 percent slower. This false confidence leads to skipped reviews and a loss of mental ownership over complex, unread architectures. more Vibe coding practices create a dangerous perception gap. A METR study found developers using AI tools felt 24 percent faster but were actually 19 percent slower. This false confidence leads to skip"
+    },
+    {
+      "title": "OpenClaw Explained: How the Open-Source AI Agent Works | Built In",
+      "url": "https://builtin.com/articles/what-is-openclaw",
+      "published": "2026-05-26T00:00:00.000Z",
+      "snippet": "OpenClaw Explained: How the Open-Source AI Agent Works | Built In  Image: Shutterstock  REVIEWED BY  Summary: OpenClaw is an AI agent that runs directly on a user’s computer, allowing it to perform a range of tasks for personal and professional purposes. But this kind of access doesn’t come without risks. Here’s what to know about this popular yet controversial platform. more OpenClaw is an AI agent that runs directly on a user’s computer, allowing it to perform a range of tasks for personal and professional purposes. But this kind of access doesn’t come without risks. Here’s what to know abou"
+    },
+    {
+      "title": "What's It Like to Work at Quillbot 2026? | Built In",
+      "url": "https://builtin.com/company/quillbot/faq/workplace-perception",
+      "published": "2026-05-20T00:00:00.000Z",
+      "snippet": "What's It Like to Work at Quillbot 2026? | Built In  ## Quillbot  Save Saved  HQ  Chicago  Total Offices: 4  232 Total Employees  Year Founded: 2017  We're Hiring!  Company Insights  # What's It Like to Work at Quillbot?  Updated on May 20, 2026  ## Frequently Asked Questions  ## What reputation does QuillBot have as a place to work?  General Market Perception  Quillbot tends to attract people who want meaningful ownership and the flexibility of a remote-first environment. The culture is collaborative, low-ego, and fast-moving, with a strong emphasis on autonomy and accountability. For people "
+    },
+    {
+      "title": "Oura Ring: Features, Generations and How It Works | Built In",
+      "url": "https://builtin.com/articles/oura-ring",
+      "published": "2026-06-05T00:00:00.000Z",
+      "snippet": "Oura Ring: Features, Generations and How It Works | Built In  Image: Erman Gunes / Shutterstock  REVIEWED BY  Summary: Oura Rings are screenless smart devices users wear on their fingers. Through advanced sensors and artificial intelligence, they collect and analyze health data to provide personalized insights. Learn more about their use cases, distinctions between different generations and some risks to consider. more Oura Rings are screenless smart devices users wear on their fingers. Through advanced sensors and artificial intelligence, they collect and analyze health data to provide person"
+    },
+    {
+      "title": "What SpaceX’s IPO Signals for the Future of Work | Built In",
+      "url": "https://builtin.com/articles/spacex-ipo-analysis",
+      "published": "2026-05-27T00:00:00.000Z",
+      "snippet": "What SpaceX’s IPO Signals for the Future of Work | Built In  Image: Shutterstock / Built In  REVIEWED BY  Summary: SpaceX’s IPO registration signals a major shift from digital platforms to physical-infrastructure technology, prioritizing energy, manufacturing and compute power. While framing AI as a foundational substrate that augments productivity, the filing emphasizes that humans remain the system’s essential operators. more SpaceX’s IPO registration signals a major shift from digital platforms to physical-infrastructure technology, prioritizing energy, manufacturing and compute power. Whil"
+    },
+    {
+      "title": "LeetCode Is Dying, But What Will Come Next? | Built In",
+      "url": "https://builtin.com/articles/leetcode-replacement",
+      "published": "2026-05-27T00:00:00.000Z",
+      "snippet": "LeetCode Is Dying, But What Will Come Next? | Built In  Image: Shutterstock / Built In  REVIEWED BY  Summary: An engineer who bypassed traditional tech interviews using ChatGPT has developed an alternative: an AI-proof job simulation. Supported by coding interview expert NeetCode, the format tests real-world skills like debugging and AI proficiency, and is already gaining traction at companies like Rivian. more An engineer who bypassed traditional tech interviews using ChatGPT has developed an alternative: an AI-proof job simulation. Supported by coding interview expert NeetCode, the format te"
+    },
+    {
+      "title": "What's It Like to Work at Purchasing Platform 2026? | Built In",
+      "url": "https://builtin.com/company/purchasing-platform/faq/workplace-perception",
+      "published": "2026-06-04T00:00:00.000Z",
+      "snippet": "What's It Like to Work at Purchasing Platform 2026? | Built In  ## Purchasing Platform  Save Saved  HQ  Chicago  30 Total Employees  12 Product + Tech Employees  Year Founded: 2012  We're Hiring!  Data & Analytics 1 Engineering 1  Company Insights  # What's It Like to Work at Purchasing Platform?  Updated on June 04, 2026  ## Frequently Asked Questions  ## What practices at Purchasing Platform support employee job satisfaction?  Job Satisfaction  Purchasing Platform supports employee job satisfaction through a combination of flexibility, professional growth opportunities, meaningful work, and "
+    },
+    {
+      "title": "The Next Breakout Tech Role Is Built to Tackle an $8 Trillion Problem | Built In",
+      "url": "https://builtin.com/articles/technology-economist",
+      "published": "2026-05-26T00:00:00.000Z",
+      "snippet": "The Next Breakout Tech Role Is Built to Tackle an $8 Trillion Problem | Built In  Image: Shutterstock / Built In  REVIEWED BY  Summary: With global tech spending approaching $10 trillion, companies face a skills gap in connecting financial and technical domains. This has driven the rise of the technology economist, a role that bridges finance and tech to evaluate investments, forecast impact and optimize spending for value. more With global tech spending approaching $10 trillion, companies face a skills gap in connecting financial and technical domains. This has driven the rise of the technolo"
+    },
+    {
+      "title": "Leadership at ePayPolicy: How Are the Managers at ePayPolicy? 2026 | Built In",
+      "url": "https://builtin.com/company/epaypolicy/faq/leadership-management",
+      "published": "2026-05-18T00:00:00.000Z",
+      "snippet": "Leadership at ePayPolicy: How Are the Managers at ePayPolicy? 2026 | Built In  ## ePayPolicy  Save Saved  HQ  Austin  155 Total Employees  49 Product + Tech Employees  Year Founded: 2014  We're Hiring!  Sales 3 Engineering 1 Product Management 1  Company Insights  # ePayPolicy Leadership & Management  Updated on May 21, 2026  ## Frequently Asked Questions  ## How do managers at ePayPolicy lead and support employees in their work?  Management Quality  At ePayPolicy, leadership isn't practiced from an ivory tower or hidden behind layers of corporate bureaucracy. Because we are scaling through an"
+    },
+    {
+      "title": "Purchasing Platform Company Growth, Stability & Outlook 2026 | Built In",
+      "url": "https://builtin.com/company/purchasing-platform/faq/stability-growth",
+      "published": "2026-06-04T00:00:00.000Z",
+      "snippet": "Purchasing Platform Company Growth, Stability & Outlook 2026 | Built In  ## Purchasing Platform  Save Saved  HQ  Chicago  30 Total Employees  12 Product + Tech Employees  Year Founded: 2012  We're Hiring!  Data & Analytics 1 Engineering 1  Company Insights  # Purchasing Platform Company Growth, Stability & Outlook  Updated on June 04, 2026  ## Frequently Asked Questions  ## What indicators show Purchasing Platform’s financial stability?  Financial Health  Purchasing Platform's stability is reflected in its continued focus on delivering value for our customers, vendors and our organization unde"
+    },
+    {
+      "title": "What's It Like to Work at Federal Reserve Bank of Chicago 2026? | Built In",
+      "url": "https://builtin.com/company/federal-reserve-bank-chicago/faq/workplace-perception",
+      "published": "2026-06-02T00:00:00.000Z",
+      "snippet": "What's It Like to Work at Federal Reserve Bank of Chicago 2026? | Built In  ## Federal Reserve Bank of Chicago  Save Saved  HQ  Chicago  Total Offices: 2  1,515 Total Employees  Year Founded: 1914  Company Insights  # What's It Like to Work at Federal Reserve Bank of Chicago?  Updated on June 04, 2026  ## Frequently Asked Questions  ## What practices at Federal Reserve Bank of Chicago support employee job satisfaction?  Job Satisfaction  Federal Reserve Bank of Chicago supports employee job satisfaction by offering meaningful work tied to its public-service mission, along with opportunities fo"
+    },
+    {
+      "title": "Leadership at Purchasing Platform: How Are the Managers at Purchasing Platform? 2026 | Built In",
+      "url": "https://builtin.com/company/purchasing-platform/faq/leadership-management",
+      "published": "2026-06-04T00:00:00.000Z",
+      "snippet": "Leadership at Purchasing Platform: How Are the Managers at Purchasing Platform? 2026 | Built In  ## Purchasing Platform  Save Saved  HQ  Chicago  30 Total Employees  12 Product + Tech Employees  Year Founded: 2012  We're Hiring!  Data & Analytics 1 Engineering 1  Company Insights  # Purchasing Platform Leadership & Management  Updated on June 04, 2026  ## Frequently Asked Questions  ## How do managers at Purchasing Platform lead and support employees in their work?  Management Quality  Managers at Purchasing Platform are focused on creating clarity, removing obstacles, and helping employees su"
+    },
+    {
+      "title": "Federal Reserve Bank of Chicago Career Growth & Development 2026 | Built In",
+      "url": "https://builtin.com/company/federal-reserve-bank-chicago/faq/career-growth-development",
+      "published": "2026-06-02T00:00:00.000Z",
+      "snippet": "Federal Reserve Bank of Chicago Career Growth & Development 2026 | Built In  ## Federal Reserve Bank of Chicago  Save Saved  HQ  Chicago  Total Offices: 2  1,515 Total Employees  Year Founded: 1914  Company Insights  # Federal Reserve Bank of Chicago Career Growth & Development  Updated on June 04, 2026  ## Frequently Asked Questions  ## What are the career growth opportunities like at Federal Reserve Bank of Chicago?  Career Progression Paths  Career growth at Federal Reserve Bank of Chicago is built around continuous learning, varied assignments, cross-functional exposure, career development"
     }
   ]
 }
