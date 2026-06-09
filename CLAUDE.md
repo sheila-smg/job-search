@@ -28,6 +28,18 @@ Examples of what to KEEP in crypto:
 - Data Scientist at a crypto exchange doing pricing/experimentation
 - ML Engineer at a blockchain company doing fraud/anomaly detection
 
+### Quantitative risk roles
+"Quantitative risk" job titles (Risk Manager, Quantitative Financial Risk, Risk Analyst) require reading the actual responsibilities before scoring.
+
+**KEEP** if the core work is ML/DS modeling: credit scoring models, default/LGD/PD prediction, risk forecasting, loss models, anomaly detection — these are data science roles with a risk domain.
+
+**DISCARD (wrong role type)** if the core work is: stress testing, scenario analysis, portfolio margin analysis, risk tooling/reporting infrastructure, or the posting explicitly requires domain-specific quant finance experience (VaR, FRTB, Basel, financial risk frameworks). These are quantitative finance / risk management roles, not DS/ML.
+
+Examples:
+- "Build credit default prediction models using XGBoost" → KEEP
+- "Execute portfolio margin stress tests and scenario analysis under tight timelines" → DISCARD
+- "Develop and maintain quantitative analysis tools for credit, market, and liquidity risk" → DISCARD
+
 ### UK Remote rule
 Treat "United Kingdom Remote" / "UK Remote" exactly like "US Remote": **DISCARD by default**. Exception: **KEEP** if the posting explicitly mentions visa sponsorship (e.g. "UK Skilled Worker Visa Sponsor"), contractor/freelance open to international, or remote-from-EU acceptable.
 
