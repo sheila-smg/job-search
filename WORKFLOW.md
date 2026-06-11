@@ -12,8 +12,8 @@ Every morning an automated pipeline searches the internet for relevant job posti
 flowchart TD
     subgraph GHA["⏰ 04:45 UTC — GitHub Actions"]
         direction TB
-        Q["44 search queries\n(Exa.ai neural search)"]
-        BOARDS["remoterocketship · welcometothejungle · wellfound\nhimalayas · sailonchain · euremotejobs\ngreenhouse · lever · cryptocareers.cv"]
+        Q["56 search queries\n(Exa.ai neural search)"]
+        BOARDS["remoterocketship · welcometothejungle · wellfound\nhimalayas · sailonchain · euremotejobs · builtin\ngreenhouse · lever · ashby · cryptocareers.cv\nweworkremotely · remoteok · remotive · smartrecruiters"]
         Q & BOARDS --> EXA["🔍 Exa.ai"]
         EXA --> DEDUP{{"seen.json\n90-day dedup window"}}
         DEDUP -->|new URLs only| FILES["compact_jobs.json\njobs_raw.json"]
@@ -88,7 +88,7 @@ flowchart TD
 
 ## Component 1 — Search (job_finder.py + GitHub Actions)
 
-**What it does:** Queries Exa.ai's neural search with 44 queries total, collects raw results, deduplicates against seen.json, and writes two files.
+**What it does:** Queries Exa.ai's neural search with 56 queries total (40 general + 16 board-targeted, 20 results each — widened 2026-06-11), collects raw results, deduplicates against seen.json, and writes two files.
 
 **Query types:**
 

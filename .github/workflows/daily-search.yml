@@ -50,7 +50,7 @@ jobs:
               re.IGNORECASE,
           )
           NOT_JOB = re.compile(
-              r"github\.com/[^/]+/[^/]+$|linkedin\.com/in/|"
+              r"github\.com/[^/]+/[^/]+$|linkedin\.com/in/|linkedin\.com/posts/|"
               # Articles and news sites
               r"medium\.com|substack\.com|freecodecamp\.org|"
               r"gritdaily\.com|cointrenches\.io|theamericanreporter\.com|"
@@ -58,10 +58,16 @@ jobs:
               r"reinsurancene\.ws|crypto-economy\.com|cryptobriefing\.com|"
               r"crypto\.news/[^/]+-[^/]+-[^/]+|techtimes\.com|ibtimes\.|"
               r"jimmyalfonsolicon\.substack|"
+              # Built In is a job board, but its articles/company-FAQ pages are not jobs
+              r"builtin\.com/articles/|builtin\.com/company/|"
+              # Other recurring non-posting noise
+              r"\.ghost\.io|tatum\.io/blog|awebanalysis\.com|taodaily\.io|"
+              r"cryptogrind\.com|voyagela\.com|dataglobalhub\.org|gamblingnews\.com|"
               # Personal profiles and CVs
               r"finextra\.com/bloggers|leaddev\.com/community|"
               r"infoworld\.com/profile|prepfully\.com/coaches|"
-              r"jobicy\.com/cv/|mhausenblas\.info",
+              r"jobicy\.com/cv/|mhausenblas\.info|"
+              r"cryptojobslist\.com/@|remoteai\.io/v2/hire/",
               re.IGNORECASE,
           )
 

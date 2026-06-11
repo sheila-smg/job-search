@@ -22,7 +22,7 @@ from datetime import datetime, timedelta
 EXA_API_KEY = os.environ.get("EXA_API_KEY", "5d962423-d391-4609-9b39-ed8787503b5d")
 
 DAYS_BACK = 30
-RESULTS_PER_QUERY = 15
+RESULTS_PER_QUERY = 20
 OUTPUT_FILE = "jobs_raw.json"
 APPLIED_FILE = "applied.json"
 APPLIED_EXPIRY_DAYS = 30
@@ -56,6 +56,16 @@ EXCLUDE_DOMAINS = [
     "wfhverse.talk4fun.net",
     "zenvok.web1337.net",
     "remotehey.com",
+    # Not job boards — articles, news, profiles (recurring noise in results)
+    "linkedin.com",          # /posts/ and /in/ noise; real LinkedIn jobs are login-walled
+    "remoteai.io",           # freelancer "hire me" profiles, not postings
+    "awebanalysis.com",      # prediction-market data pages
+    "taodaily.io",           # crypto news
+    "news.cryptogrind.com",  # crypto news
+    "voyagela.com",          # interview articles
+    "news.dataglobalhub.org",
+    "gamblingnews.com",
+    "betby.ghost.io",
 ]
 
 SEARCH_QUERIES = [
@@ -96,6 +106,18 @@ SEARCH_QUERIES = [
     "senior data scientist consumer app ML remote",
     "senior data scientist experimentation personalization remote europe",
     "founding data scientist ML remote",
+    # Wider EU/global remote net (added 2026-06-11)
+    "Senior Data Scientist remote work from anywhere worldwide",
+    "Staff Data Scientist remote Europe",
+    "Senior Machine Learning Engineer remote EMEA",
+    "Senior Data Scientist machine learning remote Spain",
+    "Lead Data Scientist probabilistic modeling forecasting remote",
+    # Domain-adjacent to risk/pricing expertise (added 2026-06-11)
+    "Senior Data Scientist time series forecasting demand prediction remote",
+    "Machine Learning Engineer anomaly detection fraud prevention remote Europe",
+    "Senior Data Scientist sports betting igaming odds modeling remote",
+    "Senior Data Scientist dynamic pricing optimization remote",
+    "Machine Learning Engineer payments fraud risk remote Europe",
 ]
 
 # Targeted searches restricted to specific job boards.
@@ -156,6 +178,25 @@ DOMAIN_QUERIES: list[tuple[str, list[str]]] = [
     (
         "senior data scientist pricing risk experimentation remote",
         ["builtin.com"],
+    ),
+    # Ashby — many startups moved here from Greenhouse/Lever (added 2026-06-11)
+    (
+        "senior data scientist machine learning remote",
+        ["jobs.ashbyhq.com"],
+    ),
+    (
+        "machine learning engineer risk pricing fraud remote",
+        ["jobs.ashbyhq.com"],
+    ),
+    # Established remote-only boards (added 2026-06-11)
+    (
+        "senior data scientist machine learning engineer remote",
+        ["weworkremotely.com", "remoteok.com", "remotive.com"],
+    ),
+    # SmartRecruiters — mid-size EU companies publish here (added 2026-06-11)
+    (
+        "senior data scientist machine learning remote",
+        ["jobs.smartrecruiters.com"],
     ),
 ]
 
