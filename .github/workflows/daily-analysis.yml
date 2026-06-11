@@ -1,0 +1,132 @@
+name: Daily Job Analysis
+
+# Runs the scoring/analysis agent right after the daily search finishes,
+# replacing the claude.ai cloud routine (CCR) that never ran reliably.
+# Requires repo secret CLAUDE_CODE_OAUTH_TOKEN (create with: claude setup-token).
+on:
+  workflow_run:
+    workflows: ["Daily Job Search"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write   # lets check_freshness.py re-trigger the search workflow if data is stale
+
+jobs:
+  analyze:
+    # On schedule-chained runs, only proceed if the search succeeded.
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Skip if analysis for today already exists
+        id: guard
+        run: |
+          TODAY=$(date -u +%Y-%m-%d)
+          if [ -f "analysis/analysis_${TODAY}.md" ]; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "analysis_${TODAY}.md already exists — nothing to do."
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run analysis agent
+        if: steps.guard.outputs.exists == 'false'
+        uses: anthropics/claude-code-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          claude_args: '--allowedTools "Bash,Read,Write,Edit,Glob,Grep" --model claude-sonnet-4-6'
+          prompt: |
+            You are a daily job search assistant for Sheila Muñoz Gallardo.
+
+            ## Step 0 — Ensure fresh data
+
+            Run `python3 check_freshness.py`. It verifies compact_jobs.json has
+            today's results and re-triggers the search workflow if stale (it can
+            use the GITHUB_TOKEN env var). It always exits successfully.
+
+            ## Step 1 — Read compact_jobs.json
+
+            Each entry has: title, url, published, snippet.
+            If `total_new` is 0: write a brief analysis/analysis_YYYY-MM-DD.md
+            noting that, then go straight to Step 4b.
+
+            ## Step 2 — Score each posting from the snippet
+
+            Read CLAUDE.md in the repo root first — it contains the candidate
+            profile refinements and overriding discard rules.
+
+            ### Candidate Profile — Sheila Muñoz Gallardo
+            - 7+ years ML, based in Spain, no US work visa
+            - Skills: Python, XGBoost, LightGBM, GAMs, scikit-learn, SHAP, SQL,
+              AWS/SageMaker, MLOps, probabilistic forecasting, A/B testing,
+              causal inference
+            - Recent: automated ML trading engine for Polymarket (prediction markets)
+            - Previous: Founding DS at Justos (insurtech) — end-to-end pricing &
+              risk ML, 16+ models
+            - Also: McKinsey (stochastic optimization), IBM (fraud detection)
+            - Education: MSc + PhD coursework in Mathematics
+            - NO LLM/NLP experience — open to learning if role otherwise fits
+            - Salary: 90K+ USD/year, fully remote global
+            - Roles: Senior Data Scientist / Applied Scientist / ML Engineer
+            - Open to ANY industry
+
+            ### Scoring
+            - match (0–10): skills vs hard requirements
+            - interest (0–10): technical challenge, production ML depth, IC
+              autonomy, team quality, novel methods. Industry irrelevant.
+            - combined = 0.55 × match + 0.45 × interest
+
+            ### DISCARD (combined = 0):
+            - Not a real job posting (article, profile, broken page)
+            - On-site or hybrid required
+            - Wrong role type: pure SWE, PM, designer, sales, pure data analyst
+              with no modeling, actuarial; even in crypto: quant trader, market
+              maker, AMM developer, protocol researcher
+            - Salary explicitly below 90K USD
+            - "US Remote" / US states — DISCARD unless explicit sponsorship,
+              contractor open to international
+            - "UK Remote" — same rule as US; read full content from
+              jobs_raw.json for any UK role before discarding
+            - Country-specific work authorization without sponsorship path
+
+            ### FLAG:
+            - LLM/NLP hard required
+            - Remote policy ambiguous (US/UK company, just says "Remote")
+
+            ## Step 3 — For jobs ≥ 7.0 (and US/UK borderline), read full content
+
+            Find the entry in jobs_raw.json by url and read its `content` field.
+
+            ## Step 4 — Write analysis/analysis_YYYY-MM-DD.md
+
+            Use the date from compact_jobs.json["date"]. Structure:
+            title + counts line; "Top Jobs (combined ≥ 6.0)" table
+            (Rank|Combined|Match|Interest|Role|Company|Sector|Remote|URL);
+            "Detailed Notes (combined ≥ 7.0)" per job (Why it fits / Gaps /
+            Key requirements / Remote policy / Verdict); "Flagged" table;
+            "Discarded" table (Title|Reason).
+
+            ## Step 4b — Commit and push the analysis
+
+            git config user.email "bot@job-finder"
+            git config user.name "Job Finder Bot"
+            git add analysis/ && git commit -m "Daily analysis $(date -u +%Y-%m-%d)"
+            git push origin main
+
+            ## Step 5 — Update seen.json, commit, push
+
+            Append ALL urls from compact_jobs.json to seen.json as
+            {"url": ..., "date": "YYYY-MM-DD"}; drop entries older than 90 days.
+            Commit ("Update seen.json YYYY-MM-DD") and push. If a push is
+            rejected, fetch + merge origin/main and push again. VERIFY at the
+            end that `git log origin/main..HEAD` is empty.
+
+            This analysis is the only document Sheila reads in the morning to
+            decide where to apply. Be thorough on the detailed notes.

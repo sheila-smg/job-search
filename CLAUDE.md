@@ -45,6 +45,9 @@ Treat "United Kingdom Remote" / "UK Remote" exactly like "US Remote": **DISCARD 
 
 Always read the full content from `jobs_raw.json` for UK-listed roles before discarding — sponsorship info is often only in the full text, not the snippet.
 
+### End-of-analysis push (MANDATORY)
+After writing the daily analysis you MUST, in this order: (1) update seen.json with ALL URLs from today's compact_jobs.json, (2) commit both files, (3) `git push` and **verify the push succeeded** (re-run `git status`/`git log origin/main..main` — it must show no unpushed commits). An unpushed seen.json silently breaks the next day's dedup and causes every posting to be re-analyzed. If the push fails (e.g. OneDrive briefly locks .git files), retry until it goes through.
+
 ### Interest score drivers (reminder)
 High interest: technically excellent team, IC depth, novel ML methods, production impact at scale, small fast team.
 Low interest: consulting/outsourcing firms, pure analytics without modeling, management-heavy roles.

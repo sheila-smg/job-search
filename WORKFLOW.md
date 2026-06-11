@@ -10,7 +10,7 @@ Every morning an automated pipeline searches the internet for relevant job posti
 
 ```mermaid
 flowchart TD
-    subgraph GHA["⏰ 05:55 UTC — GitHub Actions"]
+    subgraph GHA["⏰ 04:45 UTC — GitHub Actions"]
         direction TB
         Q["44 search queries\n(Exa.ai neural search)"]
         BOARDS["remoterocketship · welcometothejungle · wellfound\nhimalayas · sailonchain · euremotejobs\ngreenhouse · lever · cryptocareers.cv"]
@@ -60,7 +60,7 @@ flowchart TD
 ## Daily Timeline (UTC)
 
 ```
-05:55 UTC  ──► GH Actions: run job_finder.py
+04:45 UTC  ──► GH Actions: run job_finder.py
                │
                │  Sends ~31 queries to Exa.ai neural search
                │  + 13 targeted queries against specific boards
@@ -251,5 +251,20 @@ python job_finder.py --apply URL "Company" "Role"
 python job_finder.py --skip "Company Name"
 ```
 
-**View routine / manage schedule:**
-https://claude.ai/code/routines/trig_01Hyb7UqsT7HSngWuwh2Jhas
+**Run the analysis manually:** trigger "Daily Job Analysis" from the GitHub Actions tab (workflow_dispatch), or run a local Claude Code session in this repo.
+
+---
+
+## ⚠️ Architecture change 2026-06-11
+
+The 06:30 UTC claude.ai cloud routine (CCR) never ran reliably — every run hung
+at container provisioning, and the replacement routine was auto-disabled by the
+platform on 2026-06-10 (`config_rejected`). Both routines are disabled; see
+BUG_REPORT_DRAFT.md.
+
+The analysis step now runs as a second GitHub Actions workflow,
+`.github/workflows/daily-analysis.yml`, chained via `workflow_run` to run
+immediately after "Daily Job Search" completes. This also removes the
+search/analysis race that check_freshness.py existed to self-heal (it remains
+as a safety net). Requires the repo secret `CLAUDE_CODE_OAUTH_TOKEN`
+(generate with `claude setup-token`).

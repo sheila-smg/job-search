@@ -17,7 +17,10 @@ REPO = "sheila-smg/job-search"
 
 
 def get_token():
-    """Extract PAT from the git remote URL — already stored there securely."""
+    """GitHub token: env var first, then PAT embedded in the git remote URL."""
+    for var in ("GITHUB_TOKEN", "GH_TOKEN"):
+        if os.environ.get(var):
+            return os.environ[var]
     result = subprocess.run(
         ["git", "remote", "get-url", "origin"], capture_output=True, text=True
     )
@@ -42,12 +45,18 @@ def gh(path, method="GET", body=None, token=""):
         method=method,
         data=json.dumps(body).encode() if body else None,
     )
-    try:
-        with urllib.request.urlopen(req, timeout=30) as r:
-            body = r.read()
-            return json.loads(body) if body else None
-    except Exception as e:
-        raise RuntimeError(f"GitHub API call failed ({method} {path}): {e}")
+    last_err = None
+    for attempt in range(3):
+        if attempt:
+            time.sleep(10 * attempt)
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                resp = r.read()
+                return json.loads(resp) if resp else None
+        except Exception as e:
+            last_err = e
+            print(f"  (attempt {attempt + 1}/3 failed: {e})")
+    raise RuntimeError(f"GitHub API call failed ({method} {path}): {last_err}")
 
 
 def is_fresh():
@@ -95,18 +104,27 @@ def trigger_and_wait(token):
             print(f"Workflow finished: {run['conclusion']}")
             break
 
-    try:
-        result = subprocess.run(
-            ["git", "pull", "origin", "main"],
-            capture_output=True,
-            text=True,
-            timeout=60,
-            env={**os.environ, "GIT_TERMINAL_PROMPT": "0"},
-        )
-        print(result.stdout.strip() or result.stderr.strip())
-    except subprocess.TimeoutExpired:
-        print("WARNING: git pull timed out after 60s (likely waiting on a credential "
-              "prompt). Continuing with existing data.")
+    # Retry the pull: on Windows, OneDrive sync can briefly lock .git files
+    # (e.g. "could not open .git/FETCH_HEAD: Permission denied").
+    for attempt in range(3):
+        if attempt:
+            time.sleep(15)
+        try:
+            result = subprocess.run(
+                ["git", "pull", "--no-rebase", "origin", "main"],
+                capture_output=True,
+                text=True,
+                timeout=60,
+                env={**os.environ, "GIT_TERMINAL_PROMPT": "0"},
+            )
+            print(result.stdout.strip() or result.stderr.strip())
+            if result.returncode == 0:
+                return
+        except subprocess.TimeoutExpired:
+            print("WARNING: git pull timed out after 60s (likely waiting on a "
+                  "credential prompt).")
+    print("WARNING: git pull did not succeed after 3 attempts. "
+          "Continuing with existing data.")
 
 
 try:
