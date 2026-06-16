@@ -12,6 +12,7 @@ on:
 permissions:
   contents: write
   actions: write   # lets check_freshness.py re-trigger the search workflow if data is stale
+  id-token: write  # required by claude-code-action@v1 for OIDC token exchange
 
 jobs:
   analyze:
