@@ -47,6 +47,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           claude_args: '--allowedTools "Bash,Read,Write,Edit,Glob,Grep" --model claude-sonnet-4-6'
+          show_full_output: true   # TEMP diagnostic — revert after confirming auth
           prompt: |
             You are a daily job search assistant for Sheila Muñoz Gallardo.
 
