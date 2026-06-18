@@ -144,17 +144,21 @@ jobs:
 
       - name: Verify the analysis was actually produced
         # Turns a silently-failed agent (e.g. 401 Invalid bearer token, which
-        # the action records as is_error but still exits 0) into a red build.
+        # the action records as is_error: true but still exits 0) into a red
+        # build. NB: the action's `conclusion` output is empty in prompt mode,
+        # so we key off the execution log's is_error flag and the output file.
         if: steps.guard.outputs.exists == 'false'
         run: |
-          if [ "${{ steps.claude.outputs.conclusion }}" != "success" ]; then
-            echo "::error::Claude agent did not succeed (conclusion=${{ steps.claude.outputs.conclusion }}). Most likely the CLAUDE_CODE_OAUTH_TOKEN secret is expired/invalid — regenerate with 'claude setup-token' and update the repo secret."
+          LOG="${{ steps.claude.outputs.execution_file }}"
+          [ -n "$LOG" ] && [ -f "$LOG" ] || LOG=/home/runner/work/_temp/claude-execution-output.json
+          if [ -f "$LOG" ] && grep -q '"is_error": *true' "$LOG"; then
+            echo "::error::Claude agent reported is_error=true. If the log shows '401 Invalid bearer token' or an invalid auth header, regenerate CLAUDE_CODE_OAUTH_TOKEN via 'claude setup-token' and paste it into the repo secret as a single line with no trailing newline."
             exit 1
           fi
           git pull --no-rebase origin main || true
           DATE=$(python3 -c "import json;print(json.load(open('compact_jobs.json'))['date'])")
           if [ ! -f "analysis/analysis_${DATE}.md" ]; then
-            echo "::error::Agent reported success but analysis/analysis_${DATE}.md was not produced/pushed. Investigate the agent step log."
+            echo "::error::Agent finished without error but analysis/analysis_${DATE}.md was not produced/pushed. Investigate the agent step log."
             exit 1
           fi
           echo "OK: analysis/analysis_${DATE}.md is present."
