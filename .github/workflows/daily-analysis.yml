@@ -36,6 +36,7 @@ jobs:
           fi
 
       - name: Run analysis agent
+        id: claude
         if: steps.guard.outputs.exists == 'false'
         uses: anthropics/claude-code-action@v1
         env:
@@ -45,9 +46,13 @@ jobs:
           # exchanging the OIDC token for a Claude GitHub App token (the App is
           # not installed on this repo, which 401'd the App-token exchange).
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          # OAuth token from `claude setup-token`. NOTE: these tokens expire —
+          # if the agent step logs "401 Invalid bearer token", regenerate it and
+          # update the CLAUDE_CODE_OAUTH_TOKEN repo secret. The Verify step below
+          # turns such failures into a red build instead of a silent no-op.
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           claude_args: '--allowedTools "Bash,Read,Write,Edit,Glob,Grep" --model claude-sonnet-4-6'
-          show_full_output: true   # TEMP diagnostic — revert after confirming auth
+          show_full_output: true   # keep on: makes auth/agent failures debuggable in the run log
           prompt: |
             You are a daily job search assistant for Sheila Muñoz Gallardo.
 
@@ -136,3 +141,20 @@ jobs:
 
             This analysis is the only document Sheila reads in the morning to
             decide where to apply. Be thorough on the detailed notes.
+
+      - name: Verify the analysis was actually produced
+        # Turns a silently-failed agent (e.g. 401 Invalid bearer token, which
+        # the action records as is_error but still exits 0) into a red build.
+        if: steps.guard.outputs.exists == 'false'
+        run: |
+          if [ "${{ steps.claude.outputs.conclusion }}" != "success" ]; then
+            echo "::error::Claude agent did not succeed (conclusion=${{ steps.claude.outputs.conclusion }}). Most likely the CLAUDE_CODE_OAUTH_TOKEN secret is expired/invalid — regenerate with 'claude setup-token' and update the repo secret."
+            exit 1
+          fi
+          git pull --no-rebase origin main || true
+          DATE=$(python3 -c "import json;print(json.load(open('compact_jobs.json'))['date'])")
+          if [ ! -f "analysis/analysis_${DATE}.md" ]; then
+            echo "::error::Agent reported success but analysis/analysis_${DATE}.md was not produced/pushed. Investigate the agent step log."
+            exit 1
+          fi
+          echo "OK: analysis/analysis_${DATE}.md is present."
