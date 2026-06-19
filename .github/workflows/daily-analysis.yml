@@ -74,7 +74,8 @@ jobs:
             profile refinements and overriding discard rules.
 
             ### Candidate Profile — Sheila Muñoz Gallardo
-            - 7+ years ML, based in Spain, no US work visa
+            - 7+ years ML, EU resident (currently Spain) with full EU work
+              authorization, no US visa. OPEN TO RELOCATING TO PORTUGAL.
             - Skills: Python, XGBoost, LightGBM, GAMs, scikit-learn, SHAP, SQL,
               AWS/SageMaker, MLOps, probabilistic forecasting, A/B testing,
               causal inference
@@ -84,7 +85,12 @@ jobs:
             - Also: McKinsey (stochastic optimization), IBM (fraud detection)
             - Education: MSc + PhD coursework in Mathematics
             - NO LLM/NLP experience — open to learning if role otherwise fits
-            - Salary: 90K+ USD/year, fully remote global
+            - Salary floors (EUR, ~10% flexibility): employee/permanent 75K EUR,
+              freelance/contractor 90K EUR
+            - Location, ranked by preference: (1) fully remote global — ideal;
+              (2) EU remote / remote-from-EU — KEEP; (3) Portugal-based onsite,
+              hybrid or remote-from-PT (Lisbon/Porto incl.) — KEEP, but apply a
+              small interest penalty (~ -1) since it requires relocating
             - Roles: Senior Data Scientist / Applied Scientist / ML Engineer
             - Open to ANY industry
 
@@ -96,19 +102,32 @@ jobs:
 
             ### DISCARD (combined = 0):
             - Not a real job posting (article, profile, broken page)
-            - On-site or hybrid required
+            - On-site or hybrid required OUTSIDE Portugal (Portugal onsite/hybrid
+              is KEEP — see Location below)
             - Wrong role type: pure SWE, PM, designer, sales, pure data analyst
               with no modeling, actuarial; even in crypto: quant trader, market
               maker, AMM developer, protocol researcher
-            - Salary explicitly below 90K USD
+            - Salary clearly below the floor — employee <75K EUR or
+              freelance/contractor <90K EUR by more than ~10%. Within ~10% under
+              → FLAG not discard. Salary unstated → do NOT discard on salary.
+              Contract type unstated → assume employee (75K EUR).
             - "US Remote" / US states — DISCARD unless explicit sponsorship,
               contractor open to international
-            - "UK Remote" — same rule as US; read full content from
-              jobs_raw.json for any UK role before discarding
-            - Country-specific work authorization without sponsorship path
+            - "UK Remote" — same rule as US (UK is non-EU); read full content
+              from jobs_raw.json for any UK role before discarding
+            - Country-specific work authorization (outside EU/Portugal) without
+              sponsorship path
+
+            ### Location KEEP (additive — global remote is still ideal):
+            - Fully remote global → KEEP, no penalty
+            - EU remote / "Remote — Europe" / remote-from-EU → KEEP (she is
+              EU-based), little-to-no penalty
+            - Portugal onsite/hybrid/remote-from-PT → KEEP, small interest
+              penalty (~ -1) for relocation. Surface these as fallbacks.
 
             ### FLAG:
             - LLM/NLP hard required
+            - Salary within ~10% under the relevant floor
             - Remote policy ambiguous (US/UK company, just says "Remote")
 
             ## Step 3 — For jobs ≥ 7.0 (and US/UK borderline), read full content

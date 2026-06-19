@@ -49,6 +49,13 @@ jobs:
               r"office.{0,10}\d\s*days?",
               re.IGNORECASE,
           )
+          # Sheila is open to relocating to Portugal, so onsite/hybrid roles
+          # there must survive the blanket hybrid/onsite pre-filter and reach
+          # the scoring agent. (Lisbon/Porto/Lisboa included.)
+          PORTUGAL = re.compile(
+              r"\bportugal\b|\blisbon\b|\blisboa\b|\bporto\b|\balgarve\b",
+              re.IGNORECASE,
+          )
           NOT_JOB = re.compile(
               r"github\.com/[^/]+/[^/]+$|linkedin\.com/in/|linkedin\.com/posts/|"
               # Articles and news sites
@@ -83,7 +90,7 @@ jobs:
               if US_REMOTE.search(text):
                   pre_filtered.append((r["title"], "US remote"))
                   continue
-              if HYBRID.search(text):
+              if HYBRID.search(text) and not PORTUGAL.search(text):
                   pre_filtered.append((r["title"], "hybrid/onsite"))
                   continue
               filtered.append(r)
