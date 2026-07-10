@@ -1,104 +1,134 @@
 {
-  "fetched_at": "2026-07-09T07:03:37.996942",
-  "date": "2026-07-09",
-  "total_new": 16,
-  "pre_filtered": 593,
+  "fetched_at": "2026-07-10T07:03:07.986635",
+  "date": "2026-07-10",
+  "total_new": 21,
+  "pre_filtered": 589,
   "results": [
     {
-      "title": "Senior Data Scientist at Sardine · JobsRadar",
-      "url": "https://jobs-radar.com/job/senior-data-scientist-at-sardine-e9c2bc",
+      "title": "Senior Data Scientist  at Optimum · JobsRadar",
+      "url": "https://jobs-radar.com/job/senior-data-scientist-at-optimum-c5f343",
+      "published": "2026-06-30T00:00:00.000Z",
+      "snippet": "Senior Data Scientist at Optimum · JobsRadar  Jobs› Companies› Optimum› Senior Data Scientist  ## About this Senior Data Scientist role at Optimum  Optimum · 🌍 Worldwide remote · Remote  ### About Optimum  Optimum is building the world's first data acceleration network for any blockchain. Powered by Random Linear Network Coding (RLNC), Optimum scales network speed, robustness and throughput by orders of magnitude.  Co-founded by Muriel Médard, co-inventor of RLNC, and a team of industry experts, Optimum introduces a breakthrough in Web3 infrastructure. Our infrastructure enables high-speed dat"
+    },
+    {
+      "title": "Actuarial Sr Consultant, General Liability Pricing (Agribusiness &amp; E&amp;S) - REMOTE | Hirequill",
+      "url": "https://hirequill.liveblog365.com/job/actuarial-sr-consultant-general-liability-pricing-agribusiness-es-remote",
+      "published": "2026-07-09T00:00:00.000Z",
+      "snippet": "Actuarial Sr Consultant, General Liability Pricing (Agribusiness & E&S) - REMOTE | Hirequill  Hirequill.← All Jobs  # Actuarial Sr Consultant, General Liability Pricing (Agribusiness & E&S) - REMOTE  Posted Jul 8, 2026  As a team member in Finance at Nationwide, a Fortune 100 company with nearly $70 billion in annual sales, the opportunities are endless! Let Nationwide help create your career journey! At Nationwide®, “on your side” goes beyond just words. Our customers are at the center of everything we do and we’re looking for associates who are passionate about delivering extraordinary care."
+    },
+    {
+      "title": "Senior Data Scientist at MariaDB plc · JobsRadar",
+      "url": "https://jobs-radar.com/job/senior-data-scientist-at-mariadb-plc-63b496",
+      "published": "2026-06-24T00:00:00.000Z",
+      "snippet": "Senior Data Scientist at MariaDB plc · JobsRadar  Jobs› Companies› MariaDB plc› Senior Data Scientist  ## About this Senior Data Scientist role at MariaDB plc  MariaDB plc · Remote · Remote - India  MariaDB is making a big impact on the world. Whether you’re checking your bank account, buying a coffee, shopping online, making a phone call, listening to music, taking out a loan or ordering takeout – MariaDB is the backbone of applications used everyday. Companies small and large, including 75% of the Fortune 500, run MariaDB, touching the lives of billions of people. With massive reach through "
+    },
+    {
+      "title": "Senior Machine Learning Engineer - Sumsub",
+      "url": "https://careers.sumsub.com/jobs/8025885-senior-machine-learning-engineer",
+      "published": "2026-07-06T00:00:00.000Z",
+      "snippet": "Senior Machine Learning Engineer - Sumsub  ## This website uses cookies to ensure you get the best experience.  Sumsub and our selected partners use cookies and similar technologies (together “cookies”) that are necessary to present this website, and to ensure you get the best experience of it. If you consent to it, we will also use cookies for analytics purposes.  See our Cookie Policy to read more about the cookies we set.  You can withdraw and manage your consent at any time, by clicking “Manage cookies” at the bottom of each website page.  Accept all cookies Decline all non-necessary cooki"
+    },
+    {
+      "title": "Senior Data Scientist, Marketplace - Dataaxy Jobs",
+      "url": "https://www.dataaxy.com/jobs/job/senior-data-scientist-marketplace-lyft-8621789002",
+      "published": "2026-07-07T00:00:00.000Z",
+      "snippet": "Senior Data Scientist, Marketplace - Dataaxy Jobs  L  Lyft  # Senior Data Scientist, Marketplace  Data Science  Seattle, WA  At Lyft, our purpose is to serve and connect. We aim to achieve this by cultivating a work environment where all team members belong and have the opportunity to thrive.  Data Science is at the heart of Lyft's products and decision-making. As a member of the Science team, you will work in a dynamic environment, where we embrace moving quickly to build the world's best transportation. Data Scientists take on a variety of problems ranging from shaping critical business deci"
+    },
+    {
+      "title": "Staff Data Scientist - Long Term Impact - Dataaxy Jobs",
+      "url": "https://www.dataaxy.com/jobs/job/staff-data-scientist-long-term-impact-airbnb-8042680",
+      "published": "2026-07-03T00:00:00.000Z",
+      "snippet": "Staff Data Scientist - Long Term Impact - Dataaxy Jobs  Airbnb  # Staff Data Scientist - Long Term Impact  Data Science  Remote - USA  Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.  The Community You Will Join:  The mission of the Core Data Science team is to ensure that we are lever"
+    },
+    {
+      "title": "Lead Data Scientist, Causal Inference &amp; Clinical Outcomes Contractor (Remote) | Hirequill",
+      "url": "https://hirequill.liveblog365.com/job/lead-data-scientist-causal-inference-clinical-outcomes-contractor-remote",
+      "published": "2026-07-09T00:00:00.000Z",
+      "snippet": "Lead Data Scientist, Causal Inference & Clinical Outcomes Contractor (Remote) | Hirequill  Hirequill.← All Jobs  # Lead Data Scientist, Causal Inference & Clinical Outcomes Contractor (Remote)  Posted Jul 9, 2026  Lead Data Scientist, Causal Inference & Clinical Outcomes Contractor  ### Location: Remote  Job Type: Contract or Full-Time (Flexible) The project is estimated to run for 16 weeks, beginning May 7, 2026, and concluding around August 27, 2026.  Job Reports To: Director of Business Intelligence  ### Salary Range: Contract rate is $100 - $160/hour  ### About Jaan Health/Phamily  Jaan He"
+    },
+    {
+      "title": "AI Experimental Systems Research Scientist – Causal Learning, Adaptive Experimentation | Hirequill",
+      "url": "https://hirequill.liveblog365.com/job/ai-experimental-systems-research-scientist-causal-learning-adaptive-experimentation-2",
+      "published": "2026-07-09T00:00:00.000Z",
+      "snippet": "AI Experimental Systems Research Scientist – Causal Learning, Adaptive Experimentation | Hirequill  Hirequill.← All Jobs  # AI Experimental Systems Research Scientist – Causal Learning, Adaptive Experimentation  Posted Jul 6, 2026  - Job Description: - Collaborate closely with researchers across statistics, cognitive science, and machine learning to design systems in which experimentation, inference, and uncertainty are first-class components of the learning process itself. - Designing and implementing adaptive experimental systems that operate continuously under nonstationarity, interference,"
+    },
+    {
+      "title": "Business Data Scientist – Impact Measurement &amp; Causal Inference | Remote Data Science Position at arenaflex | Hirequill",
+      "url": "https://hirequill.liveblog365.com/job/business-data-scientist-impact-measurement-causal-inference-remote-data-science-position-at-arenafle",
+      "published": "2026-07-09T00:00:00.000Z",
+      "snippet": "Business Data Scientist – Impact Measurement & Causal Inference | Remote Data Science Position at arenaflex | Hirequill  Hirequill.← All Jobs  # Business Data Scientist – Impact Measurement & Causal Inference | Remote Data Science Position at arenaflex  Posted Jul 9, 2026  ### About arenaflex  Welcome to arenaflex, where we believe in the power of data to transform businesses and shape the future of digital innovation. As a global leader in technology and content platforms, arenaflex connects billions of people worldwide through innovative products and services that inform, entertain, and insp"
+    },
+    {
+      "title": "Senior ML Solutions Architect - Token Factory at Nebius · JobsRadar",
+      "url": "https://jobs-radar.com/job/senior-ml-solutions-architect-token-factory-at-nebius-dbcfba",
+      "published": "2026-07-09T00:00:00.000Z",
+      "snippet": "Senior ML Solutions Architect - Token Factory at Nebius · JobsRadar  Jobs› Companies› Nebius› Senior ML Solutions Architect - Token Factory  ## About this Senior ML Solutions Architect - Token Factory role at Nebius  Nebius · Remote · Remote - Europe  About Nebius:  Nebius is leading a new era in cloud infrastructure for the global AI economy. We are building a full-stack AI cloud platform that supports developers and enterprises from data and model training through to production deployment, without the cost and complexity of building large in-house AI/ML infrastructure.  Built by engineers, f"
+    },
+    {
+      "title": "**Senior Data Scientist, Analytics – Remote Opportunity at arenaflex** | Hirequill",
+      "url": "https://hirequill.liveblog365.com/job/senior-data-scientist-analytics-remote-opportunity-at-arenaflex-2",
+      "published": "2026-07-09T00:00:00.000Z",
+      "snippet": "**Senior Data Scientist, Analytics – Remote Opportunity at arenaflex** | Hirequill  Hirequill.← All Jobs  # **Senior Data Scientist, Analytics – Remote Opportunity at arenaflex**  Posted Jul 7, 2026  **Unlock the Power of Data to Drive Business Growth and Innovation**  Join arenaflex, a leading technology and logistics company, as a Senior Data Scientist, Analytics, and become a key player in shaping the future of our organization. As a seasoned data expert, you will leverage your expertise to drive business growth, inform strategic decisions, and develop innovative solutions that transform ou"
+    },
+    {
+      "title": "Senior Data Scientist at Mindera · JobsRadar",
+      "url": "https://jobs-radar.com/job/senior-data-scientist-at-mindera-e6f6a5",
+      "published": "2026-07-03T00:00:00.000Z",
+      "snippet": "Senior Data Scientist at Mindera · JobsRadar  Jobs› Companies› Mindera› Senior Data Scientist  ## About this Senior Data Scientist role at Mindera  Mindera · Remote · Brazil  At Mindera, we believe that software is built by people, for people with high performance systems that impact users worldwide. We are looking for a Senior Data Scientist to join an agile, collaborative team where your voice matters as much as your code.  The Data Scientist is a high-level individual contributor who leads complex data science initiatives that impact the Core Tech roadmap. This role focuses on translating c"
+    },
+    {
+      "title": "Senior Data Scientist - Bees Frontline   at AB InBev  | Growth Group · JobsRadar",
+      "url": "https://jobs-radar.com/job/senior-data-scientist-bees-frontline-at-ab-inbev-growth-group-d1ff3a",
+      "published": "2026-07-01T00:00:00.000Z",
+      "snippet": "Senior Data Scientist - Bees Frontline at AB InBev | Growth Group · JobsRadar  Jobs› Companies› AB InBev | Growth Group› Senior Data Scientist - Bees Frontline  ## About this Senior Data Scientist - Bees Frontline role at AB InBev | Growth Group  AB InBev | Growth Group · Remote · Remote  About us  AB InBev is the leading global brewer and one of the world’s top 5 consumer product companies. With over 500 beer brands, we’re number one or two in many of the world’s top beer markets, including North America, Latin America, Europe, Asia, and Africa.  About AB InBev Growth Group  Created in 2022, "
+    },
+    {
+      "title": "Le sentiment d'appartenance au travail : le levier RH encore sous-estimé",
+      "url": "https://solutions.welcometothejungle.com/blog/le-sentiment-dappartenance-au-travail-levier-rh",
+      "published": "2026-06-10T00:00:00.000Z",
+      "snippet": "Le sentiment d'appartenance au travail : le levier RH encore sous-estimé  Je suis candidat  FR  Marque Employeur Stratégie RH  Claire-Émilie Lecocq•  10 Jun, 2026  # Le sentiment d'appartenance au travail : le levier RH encore sous-estimé  Un talent peut apprécier son salaire, son manager et ses missions… et quand même décider de partir. Alors on se résigne ? On allume un cierge ?  Ce qui fait la différence ne tient pas de la magie : c’est le sentiment d’être à sa place. Se sentir utile et reconnu. Relié aux autres. Avoir le sentiment de contribuer à quelque chose qui compte. C’est ce qu’on ap"
+    },
+    {
+      "title": "Le flow au travail : comment cultiver sa créativité",
+      "url": "https://www.welcometothejungle.com/fr/articles/le-flow-au-travail-comment-cultiver-sa-creativite",
+      "published": "2026-06-11T00:00:00.000Z",
+      "snippet": "Le flow au travail : comment cultiver sa créativité  auteur.e  Senior Content Manager @welcometothejungle  contributeur.e  Avez-vous déjà entendu parler du Flow ? C'est cet état de concentration intense où l'on se sent pleinement engagé·e et aligné·e avec son activité. Il naît de l'équilibre entre challenge et compétence. Envie d'en savoir plus ?  ## Le flow au travail, une chimère ?  Souvent perçu comme réservé aux artistes ou aux métiers dits créatifs, le flow est en réalité accessible à tous. Sébastien Laading et Marie Lemaistre, directeurs de création et fondateurs de Fllow, une agence de "
+    },
+    {
+      "title": "Senior Intelligence Analyst at Chainalysis — Remote (US) | SailOnchain",
+      "url": "https://sailonchain.com/jobs/senior-intelligence-analyst-chainalysis-1",
       "published": "2026-07-08T00:00:00.000Z",
-      "snippet": "Senior Data Scientist at Sardine · JobsRadar  Jobs› Companies› Sardine› Senior Data Scientist  ## About this Senior Data Scientist role at Sardine  Sardine · Remote · United Kingdom  Who we are:  Sardine is the leading agentic risk platform for fighting financial crime. Our integrated solution unifies data across risk teams to help organizations stop fraud in real time, prevent AI-driven attacks, and automate fraud and AML operations. Sardine’s platform is strengthened by one of the fastest-growing fraud consortiums in the market, spanning more than 6 billion profiled devices, 800 million cons"
+      "snippet": "Senior Intelligence Analyst at Chainalysis — Remote (US) | SailOnchain  ## Chainalysis  - The blockchain data platform  Apply through Sailonchain  Visit job opening page  Visit company website →  Need help in applying or have a question? Please don't hesitate to get in touch.  ← Back to all jobs  Share job  # Senior Intelligence Analyst - Chainalysis  Fully remote  Added  1 day ago  Locations  Type  Full-time  Apply through Sailonchain  Visit job opening page  Tagged as  Chainalysis data has helped solve some of the world’s highest-profile criminal cases and made it safer for people everywhere"
     },
     {
-      "title": "Senior Data Scientist at Valtech · JobsRadar",
-      "url": "https://jobs-radar.com/job/senior-data-scientist-at-valtech-637ee6",
-      "published": "2026-07-02T00:00:00.000Z",
-      "snippet": "Senior Data Scientist at Valtech · JobsRadar  Jobs› Companies› Valtech› Senior Data Scientist  ## About this Senior Data Scientist role at Valtech  Valtech · Remote · Poland - Remote  Why Valtech? We’re the experience innovation company - a trusted partner to the world’s most recognized brands. To our people we offer growth opportunities, a values-driven culture, international careers and the chance to shape the future of experience.  ### The opportunity  At Valtech, you’ll find an environment designed for continuous learning, meaningful impact, and professional growth. Whether you're pioneeri"
+      "title": "Product Manager - SRE and Data Engineer at Sardine — Remote (US) | SailOnchain",
+      "url": "https://sailonchain.com/jobs/product-manager-sre-and-data-engineer-sardine",
+      "published": "2026-07-08T00:00:00.000Z",
+      "snippet": "Product Manager - SRE and Data Engineer at Sardine — Remote (US) | SailOnchain  ## Sardine  - The smartest platform for fraud prevention  Apply through Sailonchain  Visit job opening page  Visit company website →  Need help in applying or have a question? Please don't hesitate to get in touch.  ← Back to all jobs  Share job  # Product Manager - SRE and Data Engineer - Sardine  Fully remote  Added  1 day ago  Locations  Type  Full-time  Apply through Sailonchain  Visit job opening page  Tagged as  ## Who we are:  Sardine is the leading agentic risk platform for fighting financial crime. Our int"
     },
     {
-      "title": "Outreach - Senior Applied Scientist - Knowledge Graphs & AI",
-      "url": "https://jobs.lever.co/outreach/cc0715d3-8bbf-4a5c-bd32-7d12c243e2c9",
-      "published": "2026-07-04T07:03:17.269Z",
-      "snippet": "Outreach - Senior Applied Scientist - Knowledge Graphs & AI  ## Senior Applied Scientist - Knowledge Graphs & AI  Hyderabad  Engineering – Engineering /  Full-Time /  Remote  apply for this job  About Outreach  Outreach, founded in 2014, is the only complete agentic AI platform for revenue teams. Outreach infuses agentic AI, conversation intelligence, and assistive AI to power hundreds of use cases across revenue motions. From new logo prospecting to expansions, deal acceleration, driving retention, and forecasting, Outreach AI automates workflows and frees sellers to focus on more strategic c"
+      "title": "Senior Rust Engineer (Backend) at Wynd Labs — Remote | SailOnchain",
+      "url": "https://sailonchain.com/jobs/senior-rust-engineer-backend-wynd-labs",
+      "published": "2026-06-23T00:00:00.000Z",
+      "snippet": "Senior Rust Engineer (Backend) at Wynd Labs — Remote | SailOnchain  ## Wynd Labs  - Making AI data accessible  Apply through Sailonchain  Visit job opening page  Visit company website →  Need help in applying or have a question? Please don't hesitate to get in touch.  ← Back to all jobs  Share job  # Senior Rust Engineer (Backend) - Wynd Labs  Fully remote  Added  2 days ago  Locations  Type  Full-time  Salary  $180k - $300k  Apply through Sailonchain  Visit job opening page  Tagged as  ## Senior Rust Engineer (Backend)  $180k – $300k  Who We Are.  Wynd Labs is an early-stage startup that is o"
     },
     {
-      "title": "Outreach - Staff Applied Scientist - Knowledge Graphs & AI",
-      "url": "https://jobs.lever.co/outreach/4ef30219-4dd5-4f40-b3b8-76c3c2277ebb",
-      "published": "2026-07-03T07:03:17.269Z",
-      "snippet": "Outreach - Staff Applied Scientist - Knowledge Graphs & AI  ## Staff Applied Scientist - Knowledge Graphs & AI  Hyderabad  Engineering – Engineering /  Full-Time /  Remote  apply for this job  About Outreach  Outreach, founded in 2014, is the only complete agentic AI platform for revenue teams. Outreach infuses agentic AI, conversation intelligence, and assistive AI to power hundreds of use cases across revenue motions. From new logo prospecting to expansions, deal acceleration, driving retention, and forecasting, Outreach AI automates workflows and frees sellers to focus on more strategic con"
+      "title": "Data Analyst at Sardine — Remote (US | SailOnchain",
+      "url": "https://sailonchain.com/jobs/data-analyst-sardine",
+      "published": "2026-07-01T00:00:00.000Z",
+      "snippet": "Data Analyst at Sardine — Remote (US | SailOnchain  ## Sardine  - The smartest platform for fraud prevention  Apply through Sailonchain  Visit job opening page  Visit company website →  Need help in applying or have a question? Please don't hesitate to get in touch.  ← Back to all jobs  Share job  # Data Analyst - Sardine  Fully remote  Added  1 week ago  Locations  Type  Full-time  Apply through Sailonchain  Visit job opening page  Tagged as  ## Who we are:  Sardine is the leading agentic risk platform for fighting financial crime. Our integrated solution unifies data across risk teams to hel"
     },
     {
-      "title": "Senior Data Scientist at Valtech - North Macedonia Remote",
-      "url": "https://www.remoterocketship.com/company/valtech/jobs/senior-data-scientist-north-macedonia-remote/",
-      "published": "2026-06-09T00:00:00.000Z",
-      "snippet": "Senior Data Scientist at Valtech - North Macedonia Remote  ## Valtech  5001 - 10000 employees  Founded 1997  🤝 B2B  ☁️ SaaS  B2B • Marketing • SaaS  Valtech is a global digital agency focusing on experience innovation. They strive to transform businesses through a combination of technology, marketing, and data strategies. Valtech helps companies elevate their digital presence and drive commerce strategies, enhance enterprise digital transformations, and unlock marketing and performance potential. They also utilize data and AI to help organizations harness the power of information. With offices"
+      "title": "Celara hiring QA Automation Engineer SR (QB - QASR - 20260701) • Remote (Work from Home) | Himalayas",
+      "url": "https://himalayas.app/companies/celara/jobs/qa-automation-engineer-sr-qb-qasr-20260701",
+      "published": "2026-07-01T00:00:00.000Z",
+      "snippet": "Celara hiring QA Automation Engineer SR (QB - QASR - 20260701) • Remote (Work from Home) | Himalayas  CE  # QA Automation Engineer SR (QB - QASR - 20260701)  Celara Labs is at the forefront of innovation, transforming visions into reality by building elite near-shore technology teams equipped with CTO-level expertise.  51-200  Qatar only  Stay safe on Himalayas  Never send money to companies. Jobs on Himalayas will never require payment from applicants.  Our technology team is a rapidly growing group of talented and experienced engineers building the leading enterprise software company focused"
     },
     {
-      "title": "Machine Learning Engineer – Sift – Permanent contract – Fully-remote",
-      "url": "https://www.welcometothejungle.com/en/companies/sift-1/jobs/machine-learning-engineer_us_pjewk4su",
-      "published": "2026-06-17T00:00:00.000Z",
-      "snippet": "Machine Learning Engineer – Sift – Permanent contract – Fully-remote  ## Machine Learning Engineer  Job summary  Permanent contract  United States of America  Fully-remote  Salary: $140K to 190K  Experience: > 3 years  Skills & expertise  Cybersecurity knowledge  Containerization and orchestration  Machine learning  Hadoop  Java  +11  Save  yesterday  Share  Interested in this job?  Save  Questions and answers about the job  Does this position allow remote work?  What type of contract is offered for this position?  ### The position  #### Job description  - As a Machine Learning Engineer at Sif"
-    },
-    {
-      "title": "GRID hiring Senior Data Scientist (m/f/x) • Remote (Work from Home) | Himalayas",
-      "url": "https://himalayas.app/companies/grid/jobs/senior-data-scientist-m-f-x",
-      "published": "2026-07-05T07:03:28.859Z",
-      "snippet": "GRID hiring Senior Data Scientist (m/f/x) • Remote (Work from Home) | Himalayas  GR  # Senior Data Scientist (m/f/x)  GRID is a data platform for the game industry, enabling the extraction, management, monetization, and distribution of in-game data assets with a mission to unlock its potential for everyone.  51-200  AT, DE + 2 more  Stay safe on Himalayas  Never send money to companies. Jobs on Himalayas will never require payment from applicants.  Are you excited about building ML systems that make predictions in real-time?  Are you driven by building things end-to-end, from research to live "
-    },
-    {
-      "title": "CapsLock hiring Data Scientist • Remote (Work from Home) | Himalayas",
-      "url": "https://himalayas.app/companies/capslock/jobs/data-scientist-9305617180",
-      "published": "2026-07-06T07:03:28.859Z",
-      "snippet": "CapsLock hiring Data Scientist • Remote (Work from Home) | Himalayas  CA  # Data Scientist  At CapsLock, we're dedicated to revolutionizing the way businesses manage their ad campaigns.  51-200  Czechia only  Stay safe on Himalayas  Never send money to companies. Jobs on Himalayas will never require payment from applicants.  ### Description  We are seeking a driven and creative Data Scientist with a minimum of 3 years of experience in a data science or machine learning role, who will be instrumental in building predictive models, testing hypotheses, and providing statistically sound insights t"
-    },
-    {
-      "title": "Reddit hiring Senior Machine Learning Engineer, Ads • Remote (Work from Home) | Himalayas",
-      "url": "https://himalayas.app/companies/reddit/jobs/senior-machine-learning-engineer-ads-7068844439",
-      "published": "2026-07-03T07:03:28.859Z",
-      "snippet": "Reddit hiring Senior Machine Learning Engineer, Ads • Remote (Work from Home) | Himalayas  RE  # Senior Machine Learning Engineer, Ads  \"The front page of the internet,” Reddit brings over 430 million people together each month through their common interests, inviting them to share, vote, comment, and create across thousands of communities.  501-1000  $217K – $303K per year  United States only  Stay safe on Himalayas  Never send money to companies. Jobs on Himalayas will never require payment from applicants.  Reddit is a community of communities. It’s built on shared interests, passion, and t"
-    },
-    {
-      "title": "Mutt Data hiring Data Engineer Senior • Remote (Work from Home) | Himalayas",
-      "url": "https://himalayas.app/companies/mutt-data/jobs/data-engineer-senior",
-      "published": "2026-07-05T07:03:28.859Z",
-      "snippet": "Mutt Data hiring Data Engineer Senior • Remote (Work from Home) | Himalayas  MD  # Data Engineer Senior  Apply AI and Machine Learning to build automated systems that maximize your revenue.  51-200  Argentina only  Stay safe on Himalayas  Never send money to companies. Jobs on Himalayas will never require payment from applicants.  🚀 Join Our Data Products and Machine Learning Development Remote Startup! 🚀  Muttdata is a dynamic startup committed to crafting innovative systems using cutting-edge Big Data and Machine Learning technologies.  We’re looking for a Data Engineer Senior to help take o"
-    },
-    {
-      "title": "Reddit hiring Machine Learning Engineer • Remote (Work from Home) | Himalayas",
-      "url": "https://himalayas.app/companies/reddit/jobs/machine-learning-engineer-3716466673",
-      "published": "2026-07-06T07:03:28.859Z",
-      "snippet": "Reddit hiring Machine Learning Engineer • Remote (Work from Home) | Himalayas  RE  # Machine Learning Engineer  \"The front page of the internet,” Reddit brings over 430 million people together each month through their common interests, inviting them to share, vote, comment, and create across thousands of communities.  501-1000  $188K – $260K per year  United States only  Stay safe on Himalayas  Never send money to companies. Jobs on Himalayas will never require payment from applicants.  Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the"
-    },
-    {
-      "title": "Senior Data Analyst, GTM",
-      "url": "https://euremotejobs.com/job/senior-data-analyst-gtm/",
-      "published": "2026-06-29T00:00:00.000Z",
-      "snippet": "Senior Data Analyst, GTM  Post a job  ## Overview  Tremendous is the fast, free, flexible way to send bulk payouts to people in over 230 countries and regions. 20,000+ companies ranging from mom-and-pops to Google, MIT, and United Way have sent over $1 billion, saving 15 hours a month on average.  In both our product and our workplace, we’re intentional about making work more efficient, flexible, and fulfilling. Tremendous is a fully remote, high-documentation, low-meeting culture, which means more time for what matters in both your professional and personal life.  Our customers, who include m"
-    },
-    {
-      "title": "Data Analyst - Fraud Intelligence",
-      "url": "https://euremotejobs.com/job/data-analyst-fraud-intelligence/",
-      "published": "2026-07-07T00:00:00.000Z",
-      "snippet": "Data Analyst - Fraud Intelligence  Post a job  ## Overview  Who we are:  Sardine is the leading agentic risk platform for fighting financial crime. Our integrated solution unifies data across risk teams to help organizations stop fraud in real time, prevent AI-driven attacks, and automate fraud and AML operations. Sardine’s platform is strengthened by one of the fastest-growing fraud consortiums in the market, spanning more than 6 billion profiled devices, 800 million consumers, and 3 million businesses worldwide. Leading companies including FIS, GoDaddy, Intuit, Edward Jones, ZoomInfo, and Ch"
-    },
-    {
-      "title": "Senior Analytics Engineer - Marketing",
-      "url": "http://euremotejobs.com/job/senior-analytics-engineer-marketing-2/",
-      "published": "2026-07-07T00:00:00.000Z",
-      "snippet": "Senior Analytics Engineer - Marketing  Post a job  ## Overview  What do we do?  Paddle offers digital product companies a completely different approach to their payment infrastructure. Instead of assembling and maintaining a complex stack of payments-related apps and services, we’re a Merchant of Record for our customers. That means we take away 100% of the pain of payment fragmentation. It’s faster, safer, cheaper, and, above all, way better.  We’re backed by investors including KKR, FTV Capital, Kindred, Notion, and 83North and serve over 6000 software sellers in 245 territories globally.  T"
-    },
-    {
-      "title": "Bertelsmann-Jobs Staff Machine Learning Scientist – Personalization (Open to Remote) | SmartRecruiters",
-      "url": "https://jobs.smartrecruiters.com/Bertelsmann-Jobs/744000136104349-staff-machine-learning-scientist-personalization-open-to-remote-",
-      "published": "2026-07-07T07:03:37.540Z",
-      "snippet": "Bertelsmann-Jobs Staff Machine Learning Scientist – Personalization (Open to Remote) | SmartRecruiters  # Sorry, Internet Explorer 11 is no longer supported by SmartRecruiters  Please update to one of the following browsers:  - Google Chrome - Microsoft Edge - Apple Safari - Mozilla Firefox  You can find details about supported web browsers here.  # Staff Machine Learning Scientist – Personalization (Open to Remote)  1745, Broadway, New York, United States  - Employees can work remotely - Full-time - LegalEntity: Penguin Random House LLC - Compensation: USD 210,000 - USD 250,000 - yearly  ## C"
-    },
-    {
-      "title": "The Nielsen Company Senior Product Manager II | SmartRecruiters",
-      "url": "https://jobs.smartrecruiters.com/TheNielsenCompany/3743990013793986-senior-product-manager-ii",
-      "published": "2026-06-25T00:00:00.000Z",
-      "snippet": "The Nielsen Company Senior Product Manager II | SmartRecruiters  # Sorry, Internet Explorer 11 is no longer supported by SmartRecruiters  Please update to one of the following browsers:  - Google Chrome - Microsoft Edge - Apple Safari - Mozilla Firefox  You can find details about supported web browsers here.  # Senior Product Manager II  - Bengaluru, India - Full-time - Compensation: INR 0 - INR 0 - yearly  ## Company Description  At Nielsen, we are passionate about our work to power a better media future for all people by providing powerful insights that drive client decisions and deliver ext"
+      "title": "Software Mind [CMI] Machine Learning Engineer | SmartRecruiters",
+      "url": "https://jobs.smartrecruiters.com/SoftwareMind/744000132590204--cmi-machine-learning-engineer",
+      "published": "2026-06-19T00:00:00.000Z",
+      "snippet": "Software Mind [CMI] Machine Learning Engineer | SmartRecruiters  - Google Chrome - Microsoft Edge - Apple Safari - Mozilla Firefox  # [CMI] Machine Learning Engineer  - Full-time  ## Company Description  Software Mind develops solutions that make an impact for companies around the globe. Tech giants & unicorns, transformative projects, emerging technologies and limitless opportunities – these are a few words that describe an average day for us. Building cross-functional engineering teams that take ownership and crave more means we’re always on the lookout for talented people who bring passion "
     }
   ]
 }
