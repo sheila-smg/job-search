@@ -1,56 +1,146 @@
 {
-  "fetched_at": "2026-07-12T06:19:15.281270",
-  "date": "2026-07-12",
-  "total_new": 8,
-  "pre_filtered": 581,
+  "fetched_at": "2026-07-13T06:39:35.376172",
+  "date": "2026-07-13",
+  "total_new": 23,
+  "pre_filtered": 529,
   "results": [
     {
-      "title": "Senior Manager, Data Science at TRM — Remote (US) | SailOnchain",
-      "url": "https://sailonchain.com/jobs/senior-manager-data-science-trm",
+      "title": "Douro Labs is hiring Quantitative Researcher. Europe",
+      "url": "https://cryptojobslist.com/jobs/quantitative-researcher-europe-at-douro-labs",
+      "published": "2026-06-17T00:00:00.000Z",
+      "snippet": "Douro Labs is hiring Quantitative Researcher. Europe  # Quantitative Researcher  ## atDouro Labs  https://cryptojobslist.com/companies/douro-labs  May 22  Posted by Douro Labs May 22, 2026  You will own the architecture of market infrastructure at its most fundamental level: designing the methodologies and data products that power institutional-grade pricing and indexing. This is not purely a backend role. You are equally a subject matter expert who will stand in front of sophisticated institutional clients and defend complex financial engineering in both technical and business terms.  You wil"
+    },
+    {
+      "title": "Senior Data Scientist – Customer Testing Analytics &amp; Experimentation | Hirequill",
+      "url": "https://hirequill.liveblog365.com/job/senior-data-scientist-customer-testing-analytics-experimentation-2",
       "published": "2026-07-09T00:00:00.000Z",
-      "snippet": "Senior Manager, Data Science at TRM — Remote (US) | SailOnchain  ## TRM  - Preventing fraud and financial crime for digital currencies  Apply through Sailonchain  Visit job opening page  Visit company website →  Need help in applying or have a question? Please don't hesitate to get in touch.  ← Back to all jobs  Share job  # Senior Manager, Data Science - TRM  Fully remote  Added  1 day ago  Locations  Type  Full-time  Salary  $210k - $230k  Apply through Sailonchain  Visit job opening page  Tagged as  ## Build a Safer World.  TRM Labs provides AI-powered intelligence solutions that help publi"
+      "snippet": "Senior Data Scientist – Customer Testing Analytics & Experimentation | Hirequill  Hirequill.← All Jobs  # Senior Data Scientist – Customer Testing Analytics & Experimentation  Posted Jul 7, 2026  ### About arenaflex  At arenaflex, we set out to be a different kind of company—one that not only celebrates the rich traditions of our industry but also brings a genuine sense of connection to everything we do. We are renowned for developing exceptional leaders who share this passion and are guided by their commitment to serve others. arenaflex Remote Work From Home Jobs represent our commitment to f"
     },
     {
-      "title": "Senior Data Scientist, Marketplace - Dataaxy Jobs",
-      "url": "https://www.dataaxy.com/jobs/job/senior-data-scientist-marketplace-lyft-8620998002",
+      "title": "Senior Data Scientist - Europe at Xenon7 · JobsRadar",
+      "url": "https://jobs-radar.com/job/65bbc1ff-0c0a-4525-84f0-fa57b96547c9",
+      "published": "2026-07-02T00:00:00.000Z",
+      "snippet": "Senior Data Scientist - Europe at Xenon7 · JobsRadar  Jobs› Companies› Xenon7› Senior Data Scientist - Europe  ## About this Senior Data Scientist - Europe role at Xenon7  Xenon7 · Remote · Berlin, Germany  About us:  Where elite tech talent meets world-class opportunities!  At Xenon7, we work with leading enterprises and innovative startups on exciting, cutting-edge projects that leverage the latest technologies across various domains of IT including Data, Web, Infrastructure, AI, and many others. Our expertise in IT solutions development and on-demand resources allows us to partner with clie"
+    },
+    {
+      "title": "Data Scientist / Senior Product Analyst — B2C Subscription (Experimentation & Analytics) at OnHires · JobsRadar",
+      "url": "https://jobs-radar.com/job/data-scientist-early-hire-full-model-ownership-b2c-saas-remo-at-onhires-2a586b",
+      "published": "2026-07-06T00:00:00.000Z",
+      "snippet": "Data Scientist / Senior Product Analyst — B2C Subscription (Experimentation & Analytics) at OnHires · JobsRadar  Jobs› Companies› OnHires› Data Scientist / Senior Product Analyst — B2C Subscription (Experimentation & Analytics)  ## About this Data Scientist / Senior Product Analyst — B2C Subscription (Experimentation & Analytics) role at OnHires  OnHires · Remote · Remote Europe  Remote (EU/Ukraine) | Full-time (B2B contract) | Reports to: Head of Data  ### About the Role  OnHires is hiring a Data Scientist on behalf of our client — an established, remote-first B2C SaaS company building a port"
+    },
+    {
+      "title": "Lead Data Scientist at Bondora · JobsRadar",
+      "url": "https://jobs-radar.com/job/lead-data-scientist-at-bondora-3750f2",
       "published": "2026-07-07T00:00:00.000Z",
-      "snippet": "Senior Data Scientist, Marketplace - Dataaxy Jobs  L  Lyft  # Senior Data Scientist, Marketplace  Data Science  San Francisco, CA  At Lyft, our purpose is to serve and connect. We aim to achieve this by cultivating a work environment where all team members belong and have the opportunity to thrive.  Data Science is at the heart of Lyft's products and decision-making. As a member of the Science team, you will work in a dynamic environment, where we embrace moving quickly to build the world's best transportation. Data Scientists take on a variety of problems ranging from shaping critical busines"
+      "snippet": "Lead Data Scientist at Bondora · JobsRadar  Jobs› Companies› Bondora› Lead Data Scientist  ## About this Lead Data Scientist role at Bondora  Bondora · Remote · Finland; Latvia; Remote; Spain; Tallinn, Harju, Estonia  At Bondora, our mission is simple: to make finance easy, transparent, and accessible for everyone.  Founded in 2008, we’ve helped more than 700,000 customers across Europe borrow and invest effortlessly through our trusted digital products.  As a rapidly growing financial technology company, we’re reaching new heights with a bold vision. We’re set to acquire a banking license, un"
     },
     {
-      "title": "Senior Staff Data Scientist, Guest &amp; Host Marketplace AI | Jobspawn",
-      "url": "https://jobspawn.liveblog365.com/job/senior-staff-data-scientist-guest-host-marketplace-ai",
-      "published": "2026-07-10T00:00:00.000Z",
-      "snippet": "Senior Staff Data Scientist, Guest & Host Marketplace AI | Jobspawn  Jobspawn.← All Jobs  # Senior Staff Data Scientist, Guest & Host Marketplace AI  Posted Jul 9, 2026  Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way.  The Community You Will Join:  Guest Experience is responsible for S"
+      "title": "Senior Manager, Machine Learning Science at Expedia | OnNetPulse",
+      "url": "https://onnetpulse.com/jobs/expedia-senior-manager-machine-learning-science",
+      "published": "2026-07-08T00:00:00.000Z",
+      "snippet": "Senior Manager, Machine Learning Science at Expedia | OnNetPulse  [OnNetPulseJobs](https://onnetpulse.com/) [Sign up](https://onnetpulse.com/register)[Post a Job](https://onnetpulse.com/post-a-job) [OnNetPulseJobs](https://onnetpulse.com/) [Sign up](https://onnetpulse.com/register)[Post a Job](https://onnetpulse.com/post-a-job) Senior Manager, Machine Learning Science at Expedia | OnNetPulse [OnNetPulseJobs](https://onnetpulse.com/) [Sign up](https://onnetpulse.com/register)[Post a Job](https://onnetpulse.com/post-a-job) ![Expedia company logo](https://res.cloudinary.com/dgnbmwy6x/image/upload"
     },
     {
-      "title": "Senior Manager, Data Science at TRM — Remote (LATAM) | SailOnchain",
-      "url": "https://sailonchain.com/jobs/senior-manager-data-science-trm-1",
+      "title": "Senior Data Scientist at MariaDB plc · JobsRadar",
+      "url": "https://jobs-radar.com/job/senior-data-scientist-at-mariadb-plc-c5c3ea",
+      "published": "2026-06-24T00:00:00.000Z",
+      "snippet": "Senior Data Scientist at MariaDB plc · JobsRadar  Jobs› Companies› MariaDB plc› Senior Data Scientist  ## About this Senior Data Scientist role at MariaDB plc  MariaDB plc · Remote · Remote -- Romania  MariaDB is making a big impact on the world. Whether you’re checking your bank account, buying a coffee, shopping online, making a phone call, listening to music, taking out a loan or ordering takeout – MariaDB is the backbone of applications used everyday. Companies small and large, including 75% of the Fortune 500, run MariaDB, touching the lives of billions of people. With massive reach throu"
+    },
+    {
+      "title": "Senior ML Engineer (MLOps-focused) at Globaldev Group · JobsRadar",
+      "url": "https://jobs-radar.com/job/senior-ml-engineer-mlops-focused-at-globaldev-group-72fbad",
+      "published": "2026-07-08T00:00:00.000Z",
+      "snippet": "Senior ML Engineer (MLOps-focused) at Globaldev Group · JobsRadar  Jobs› Companies› Globaldev Group› Senior ML Engineer (MLOps-focused)  ## About this Senior ML Engineer (MLOps-focused) role at Globaldev Group  Globaldev Group · Remote · Ukraine  Join the Platform R&D Group , where we leverage data to drive real impact in the maritime world. Our core mission is to become the intelligence authority of the oceans - mission-grade maritime AI that brings action-ready clarity across the global seas.  We are scaling our operations, rapidly advancing our AI efforts, models, and the complex problems w"
+    },
+    {
+      "title": "Bellese - Senior Data Scientist",
+      "url": "https://jobs.lever.co/bellese/fcc8bf3d-d918-4704-9094-c19ba22d1de4",
+      "published": "2026-07-11T06:39:18.300Z",
+      "snippet": "Bellese - Senior Data Scientist  ## Senior Data Scientist  United States  Engineering – (HQR) Hospital Quality Reporting /  Full Time /  Remote  apply for this job  Bellese is a mission-driven Digital Services Company committed to pioneering innovative technology solutions in civic healthcare. Our dedication lies in making a meaningful impact on public health outcomes.  Driven by service design, we strive to know the “Why” to understand the healthcare journey for patients, caregivers, providers, payers, and policymakers. Our goal is to design and build solutions that reduce confusion, provide "
+    },
+    {
+      "title": "Jobgether - Senior AI/ML Engineer",
+      "url": "https://jobs.lever.co/jobgether/7694b0ce-3bec-4b20-b1b3-eb06fc787b87",
+      "published": "2026-07-11T06:39:19.753Z",
+      "snippet": "Jobgether - Senior AI/ML Engineer  ## Senior AI/ML Engineer  India  Security & IT – IT /  Full-time /  Remote  apply for this job  This position is listed on behalf of a partner company, who manages all applications and next steps. Our partner is looking for a Senior AI/ML Engineer based in India.  This role offers the opportunity to build next-generation AI solutions that transform how organizations interact with customers through intelligent conversational experiences.You will work at the forefront of Generative AI, Agentic AI, and machine learning innovation, turning advanced research into "
+    },
+    {
+      "title": "Senior Data Engineer at Minsait - Brazil Remote",
+      "url": "https://www.remoterocketship.com/company/minsait/jobs/senior-data-engineer-worldwide-remote/",
+      "published": "2026-07-01T00:00:00.000Z",
+      "snippet": "Senior Data Engineer at Minsait - Brazil Remote  ## Minsait  https://www.remoterocketship.com/company/minsait/  10,000+ employees  Founded 2016  🤖 Artificial Intelligence  🔒 Cybersecurity  🏢 Enterprise  Artificial Intelligence • Cybersecurity • Enterprise  Minsait is a global leader in technology and consulting, offering a wide range of innovative solutions and services to enhance business operations and societal transformation. With a focus on human-centered technology, Minsait provides services such as AI, cybersecurity, intelligent workspace design, and cloud platform management. The compan"
+    },
+    {
+      "title": "MLOps Engineer",
+      "url": "http://euremotejobs.com/job/mlops-engineer/",
+      "published": "2026-06-28T00:00:00.000Z",
+      "snippet": "MLOps Engineer  Post a job  ## Overview  ## Description  Senior ML / MLOps Engineer  A career at Booksy means you’re part of a global team focused on helping people around the world feel great about themselves, every day. From empowering entrepreneurs to build successful businesses, to supporting customers in arranging their “me time” moments, we’re in the business of helping people thrive.  Working in a fast-moving scale-up where the ML platform is still being built, not inherited, is not for everyone. If you prefer a mature toolchain handed to you on day one, a narrow brief, and limited owne"
+    },
+    {
+      "title": "Senior Data Analyst",
+      "url": "https://jobs.ashbyhq.com/Tremendous/9d5857e2-704a-4bf5-b134-e4ae2839178f",
+      "published": "2026-06-22T00:00:00.000Z",
+      "snippet": "# Senior Data Analyst @ Tremendous  **Location:** United States **Type:** FullTime **Workplace:** Remote **Team:** Data **Compensation:** $175K – $225K • Offers Equity **Published:** 2026-06-22  Tremendous is the global platform built for businesses to send thousands of payouts to anyone, anywhere, for free. We're trusted by 20,000 organizations like Atlassian, MIT, and United Way to deliver gift cards and money to millions of recipients worldwide.  Our customers (researchers, marketers, HR teams, nonprofits, and platform businesses) rave about how fast and easy Tremendous is to use. [Check ou"
+    },
+    {
+      "title": "Lead AI Engineer (AI Systems & Automation) - Remote (UK)",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/2b97d833-f598-4043-9138-419000801ee9",
+      "published": "2026-07-07T00:00:00.000Z",
+      "snippet": "# Lead AI Engineer (AI Systems & Automation) - Remote (UK) @ Bjak   **Location:** United Kingdom **Type:** FullTime **Workplace:** Remote **Team:** Engineering **Published:** 2026-07-07  BJAK is Southeast Asia's largest digital insurance platform, building AI-powered products that simplify insurance and financial services for millions of users. We use AI and automation to transform real-world insurance workflows such as quotations, policy issuance, endorsements, claims, and customer operations.  We are looking for a Lead AI Engineer to own the design, development, and delivery of production AI"
+    },
+    {
+      "title": "Senior AI Engineer",
+      "url": "https://jobs.ashbyhq.com/kota/a265cd0d-5179-4452-952a-069c3ee4d4aa",
+      "published": "2026-07-01T00:00:00.000Z",
+      "snippet": "# Senior AI Engineer @ Kota  **Location:** Remote **Type:** FullTime **Workplace:** Remote **Team:** Product **Published:** 2026-07-01  **Job Title:** Senior AI Engineer  **Location:** Remote +/- 4 hours GMT for collaboration  **Type:** Full-time, Permanent  **Working style:** Remote-first  #### **About Kota**  Kota is reimagining insurance and retirement benefits for the modern workforce. Through our two flagship products, Kota Platform, the first fully integrated benefits platform, and Kota Embed, our embedded insurance solution, we are making benefits more accessible, valued, and global.  T"
+    },
+    {
+      "title": "Full Stack AI Engineer (Data)",
+      "url": "https://jobs.ashbyhq.com/techtorch/916acee0-eb0e-4d4a-8e5f-9bc1b039f1e4",
+      "published": "2026-06-17T00:00:00.000Z",
+      "snippet": "# Full Stack AI Engineer (Data) @ Techtorch  **Location:** United States **Type:** FullTime **Team:** Data **Published:** 2026-06-17  **Full Stack AI Engineer (Data)**  *Build end-to-end products on a solid data foundation, with AI as a force multiplier.*  Data Practice | Remote (Global) | Senior  **About TechTorch**  At **TechTorch**, we’re building the future of intelligent work. Our mission is to help companies design, build, and deploy **AI agents that automate complex, real-world workflows** — delivering reliability, measurable ROI, and massive efficiency gains.  Here, you won’t just be p"
+    },
+    {
+      "title": "Senior AI Engineer (C# / .NET)",
+      "url": "https://jobs.ashbyhq.com/ndeavour/e170fd05-af51-44d2-ae8c-f802a5d163cb",
+      "published": "2026-06-24T00:00:00.000Z",
+      "snippet": "# Senior AI Engineer (C# / .NET) @ NDEAVOUR CONSULTING  **Location:** All Cities **Type:** FullTime **Workplace:** Remote **Team:** Mobile Wave Solutions **Published:** 2026-06-24  **Mobile Wave Solutions** is a professional services company specializing in software development as a service. With a team of over 120 engineers, we deliver scalable, high-quality software that empowers our global clients to innovate and grow. We value collaboration, technical excellence, and a pragmatic approach to solving complex problems.  #### **About the Role**  We’re looking for a **Senior AI Engineer (C# / ."
+    },
+    {
+      "title": "Senior Back End Engineer",
+      "url": "https://jobs.ashbyhq.com/troveo/e68eae0d-f637-4d63-9603-d9ffbbf284d6",
+      "published": "2026-07-02T00:00:00.000Z",
+      "snippet": "# Senior Back End Engineer @ Troveo AI  **Location:** Remote **Other locations:** San Francisco, CA **Type:** FullTime **Workplace:** Remote **Team:** Product & Engineering **Published:** 2026-07-02  **About Troveo**  Troveo builds the data platform that AI labs and model builders need to train the next generation of models. We have created the world's largest licensed platform of scarce, proprietary data for AI, spanning video, audio, text, and business workflows.  Troveo indexes, enriches, and packages this high-quality data into formats ready for training, fine-tuning, evaluation, and agent"
+    },
+    {
+      "title": "Senior Software Engineer II - Product Growth",
+      "url": "https://jobs.ashbyhq.com/kit/cdf844cc-ed37-4d9e-90b1-53a46a901159",
+      "published": "2026-06-26T00:00:00.000Z",
+      "snippet": "# Senior Software Engineer II - Product Growth @ Kit  **Location:** Remote **Type:** FullTime **Workplace:** Remote **Team:** Engineering **Compensation:** $186K • $50K Equity • Profit sharing **Published:** 2026-06-26  [Kit](https://kit.com/) is an email-first operating system for creators who mean business. We help creators grow and monetize their audience with ease. For coaches, YouTubers, authors, podcasters, and other creatives, there isn't a better marketing hub to rely on to grow audiences, automate email marketing, and sell digital products — all within one platform.   More importantly"
+    },
+    {
+      "title": "Sr. AI Engineer",
+      "url": "https://jobs.ashbyhq.com/tapcart/e58347fa-02cd-4804-b776-1b2a850cbb13",
+      "published": "2026-06-25T00:00:00.000Z",
+      "snippet": "# Sr. AI Engineer @ Tapcart Inc.  **Location:** Santa Monica, CA **Type:** FullTime **Workplace:** Remote **Team:** Engineering **Compensation:** $175K – $350K • Offers Equity • Offers Bonus **Published:** 2026-06-25  **At Tapcart, we believe every brand needs a direct relationship with their customers - one they actually own.**   We are the mobile commerce engine that powers shopping for Shopify's fastest-growing brands. $15B+ in revenue processed. 200M+ shoppers worldwide. Brands like Princess Polly, Béis, Forever 21, and Young LA rely on us to power a large portion of their revenue.  We're "
+    },
+    {
+      "title": "Applied AI Engineer",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/d6c58233-5692-4820-8b86-52dade2e7e19",
       "published": "2026-07-09T00:00:00.000Z",
-      "snippet": "Senior Manager, Data Science at TRM — Remote (LATAM) | SailOnchain  ## TRM  - Preventing fraud and financial crime for digital currencies  Apply through Sailonchain  Visit job opening page  Visit company website →  Need help in applying or have a question? Please don't hesitate to get in touch.  ← Back to all jobs  Share job  # Senior Manager, Data Science - TRM  Fully remote  Added  1 day ago  Locations  Type  Full-time  Apply through Sailonchain  Visit job opening page  Tagged as  ## Build a Safer World.  TRM Labs provides AI-powered intelligence solutions that help public and private sector"
+      "snippet": "# Applied AI Engineer @ Bjak   **Location:** India **Type:** FullTime **Workplace:** Remote **Team:** Engineering **Published:** 2026-07-09  ### **About BJAK**  The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name.  Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia.  Today, we are expanding ways to help people in the region — this includes spending, saving, inves"
     },
     {
-      "title": "Engineering Manager, Data at TRM — Remote (LATAM) | SailOnchain",
-      "url": "https://sailonchain.com/jobs/engineering-manager-data-trm-1",
-      "published": "2026-07-09T00:00:00.000Z",
-      "snippet": "Engineering Manager, Data at TRM — Remote (LATAM) | SailOnchain  ## TRM  - Preventing fraud and financial crime for digital currencies  Apply through Sailonchain  Visit job opening page  Visit company website →  Need help in applying or have a question? Please don't hesitate to get in touch.  ← Back to all jobs  Share job  # Engineering Manager, Data - TRM  Fully remote  Added  1 day ago  Locations  Type  Full-time  Apply through Sailonchain  Visit job opening page  Tagged as  ## Build a Safer World.  TRM Labs provides AI-powered intelligence solutions that help public and private sector agenc"
+      "title": "Applied AI Engineer - AI Neobank App (Netherlands)",
+      "url": "https://jobs.ashbyhq.com/bjakcareer/d8c88a82-6d74-4efd-a222-c286d4428ef0",
+      "published": "2026-07-08T00:00:00.000Z",
+      "snippet": "# Applied AI Engineer - AI Neobank App (Netherlands) @ Bjak   **Location:** Netherlands **Type:** FullTime **Workplace:** Remote **Team:** Engineering **Published:** 2026-07-08  **About BJAK**  The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name.  Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia.  Today, we are expanding ways to help people in the region — this"
     },
     {
-      "title": "Data Scientist at BitGo — Bangalore | SailOnchain",
-      "url": "https://sailonchain.com/jobs/data-scientist-bitgo-1",
-      "published": "2026-07-10T00:00:00.000Z",
-      "snippet": "Data Scientist at BitGo — Bangalore | SailOnchain  ## BitGo  - Provides regulated custody, financial services, and core infrastructure for investors and builders alike  Apply through Sailonchain  Visit job opening page  Visit company website →  Need help in applying or have a question? Please don't hesitate to get in touch.  ← Back to all jobs  Share job  # Data Scientist - BitGo  Fully remote  Added  Today  Locations  Type  Full-time  Apply through Sailonchain  Visit job opening page  Tagged as  BitGo is the leading infrastructure provider of digital asset solutions, delivering custody, walle"
-    },
-    {
-      "title": "Senior Analytics Engineer - Marketing",
-      "url": "https://euremotejobs.com/job/senior-analytics-engineer-marketing-2/",
-      "published": "2026-07-07T00:00:00.000Z",
-      "snippet": "Senior Analytics Engineer - Marketing  Post a job  ## Overview  What do we do?  Paddle offers digital product companies a completely different approach to their payment infrastructure. Instead of assembling and maintaining a complex stack of payments-related apps and services, we’re a Merchant of Record for our customers. That means we take away 100% of the pain of payment fragmentation. It’s faster, safer, cheaper, and, above all, way better.  We’re backed by investors including KKR, FTV Capital, Kindred, Notion, and 83North and serve over 6000 software sellers in 245 territories globally.  T"
-    },
-    {
-      "title": "Senior Analytics Engineer - Marketing",
-      "url": "https://euremotejobs.com/job/senior-analytics-engineer-marketing/",
-      "published": "2026-07-07T00:00:00.000Z",
-      "snippet": "Senior Analytics Engineer - Marketing  Post a job  ## Overview  What do we do?  Paddle offers digital product companies a completely different approach to their payment infrastructure. Instead of assembling and maintaining a complex stack of payments-related apps and services, we’re a Merchant of Record for our customers. That means we take away 100% of the pain of payment fragmentation. It’s faster, safer, cheaper, and, above all, way better.  We’re backed by investors including KKR, FTV Capital, Kindred, Notion, and 83North and serve over 6000 software sellers in 245 territories globally.  T"
+      "title": "Data Migration Analyst - Intern",
+      "url": "https://jobs.ashbyhq.com/ontic/20af94c6-329e-45f5-b02b-4be582b5dee3",
+      "published": "2026-07-08T00:00:00.000Z",
+      "snippet": "# Data Migration Analyst - Intern @ Ontic  **Location:** Remote, United States **Type:** Intern **Workplace:** Remote **Team:** Implementation **Compensation:** $20 per hour **Published:** 2026-07-08  **Who We Are**  Ontic provides software that helps corporate and government security teams identify threats, assess risk, and respond faster to keep people and organizations safe. Its AI-powered Connected Intelligence Platform unifies security operations and data into a centralized system of record, enabling organizations to conduct risk assessments, protect against workplace violence, and manage"
     }
   ]
 }
