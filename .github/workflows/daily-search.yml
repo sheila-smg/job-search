@@ -1,10 +1,13 @@
 name: Daily Job Search
 
 on:
-  schedule:
-    - cron: '30 3 * * *'  # 3:30am UTC. Target: list ready by 3pm UTC+8 = 7am UTC.
-                          # Early start gives ~3.5h buffer to absorb GitHub's cron
-                          # queue delays (which hit twice: this run + the chained analysis).
+  # PAUSED 2026-07-24 (por petición de Sheila): búsqueda diaria en pausa.
+  # Para reanudar, descomenta el bloque `schedule` de abajo y haz push.
+  # `workflow_dispatch` sigue activo para lanzarlo manualmente si hace falta.
+  # schedule:
+  #   - cron: '30 3 * * *'  # 3:30am UTC. Target: list ready by 3pm UTC+8 = 7am UTC.
+  #                         # Early start gives ~3.5h buffer to absorb GitHub's cron
+  #                         # queue delays (which hit twice: this run + the chained analysis).
   workflow_dispatch:       # allow manual trigger from GitHub UI
 
 permissions:
